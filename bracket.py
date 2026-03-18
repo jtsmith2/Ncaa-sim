@@ -264,6 +264,109 @@ class BracketSimulation:
         # Return in bracket slot order
         return [final_teams[seed] for seed in BRACKET_SEED_ORDER if seed in final_teams]
 
+    def build_forced_bracket(self,
+                              forced_champion: str,
+                              forced_finalist: Optional[str] = None) -> Dict:
+        """
+        Build a deterministic bracket with a forced champion (and optional finalist).
+
+        - forced_champion: this team wins every game they play
+        - forced_finalist: this team wins every game on their side EXCEPT
+          against the forced champion (so they meet in the championship
+          and lose)
+
+        All other games use the highest-probability pick (no randomness).
+        Returns a bracket dict in the same structure as _build_consensus_bracket.
+        """
+        from models import get_win_probability
+
+        def pick_winner(team_a: dict, team_b: dict, round_num: int) -> dict:
+            # Forced champion always wins
+            if team_a['name'] == forced_champion:
+                return team_a
+            if team_b['name'] == forced_champion:
+                return team_b
+            # Forced finalist wins everything EXCEPT vs the champion
+            # (champion case already handled above)
+            if forced_finalist:
+                if team_a['name'] == forced_finalist:
+                    return team_a
+                if team_b['name'] == forced_finalist:
+                    return team_b
+            # Everyone else: pick by probability
+            prob = get_win_probability(team_a, team_b, round_num)
+            return team_a if prob >= 0.5 else team_b
+
+        bracket = {'regions': {}, 'final_four': {}, 'champion': None}
+
+        # First Four: pick by probability (or force if applicable)
+        ff_winners = {}
+        ff_team_pool = {t['name']: t for t in self.teams_data
+                        if t.get('first_four', False)}
+        for ff in self.first_four_matchups:
+            seed = ff['seed']
+            region = ff['region']
+            t1 = ff_team_pool.get(ff['teams'][0])
+            t2 = ff_team_pool.get(ff['teams'][1])
+            if t1 and t2:
+                ff_winners[(region, seed)] = pick_winner(t1, t2, 0)
+
+        # Regional rounds
+        regional_champions = {}
+        for region in REGIONS:
+            region_teams = self._build_final_region(
+                region, self.teams_data, ff_winners
+            )
+
+            rounds = {}
+            current_field = list(region_teams)
+            round_num = 1
+            while len(current_field) > 1:
+                next_field = []
+                round_results = []
+                for i in range(0, len(current_field), 2):
+                    winner = pick_winner(current_field[i], current_field[i + 1], round_num)
+                    round_results.append({
+                        'team_a': current_field[i],
+                        'team_b': current_field[i + 1],
+                        'winner': winner,
+                    })
+                    next_field.append(winner)
+                rounds[ROUND_NAMES[round_num]] = round_results
+                current_field = next_field
+                round_num += 1
+
+            regional_champions[region] = current_field[0]
+            bracket['regions'][region] = {
+                'rounds': rounds,
+                'champion': current_field[0],
+            }
+
+        # Final Four
+        ff_matchups = [('East', 'West'), ('South', 'Midwest')]
+        finalists = []
+        for r_a, r_b in ff_matchups:
+            winner = pick_winner(regional_champions[r_a], regional_champions[r_b], 5)
+            bracket['final_four'][f"{r_a} vs {r_b}"] = {
+                'team_a': regional_champions[r_a],
+                'team_b': regional_champions[r_b],
+                'winner': winner,
+            }
+            finalists.append(winner)
+
+        # Championship
+        champion = pick_winner(finalists[0], finalists[1], 6)
+        loser = finalists[1] if champion == finalists[0] else finalists[0]
+        bracket['championship'] = {
+            'team_a': finalists[0],
+            'team_b': finalists[1],
+            'winner': champion,
+        }
+        bracket['champion'] = champion
+        bracket['runner_up'] = loser
+
+        return bracket
+
     def get_team_by_name(self, name: str) -> Optional[dict]:
         """Look up a team by name."""
         for team in self.teams_data:

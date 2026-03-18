@@ -317,6 +317,144 @@ class MonteCarloSimulator:
 
         return consensus
 
+    def generate_portfolio(self, n_brackets: int = 10) -> List[Dict]:
+        """
+        Generate N diversified brackets optimized for office pool coverage.
+
+        Strategy:
+        1. Allocate champion slots proportionally to championship probability
+           using the largest-remainder method (Hamilton method).
+        2. For each bracket, also force a DIFFERENT runner-up from the opposite
+           side of the Final Four bracket — so even three "Duke" brackets each
+           have a different championship game opponent.
+        3. Build each bracket deterministically: forced champion always wins,
+           forced finalist wins their side, all other games pick by probability.
+
+        The result covers the probability space efficiently: you're not wasting
+        three identical Duke brackets — each one bets on a different road to
+        the title.
+        """
+        if self.stats is None:
+            raise RuntimeError("Must call run() before generate_portfolio()")
+
+        slots = self._allocate_portfolio_slots(n_brackets)
+
+        portfolio = []
+        for i, (champ_name, finalist_name) in enumerate(slots, 1):
+            bracket = self.bracket_sim.build_forced_bracket(
+                forced_champion=champ_name,
+                forced_finalist=finalist_name,
+            )
+            champ_stats = self.get_team_stats(champ_name)
+            finalist_stats = self.get_team_stats(finalist_name)
+            portfolio.append({
+                'bracket_num': i,
+                'forced_champion': champ_name,
+                'forced_finalist': finalist_name,
+                'champion_prob': champ_stats['champion'] if champ_stats else 0.0,
+                'finalist_prob': finalist_stats['finalist'] if finalist_stats else 0.0,
+                'bracket': bracket,
+            })
+
+        return portfolio
+
+    def _allocate_portfolio_slots(self, n_brackets: int) -> List[tuple]:
+        """
+        Decide which (champion, finalist) pair each of the N brackets gets.
+
+        The Final Four structure creates two "halves":
+          Half A: East + West  → their champions meet in one semifinal
+          Half B: South + Midwest → their champions meet in the other
+
+        The championship game is always Half-A winner vs Half-B winner.
+        So a champion from the East region will always face a team from
+        the South or Midwest in the title game — never another East/West team.
+
+        This method:
+          1. Allocates champion slots proportionally to championship probability.
+          2. For each champion, determines which "opposite half" their
+             championship opponent must come from.
+          3. Cycles through the most likely finalists from that opposite half
+             so every bracket gets a unique (champion, finalist) pairing.
+        """
+        teams = self.stats['teams']
+
+        # Map each region to its Final Four half
+        HALF_A = {'East', 'West'}
+        HALF_B = {'South', 'Midwest'}
+
+        def team_half(t):
+            return 'A' if t['region'] in HALF_A else 'B'
+
+        # --- Step 1: Proportional champion allocation ---
+        # Include any team with ≥1% championship probability
+        candidates = [t for t in teams if t['champion'] >= 0.01]
+        total_prob = sum(t['champion'] for t in candidates)
+
+        raw = [(t['name'], t['champion'] / total_prob * n_brackets)
+               for t in candidates]
+        floors = {name: int(val) for name, val in raw}
+        remainders = sorted(
+            [(name, val - int(val)) for name, val in raw],
+            key=lambda x: x[1], reverse=True
+        )
+
+        # Distribute leftover slots to highest remainders
+        leftover = n_brackets - sum(floors.values())
+        for name, _ in remainders[:leftover]:
+            floors[name] += 1
+
+        # Remove zeros; re-sort by probability (highest first)
+        allocation = [(name, count)
+                      for name, count in floors.items() if count > 0]
+        prob_map = {t['name']: t['champion'] for t in teams}
+        allocation.sort(key=lambda x: prob_map[x[0]], reverse=True)
+
+        # --- Step 2: Assign (champion, finalist) pairs ---
+        # For each champion, cycle through the most likely finalists from
+        # the OPPOSITE Final Four half, so every bracket is unique.
+        region_map = {t['name']: t['region'] for t in teams}
+
+        # Pre-sort finalist candidates by finalist probability, per half
+        finalists_half_a = sorted(
+            [t for t in teams if t['region'] in HALF_A and t['finalist'] >= 0.01],
+            key=lambda x: x['finalist'], reverse=True
+        )
+        finalists_half_b = sorted(
+            [t for t in teams if t['region'] in HALF_B and t['finalist'] >= 0.01],
+            key=lambda x: x['finalist'], reverse=True
+        )
+
+        slots = []
+        # Track which finalists have already been assigned to avoid exact duplicates
+        used_pairs: set = set()
+
+        for champ_name, count in allocation:
+            champ_region = region_map.get(champ_name, '')
+            champ_half = 'A' if champ_region in HALF_A else 'B'
+            # Championship opponent comes from the OPPOSITE half
+            opponent_pool = finalists_half_b if champ_half == 'A' else finalists_half_a
+
+            assigned = 0
+            for finalist in opponent_pool:
+                if assigned >= count:
+                    break
+                pair = (champ_name, finalist['name'])
+                if pair not in used_pairs:
+                    slots.append(pair)
+                    used_pairs.add(pair)
+                    assigned += 1
+
+            # If we ran out of unique opponents, cycle back (rare edge case)
+            if assigned < count:
+                for finalist in opponent_pool:
+                    if assigned >= count:
+                        break
+                    slots.append((champ_name, finalist['name']))
+                    assigned += 1
+
+        return slots
+
     def get_team_stats(self, team_name: str) -> Optional[Dict]:
         """Get simulation statistics for a specific team."""
         if self.stats is None:

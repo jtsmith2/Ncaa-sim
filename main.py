@@ -30,6 +30,7 @@ from report import (
     print_championship_odds,
     print_consensus_bracket,
     print_matchup_preview,
+    print_portfolio,
     print_header,
     BOLD, RESET, CYAN, GREEN, YELLOW, RED, GRAY,
 )
@@ -93,6 +94,13 @@ def parse_args():
         type=int,
         default=20,
         help="Number of top teams to show in championship odds table (default: 20)",
+    )
+    parser.add_argument(
+        "--portfolio", "-p",
+        type=int,
+        default=None,
+        metavar="N",
+        help="Generate N diversified brackets for an office pool (e.g. --portfolio 10)",
     )
     parser.add_argument(
         "--no-color",
@@ -216,6 +224,43 @@ def save_results(stats: dict, filepath: str) -> None:
     print(f"\n{GREEN}Results saved to: {filepath}{RESET}")
 
 
+def save_portfolio(portfolio: list, filepath: str) -> None:
+    """Save portfolio brackets to JSON."""
+    output = []
+    for entry in portfolio:
+        b = entry['bracket']
+        bracket_out = {
+            'bracket_num': entry['bracket_num'],
+            'champion': b['champion']['name'],
+            'champion_seed': b['champion']['seed'],
+            'champion_region': b['champion']['region'],
+            'champion_prob_pct': round(entry['champion_prob'] * 100, 1),
+            'runner_up': b['runner_up']['name'],
+            'runner_up_seed': b['runner_up']['seed'],
+            'runner_up_region': b['runner_up']['region'],
+            'regions': {},
+        }
+        for region, rdata in b['regions'].items():
+            bracket_out['regions'][region] = {
+                'champion': rdata['champion']['name'],
+                'rounds': {
+                    rname: [{'winner': g['winner']['name'],
+                              'seed': g['winner']['seed'],
+                              'defeated': (g['team_b']['name']
+                                           if g['winner']['name'] == g['team_a']['name']
+                                           else g['team_a']['name'])}
+                             for g in games]
+                    for rname, games in rdata['rounds'].items()
+                }
+            }
+        output.append(bracket_out)
+
+    with open(filepath, 'w') as f:
+        json.dump(output, f, indent=2)
+
+    print(f"\n{GREEN}Portfolio saved to: {filepath}{RESET}")
+
+
 def main():
     args = parse_args()
 
@@ -255,6 +300,18 @@ def main():
     )
 
     stats = simulator.run(verbose=True)
+
+    # Handle portfolio request
+    if args.portfolio is not None:
+        if args.portfolio < 1 or args.portfolio > 50:
+            print(f"{RED}Error: --portfolio must be between 1 and 50{RESET}",
+                  file=sys.stderr)
+            sys.exit(1)
+        portfolio = simulator.generate_portfolio(n_brackets=args.portfolio)
+        print_portfolio(portfolio, stats)
+        if args.save:
+            save_portfolio(portfolio, args.save)
+        return
 
     # Handle team detail request
     if args.team:

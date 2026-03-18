@@ -344,6 +344,148 @@ def print_matchup_preview(team_a: dict, team_b: dict, n_sims: int = 10000) -> No
           f"{team_a['name']} | {RED}{(1-p)*100:.1f}%{RESET} {team_b['name']}")
 
 
+def print_portfolio(portfolio: List[Dict], stats: Dict) -> None:
+    """
+    Print the full office-pool portfolio: N diversified brackets with
+    their assigned champion, runner-up, and complete picks.
+    """
+    n = len(portfolio)
+    print_header(f"OFFICE POOL PORTFOLIO — {n} DIVERSIFIED BRACKETS")
+
+    print(f"  {GRAY}Each bracket is built around a different predicted champion")
+    print(f"  and a different championship game opponent, maximizing coverage")
+    print(f"  of likely tournament outcomes.{RESET}\n")
+
+    # --- Summary table first ---
+    headers = ["#", "Champion", "Seed", "Region", "Champ%",
+               "Runner-Up", "Seed", "Region", "Final%", "Key Picks"]
+    rows = []
+
+    for entry in portfolio:
+        b = entry['bracket']
+        champ = b['champion']
+        runner = b['runner_up']
+
+        # Highlight a "key pick" — most surprising Sweet 16 team in this bracket
+        all_s16 = []
+        for region, rdata in b['regions'].items():
+            s16_games = rdata['rounds'].get('Sweet 16', [])
+            for g in s16_games:
+                w = g['winner']
+                if w['name'] not in (champ['name'], runner['name']):
+                    all_s16.append(w)
+        # Pick the highest-seeded (biggest underdog) Sweet 16 winner
+        dark_horse = max(all_s16, key=lambda t: t['seed']) if all_s16 else None
+        key_str = (f"({dark_horse['seed']}) {dark_horse['name']}"
+                   if dark_horse else "—")
+
+        rows.append([
+            f"#{entry['bracket_num']}",
+            f"{GREEN}{BOLD}{champ['name']}{RESET}",
+            f"({champ['seed']})",
+            champ['region'],
+            f"{entry['champion_prob']*100:.1f}%",
+            f"{YELLOW}{runner['name']}{RESET}",
+            f"({runner['seed']})",
+            runner['region'],
+            f"{entry['finalist_prob']*100:.1f}%",
+            f"{CYAN}{key_str}{RESET}",
+        ])
+
+    print(tabulate(rows, headers=headers, tablefmt="simple"))
+
+    # --- Coverage analysis ---
+    print_subheader("Portfolio Coverage Analysis")
+
+    champions = [e['bracket']['champion']['name'] for e in portfolio]
+    finalists = [e['bracket']['runner_up']['name'] for e in portfolio]
+    unique_champs = set(champions)
+    unique_finals = set(zip(champions, finalists))
+
+    total_champ_prob = sum(
+        next((t['champion'] for t in stats['teams'] if t['name'] == c), 0)
+        for c in unique_champs
+    )
+
+    print(f"  Unique champions covered:       {len(unique_champs)} / {n}")
+    print(f"  Unique championship matchups:   {len(unique_finals)} / {n}")
+    print(f"  Combined champion probability:  {total_champ_prob*100:.1f}%")
+    print(f"  {GRAY}(probability that at least one of your champions is correct){RESET}\n")
+
+    # Show champion frequency
+    from collections import Counter
+    champ_counts = Counter(champions)
+    print(f"  {'Champion':<22} {'Brackets':>8}  {'Win Prob':>8}  Rationale")
+    print(f"  {'─'*60}")
+    for champ_name, cnt in champ_counts.most_common():
+        prob = next((t['champion'] for t in stats['teams']
+                     if t['name'] == champ_name), 0)
+        bar = "●" * cnt
+        print(f"  {champ_name:<22} {bar:>8}  {prob*100:>7.1f}%  "
+              f"{'Primary favorite' if prob >= 0.15 else 'Strong contender' if prob >= 0.08 else 'Dark horse coverage'}")
+
+    # --- Detailed brackets ---
+    print_subheader("Full Bracket Details")
+
+    for entry in portfolio:
+        b = entry['bracket']
+        champ = b['champion']
+        runner = b['runner_up']
+
+        print(f"\n  {BOLD}{'─'*70}{RESET}")
+        print(f"  {BOLD}Bracket #{entry['bracket_num']}  |  "
+              f"{GREEN}Champion: ({champ['seed']}) {champ['name']} [{champ['region']}]{RESET}  |  "
+              f"{YELLOW}Title Game vs: ({runner['seed']}) {runner['name']} [{runner['region']}]{RESET}")
+        print(f"  {GRAY}Champion probability: {entry['champion_prob']*100:.1f}%  |  "
+              f"Finalist probability: {entry['finalist_prob']*100:.1f}%{RESET}")
+
+        # Print regions compactly
+        for region in REGIONS:
+            region_color = REGION_COLORS.get(region, WHITE)
+            rdata = b['regions'].get(region, {})
+            rounds = rdata.get('rounds', {})
+            region_champ = rdata.get('champion', {})
+
+            round_summaries = []
+            for round_name in ['First Round', 'Second Round', 'Sweet 16', 'Elite 8']:
+                games = rounds.get(round_name, [])
+                winners = [f"({g['winner']['seed']}){g['winner']['name'][:10]}"
+                           for g in games]
+                round_summaries.append(f"{round_name[:2].upper()}: " + ", ".join(winners))
+
+            print(f"\n  {region_color}{BOLD}  {region} Region → "
+                  f"({region_champ.get('seed','?')}) {region_champ.get('name','?')}{RESET}")
+
+            # Sweet 16 and Elite 8 are most interesting
+            s16 = rounds.get('Sweet 16', [])
+            e8 = rounds.get('Elite 8', [])
+
+            if s16:
+                s16_str = "  ".join(
+                    f"({g['winner']['seed']}) {g['winner']['name']}"
+                    for g in s16
+                )
+                print(f"    {GRAY}S16:{RESET} {s16_str}")
+            if e8:
+                e8_str = "  ".join(
+                    f"({g['winner']['seed']}) {g['winner']['name']}"
+                    for g in e8
+                )
+                print(f"    {GRAY}E8: {RESET} {e8_str}")
+
+        # Final Four & Championship
+        print(f"\n    {MAGENTA}{BOLD}Final Four:{RESET}")
+        for matchup, game in b['final_four'].items():
+            w = game['winner']
+            l = game['team_b'] if game['winner'] == game['team_a'] else game['team_a']
+            print(f"      {GREEN}({w['seed']}) {w['name']}{RESET}  def.  "
+                  f"{GRAY}({l['seed']}) {l['name']}{RESET}")
+
+        print(f"    {YELLOW}{BOLD}Championship:{RESET}  "
+              f"{GREEN}{BOLD}({champ['seed']}) {champ['name']}{RESET}  def.  "
+              f"{GRAY}({runner['seed']}) {runner['name']}{RESET}")
+
+
 def print_full_report(stats: Dict, compact: bool = False) -> None:
     """Print the full simulation report."""
     print_championship_odds(stats, top_n=20)
