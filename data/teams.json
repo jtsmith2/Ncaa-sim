@@ -1,0 +1,107 @@
+{
+  "season": "2025-26",
+  "last_updated": "2026-03-18",
+  "metric_description": {
+    "adj_o": "Adjusted Offensive Efficiency (points per 100 possessions vs avg D)",
+    "adj_d": "Adjusted Defensive Efficiency (points allowed per 100 possessions vs avg O)",
+    "adj_em": "Adjusted Efficiency Margin (adj_o - adj_d)",
+    "adj_t": "Adjusted Tempo (possessions per 40 min)",
+    "luck": "Luck rating (deviation from expected record)",
+    "sos_adj_em": "Strength of schedule adjusted EM",
+    "record": "Win-Loss record",
+    "conf": "Conference",
+    "seed": "Tournament seed",
+    "region": "Tournament region"
+  },
+  "teams": [
+    {"name": "Duke", "abbr": "DUKE", "seed": 1, "region": "East", "conf": "ACC", "record": "31-3", "wins": 31, "losses": 3, "adj_o": 123.4, "adj_d": 90.1, "adj_em": 33.3, "adj_t": 68.2, "luck": 0.031, "sos_adj_em": 11.2, "net_ranking": 1, "kenpom_rank": 1},
+    {"name": "Auburn", "abbr": "AUB", "seed": 1, "region": "South", "conf": "SEC", "record": "29-4", "wins": 29, "losses": 4, "adj_o": 121.8, "adj_d": 91.2, "adj_em": 30.6, "adj_t": 73.5, "luck": 0.022, "sos_adj_em": 12.1, "net_ranking": 2, "kenpom_rank": 2},
+    {"name": "Houston", "abbr": "HOU", "seed": 1, "region": "Midwest", "conf": "Big 12", "record": "30-4", "wins": 30, "losses": 4, "adj_o": 118.6, "adj_d": 88.4, "adj_em": 30.2, "adj_t": 65.8, "luck": 0.018, "sos_adj_em": 10.8, "net_ranking": 3, "kenpom_rank": 3},
+    {"name": "Kansas", "abbr": "KAN", "seed": 1, "region": "West", "conf": "Big 12", "record": "28-5", "wins": 28, "losses": 5, "adj_o": 120.1, "adj_d": 92.3, "adj_em": 27.8, "adj_t": 70.1, "luck": 0.015, "sos_adj_em": 11.5, "net_ranking": 4, "kenpom_rank": 4},
+
+    {"name": "Tennessee", "abbr": "TENN", "seed": 2, "region": "East", "conf": "SEC", "record": "27-6", "wins": 27, "losses": 6, "adj_o": 117.2, "adj_d": 90.8, "adj_em": 26.4, "adj_t": 67.3, "luck": 0.012, "sos_adj_em": 10.9, "net_ranking": 5, "kenpom_rank": 6},
+    {"name": "Iowa State", "abbr": "ISU", "seed": 2, "region": "South", "conf": "Big 12", "record": "27-6", "wins": 27, "losses": 6, "adj_o": 118.9, "adj_d": 93.2, "adj_em": 25.7, "adj_t": 66.9, "luck": 0.009, "sos_adj_em": 10.3, "net_ranking": 6, "kenpom_rank": 5},
+    {"name": "Alabama", "abbr": "ALA", "seed": 2, "region": "Midwest", "conf": "SEC", "record": "26-7", "wins": 26, "losses": 7, "adj_o": 122.4, "adj_d": 97.1, "adj_em": 25.3, "adj_t": 75.2, "luck": 0.008, "sos_adj_em": 10.7, "net_ranking": 7, "kenpom_rank": 7},
+    {"name": "Florida", "abbr": "FLA", "seed": 2, "region": "West", "conf": "SEC", "record": "27-5", "wins": 27, "losses": 5, "adj_o": 119.3, "adj_d": 94.8, "adj_em": 24.5, "adj_t": 69.7, "luck": 0.021, "sos_adj_em": 9.8, "net_ranking": 8, "kenpom_rank": 8},
+
+    {"name": "Wisconsin", "abbr": "WIS", "seed": 3, "region": "East", "conf": "Big Ten", "record": "25-8", "wins": 25, "losses": 8, "adj_o": 115.8, "adj_d": 92.1, "adj_em": 23.7, "adj_t": 64.2, "luck": 0.005, "sos_adj_em": 9.6, "net_ranking": 9, "kenpom_rank": 9},
+    {"name": "Michigan State", "abbr": "MSU", "seed": 3, "region": "South", "conf": "Big Ten", "record": "25-8", "wins": 25, "losses": 8, "adj_o": 116.4, "adj_d": 93.4, "adj_em": 23.0, "adj_t": 68.8, "luck": 0.003, "sos_adj_em": 9.4, "net_ranking": 10, "kenpom_rank": 10},
+    {"name": "Marquette", "abbr": "MARQ", "seed": 3, "region": "Midwest", "conf": "Big East", "record": "25-8", "wins": 25, "losses": 8, "adj_o": 117.9, "adj_d": 95.2, "adj_em": 22.7, "adj_t": 72.3, "luck": 0.007, "sos_adj_em": 9.1, "net_ranking": 11, "kenpom_rank": 11},
+    {"name": "Texas Tech", "abbr": "TTU", "seed": 3, "region": "West", "conf": "Big 12", "record": "24-9", "wins": 24, "losses": 9, "adj_o": 114.2, "adj_d": 91.8, "adj_em": 22.4, "adj_t": 66.1, "luck": 0.002, "sos_adj_em": 10.2, "net_ranking": 12, "kenpom_rank": 12},
+
+    {"name": "Arizona", "abbr": "ARIZ", "seed": 4, "region": "East", "conf": "Big 12", "record": "24-9", "wins": 24, "losses": 9, "adj_o": 116.7, "adj_d": 95.8, "adj_em": 20.9, "adj_t": 71.4, "luck": 0.004, "sos_adj_em": 9.3, "net_ranking": 13, "kenpom_rank": 13},
+    {"name": "St. John's", "abbr": "SJU", "seed": 4, "region": "South", "conf": "Big East", "record": "27-6", "wins": 27, "losses": 6, "adj_o": 115.1, "adj_d": 94.9, "adj_em": 20.2, "adj_t": 70.2, "luck": 0.019, "sos_adj_em": 8.2, "net_ranking": 14, "kenpom_rank": 15},
+    {"name": "Purdue", "abbr": "PUR", "seed": 4, "region": "Midwest", "conf": "Big Ten", "record": "23-10", "wins": 23, "losses": 10, "adj_o": 118.3, "adj_d": 98.1, "adj_em": 20.2, "adj_t": 67.5, "luck": -0.003, "sos_adj_em": 9.8, "net_ranking": 15, "kenpom_rank": 14},
+    {"name": "Oregon", "abbr": "ORE", "seed": 4, "region": "West", "conf": "Big Ten", "record": "24-9", "wins": 24, "losses": 9, "adj_o": 114.8, "adj_d": 95.2, "adj_em": 19.6, "adj_t": 70.8, "luck": 0.006, "sos_adj_em": 8.9, "net_ranking": 16, "kenpom_rank": 16},
+
+    {"name": "Clemson", "abbr": "CLEM", "seed": 5, "region": "East", "conf": "ACC", "record": "23-10", "wins": 23, "losses": 10, "adj_o": 113.9, "adj_d": 95.4, "adj_em": 18.5, "adj_t": 69.3, "luck": 0.001, "sos_adj_em": 8.8, "net_ranking": 17, "kenpom_rank": 18},
+    {"name": "Illinois", "abbr": "ILL", "seed": 5, "region": "South", "conf": "Big Ten", "record": "22-11", "wins": 22, "losses": 11, "adj_o": 115.6, "adj_d": 97.3, "adj_em": 18.3, "adj_t": 71.9, "luck": -0.004, "sos_adj_em": 9.1, "net_ranking": 18, "kenpom_rank": 17},
+    {"name": "Kentucky", "abbr": "UK", "seed": 5, "region": "Midwest", "conf": "SEC", "record": "22-11", "wins": 22, "losses": 11, "adj_o": 116.2, "adj_d": 98.1, "adj_em": 18.1, "adj_t": 72.6, "luck": -0.006, "sos_adj_em": 9.4, "net_ranking": 19, "kenpom_rank": 19},
+    {"name": "Gonzaga", "abbr": "GONZ", "seed": 5, "region": "West", "conf": "WCC", "record": "26-7", "wins": 26, "losses": 7, "adj_o": 120.8, "adj_d": 102.9, "adj_em": 17.9, "adj_t": 74.1, "luck": 0.024, "sos_adj_em": 5.2, "net_ranking": 20, "kenpom_rank": 20},
+
+    {"name": "Baylor", "abbr": "BAY", "seed": 6, "region": "East", "conf": "Big 12", "record": "21-12", "wins": 21, "losses": 12, "adj_o": 113.4, "adj_d": 96.8, "adj_em": 16.6, "adj_t": 70.5, "luck": -0.007, "sos_adj_em": 9.2, "net_ranking": 21, "kenpom_rank": 22},
+    {"name": "Connecticut", "abbr": "UCONN", "seed": 6, "region": "South", "conf": "Big East", "record": "22-11", "wins": 22, "losses": 11, "adj_o": 114.7, "adj_d": 98.3, "adj_em": 16.4, "adj_t": 68.4, "luck": -0.005, "sos_adj_em": 8.7, "net_ranking": 22, "kenpom_rank": 21},
+    {"name": "UCLA", "abbr": "UCLA", "seed": 6, "region": "Midwest", "conf": "Big Ten", "record": "21-12", "wins": 21, "losses": 12, "adj_o": 115.3, "adj_d": 99.1, "adj_em": 16.2, "adj_t": 69.8, "luck": -0.008, "sos_adj_em": 8.9, "net_ranking": 23, "kenpom_rank": 23},
+    {"name": "Missouri", "abbr": "MIZZOU", "seed": 6, "region": "West", "conf": "SEC", "record": "22-11", "wins": 22, "losses": 11, "adj_o": 113.8, "adj_d": 97.8, "adj_em": 16.0, "adj_t": 71.2, "luck": 0.002, "sos_adj_em": 8.6, "net_ranking": 24, "kenpom_rank": 24},
+
+    {"name": "Saint Mary's", "abbr": "SMC", "seed": 7, "region": "East", "conf": "WCC", "record": "25-8", "wins": 25, "losses": 8, "adj_o": 112.8, "adj_d": 98.2, "adj_em": 14.6, "adj_t": 62.1, "luck": 0.018, "sos_adj_em": 4.8, "net_ranking": 28, "kenpom_rank": 27},
+    {"name": "Texas A&M", "abbr": "TAMU", "seed": 7, "region": "South", "conf": "SEC", "record": "20-13", "wins": 20, "losses": 13, "adj_o": 113.1, "adj_d": 98.7, "adj_em": 14.4, "adj_t": 70.3, "luck": -0.009, "sos_adj_em": 9.3, "net_ranking": 25, "kenpom_rank": 26},
+    {"name": "Creighton", "abbr": "CREI", "seed": 7, "region": "Midwest", "conf": "Big East", "record": "21-12", "wins": 21, "losses": 12, "adj_o": 115.9, "adj_d": 101.5, "adj_em": 14.4, "adj_t": 71.7, "luck": -0.003, "sos_adj_em": 8.2, "net_ranking": 26, "kenpom_rank": 25},
+    {"name": "Ole Miss", "abbr": "MISS", "seed": 7, "region": "West", "conf": "SEC", "record": "21-12", "wins": 21, "losses": 12, "adj_o": 112.6, "adj_d": 98.4, "adj_em": 14.2, "adj_t": 73.8, "luck": 0.005, "sos_adj_em": 8.8, "net_ranking": 27, "kenpom_rank": 28},
+
+    {"name": "Villanova", "abbr": "VILL", "seed": 8, "region": "East", "conf": "Big East", "record": "20-13", "wins": 20, "losses": 13, "adj_o": 111.4, "adj_d": 98.9, "adj_em": 12.5, "adj_t": 67.2, "luck": -0.005, "sos_adj_em": 8.4, "net_ranking": 31, "kenpom_rank": 32},
+    {"name": "Cincinnati", "abbr": "CIN", "seed": 8, "region": "South", "conf": "Big 12", "record": "21-12", "wins": 21, "losses": 12, "adj_o": 112.2, "adj_d": 99.8, "adj_em": 12.4, "adj_t": 68.9, "luck": 0.003, "sos_adj_em": 7.9, "net_ranking": 29, "kenpom_rank": 30},
+    {"name": "Xavier", "abbr": "XAV", "seed": 8, "region": "Midwest", "conf": "Big East", "record": "20-13", "wins": 20, "losses": 13, "adj_o": 113.4, "adj_d": 101.1, "adj_em": 12.3, "adj_t": 70.1, "luck": -0.002, "sos_adj_em": 7.8, "net_ranking": 30, "kenpom_rank": 31},
+    {"name": "Utah State", "abbr": "USU", "seed": 8, "region": "West", "conf": "MWC", "record": "24-9", "wins": 24, "losses": 9, "adj_o": 114.1, "adj_d": 101.9, "adj_em": 12.2, "adj_t": 66.8, "luck": 0.012, "sos_adj_em": 6.1, "net_ranking": 32, "kenpom_rank": 33},
+
+    {"name": "Oklahoma", "abbr": "OU", "seed": 9, "region": "East", "conf": "SEC", "record": "19-14", "wins": 19, "losses": 14, "adj_o": 111.8, "adj_d": 100.2, "adj_em": 11.6, "adj_t": 69.4, "luck": -0.008, "sos_adj_em": 8.9, "net_ranking": 35, "kenpom_rank": 36},
+    {"name": "Memphis", "abbr": "MEM", "seed": 9, "region": "South", "conf": "AAC", "record": "23-10", "wins": 23, "losses": 10, "adj_o": 113.9, "adj_d": 102.4, "adj_em": 11.5, "adj_t": 75.1, "luck": 0.015, "sos_adj_em": 5.8, "net_ranking": 33, "kenpom_rank": 35},
+    {"name": "Indiana", "abbr": "IND", "seed": 9, "region": "Midwest", "conf": "Big Ten", "record": "19-14", "wins": 19, "losses": 14, "adj_o": 112.7, "adj_d": 101.3, "adj_em": 11.4, "adj_t": 70.8, "luck": -0.006, "sos_adj_em": 8.5, "net_ranking": 34, "kenpom_rank": 34},
+    {"name": "San Diego State", "abbr": "SDSU", "seed": 9, "region": "West", "conf": "MWC", "record": "23-10", "wins": 23, "losses": 10, "adj_o": 110.8, "adj_d": 99.6, "adj_em": 11.2, "adj_t": 65.3, "luck": 0.009, "sos_adj_em": 6.3, "net_ranking": 36, "kenpom_rank": 37},
+
+    {"name": "Nebraska", "abbr": "NEB", "seed": 10, "region": "East", "conf": "Big Ten", "record": "19-14", "wins": 19, "losses": 14, "adj_o": 110.4, "adj_d": 99.8, "adj_em": 10.6, "adj_t": 68.7, "luck": -0.009, "sos_adj_em": 8.7, "net_ranking": 38, "kenpom_rank": 39},
+    {"name": "Wake Forest", "abbr": "WFU", "seed": 10, "region": "South", "conf": "ACC", "record": "20-13", "wins": 20, "losses": 13, "adj_o": 111.9, "adj_d": 101.4, "adj_em": 10.5, "adj_t": 71.3, "luck": 0.002, "sos_adj_em": 7.8, "net_ranking": 37, "kenpom_rank": 38},
+    {"name": "Virginia Tech", "abbr": "VT", "seed": 10, "region": "Midwest", "conf": "ACC", "record": "19-14", "wins": 19, "losses": 14, "adj_o": 111.2, "adj_d": 100.8, "adj_em": 10.4, "adj_t": 70.2, "luck": -0.004, "sos_adj_em": 8.1, "net_ranking": 39, "kenpom_rank": 40},
+    {"name": "Drake", "abbr": "DRKE", "seed": 10, "region": "West", "conf": "MVC", "record": "25-8", "wins": 25, "losses": 8, "adj_o": 112.3, "adj_d": 102.0, "adj_em": 10.3, "adj_t": 67.4, "luck": 0.020, "sos_adj_em": 4.2, "net_ranking": 40, "kenpom_rank": 42},
+
+    {"name": "NC State", "abbr": "NCST", "seed": 11, "region": "East", "conf": "ACC", "record": "18-15", "wins": 18, "losses": 15, "adj_o": 109.8, "adj_d": 100.1, "adj_em": 9.7, "adj_t": 72.1, "luck": -0.011, "sos_adj_em": 8.6, "net_ranking": 42, "kenpom_rank": 44},
+    {"name": "Pittsburgh", "abbr": "PITT", "seed": 11, "region": "East", "conf": "ACC", "record": "19-14", "wins": 19, "losses": 14, "adj_o": 110.2, "adj_d": 100.6, "adj_em": 9.6, "adj_t": 70.8, "luck": -0.003, "sos_adj_em": 8.3, "net_ranking": 43, "kenpom_rank": 43, "first_four": true},
+    {"name": "SMU", "abbr": "SMU", "seed": 11, "region": "South", "conf": "ACC", "record": "21-12", "wins": 21, "losses": 12, "adj_o": 110.7, "adj_d": 101.2, "adj_em": 9.5, "adj_t": 71.6, "luck": 0.008, "sos_adj_em": 7.4, "net_ranking": 41, "kenpom_rank": 41},
+    {"name": "Kansas State", "abbr": "KSU", "seed": 11, "region": "South", "conf": "Big 12", "record": "18-15", "wins": 18, "losses": 15, "adj_o": 109.4, "adj_d": 99.9, "adj_em": 9.5, "adj_t": 69.3, "luck": -0.012, "sos_adj_em": 8.9, "net_ranking": 44, "kenpom_rank": 45, "first_four": true},
+    {"name": "VCU", "abbr": "VCU", "seed": 11, "region": "Midwest", "conf": "A-10", "record": "22-11", "wins": 22, "losses": 11, "adj_o": 109.1, "adj_d": 99.6, "adj_em": 9.5, "adj_t": 74.3, "luck": 0.013, "sos_adj_em": 5.9, "net_ranking": 45, "kenpom_rank": 46},
+    {"name": "West Virginia", "abbr": "WVU", "seed": 11, "region": "West", "conf": "Big 12", "record": "18-15", "wins": 18, "losses": 15, "adj_o": 108.8, "adj_d": 99.4, "adj_em": 9.4, "adj_t": 73.1, "luck": -0.010, "sos_adj_em": 8.8, "net_ranking": 46, "kenpom_rank": 47},
+
+    {"name": "Dayton", "abbr": "DAY", "seed": 12, "region": "East", "conf": "A-10", "record": "23-10", "wins": 23, "losses": 10, "adj_o": 110.9, "adj_d": 102.4, "adj_em": 8.5, "adj_t": 68.9, "luck": 0.014, "sos_adj_em": 5.3, "net_ranking": 47, "kenpom_rank": 48},
+    {"name": "Liberty", "abbr": "LIB", "seed": 12, "region": "South", "conf": "CUSA", "record": "27-6", "wins": 27, "losses": 6, "adj_o": 111.4, "adj_d": 103.1, "adj_em": 8.3, "adj_t": 67.2, "luck": 0.025, "sos_adj_em": 2.8, "net_ranking": 49, "kenpom_rank": 50},
+    {"name": "New Mexico", "abbr": "UNM", "seed": 12, "region": "Midwest", "conf": "MWC", "record": "25-8", "wins": 25, "losses": 8, "adj_o": 110.6, "adj_d": 102.4, "adj_em": 8.2, "adj_t": 70.4, "luck": 0.017, "sos_adj_em": 5.6, "net_ranking": 50, "kenpom_rank": 51},
+    {"name": "Boise State", "abbr": "BSU", "seed": 12, "region": "West", "conf": "MWC", "record": "24-9", "wins": 24, "losses": 9, "adj_o": 110.1, "adj_d": 102.0, "adj_em": 8.1, "adj_t": 68.6, "luck": 0.016, "sos_adj_em": 5.4, "net_ranking": 48, "kenpom_rank": 49},
+
+    {"name": "Yale", "abbr": "YALE", "seed": 13, "region": "East", "conf": "Ivy", "record": "22-8", "wins": 22, "losses": 8, "adj_o": 110.2, "adj_d": 103.8, "adj_em": 6.4, "adj_t": 66.8, "luck": 0.019, "sos_adj_em": 1.8, "net_ranking": 55, "kenpom_rank": 56},
+    {"name": "High Point", "abbr": "HPU", "seed": 13, "region": "South", "conf": "Big South", "record": "27-5", "wins": 27, "losses": 5, "adj_o": 108.9, "adj_d": 102.6, "adj_em": 6.3, "adj_t": 71.8, "luck": 0.022, "sos_adj_em": 1.2, "net_ranking": 58, "kenpom_rank": 59},
+    {"name": "South Dakota State", "abbr": "SDST", "seed": 13, "region": "Midwest", "conf": "Summit", "record": "28-5", "wins": 28, "losses": 5, "adj_o": 109.4, "adj_d": 103.2, "adj_em": 6.2, "adj_t": 69.3, "luck": 0.024, "sos_adj_em": 1.4, "net_ranking": 57, "kenpom_rank": 58},
+    {"name": "UC San Diego", "abbr": "UCSD", "seed": 13, "region": "West", "conf": "Big West", "record": "26-6", "wins": 26, "losses": 6, "adj_o": 108.7, "adj_d": 102.5, "adj_em": 6.2, "adj_t": 68.1, "luck": 0.021, "sos_adj_em": 1.6, "net_ranking": 59, "kenpom_rank": 60},
+
+    {"name": "Lipscomb", "abbr": "LIP", "seed": 14, "region": "East", "conf": "ASUN", "record": "26-7", "wins": 26, "losses": 7, "adj_o": 107.4, "adj_d": 103.1, "adj_em": 4.3, "adj_t": 70.2, "luck": 0.020, "sos_adj_em": 0.8, "net_ranking": 64, "kenpom_rank": 65},
+    {"name": "Northern Iowa", "abbr": "UNI", "seed": 14, "region": "South", "conf": "MVC", "record": "23-10", "wins": 23, "losses": 10, "adj_o": 106.8, "adj_d": 102.6, "adj_em": 4.2, "adj_t": 65.4, "luck": 0.013, "sos_adj_em": 3.1, "net_ranking": 65, "kenpom_rank": 66},
+    {"name": "Akron", "abbr": "AKRON", "seed": 14, "region": "Midwest", "conf": "MAC", "record": "24-9", "wins": 24, "losses": 9, "adj_o": 107.1, "adj_d": 102.9, "adj_em": 4.2, "adj_t": 69.7, "luck": 0.015, "sos_adj_em": 2.4, "net_ranking": 66, "kenpom_rank": 67},
+    {"name": "Eastern Washington", "abbr": "EWU", "seed": 14, "region": "West", "conf": "Big Sky", "record": "25-8", "wins": 25, "losses": 8, "adj_o": 106.9, "adj_d": 102.8, "adj_em": 4.1, "adj_t": 72.4, "luck": 0.018, "sos_adj_em": 0.6, "net_ranking": 67, "kenpom_rank": 68},
+
+    {"name": "Bryant", "abbr": "BRY", "seed": 15, "region": "East", "conf": "America East", "record": "24-9", "wins": 24, "losses": 9, "adj_o": 104.8, "adj_d": 102.6, "adj_em": 2.2, "adj_t": 68.3, "luck": 0.016, "sos_adj_em": 0.3, "net_ranking": 72, "kenpom_rank": 74},
+    {"name": "Central Arkansas", "abbr": "UCA", "seed": 15, "region": "South", "conf": "Southland", "record": "23-10", "wins": 23, "losses": 10, "adj_o": 104.2, "adj_d": 102.1, "adj_em": 2.1, "adj_t": 71.8, "luck": 0.012, "sos_adj_em": 0.2, "net_ranking": 74, "kenpom_rank": 75},
+    {"name": "Long Beach State", "abbr": "LBSU", "seed": 15, "region": "Midwest", "conf": "Big West", "record": "22-11", "wins": 22, "losses": 11, "adj_o": 103.9, "adj_d": 101.9, "adj_em": 2.0, "adj_t": 70.6, "luck": 0.011, "sos_adj_em": 0.4, "net_ranking": 75, "kenpom_rank": 76},
+    {"name": "Montana State", "abbr": "MTST", "seed": 15, "region": "West", "conf": "Big Sky", "record": "24-8", "wins": 24, "losses": 8, "adj_o": 104.1, "adj_d": 102.2, "adj_em": 1.9, "adj_t": 69.8, "luck": 0.017, "sos_adj_em": 0.1, "net_ranking": 76, "kenpom_rank": 77},
+
+    {"name": "Longwood", "abbr": "LONG", "seed": 16, "region": "East", "conf": "Big South", "record": "21-12", "wins": 21, "losses": 12, "adj_o": 101.2, "adj_d": 102.8, "adj_em": -1.6, "adj_t": 67.4, "luck": 0.008, "sos_adj_em": -0.4, "net_ranking": 82, "kenpom_rank": 85},
+    {"name": "Texas Southern", "abbr": "TXSO", "seed": 16, "region": "South", "conf": "SWAC", "record": "20-13", "wins": 20, "losses": 13, "adj_o": 100.4, "adj_d": 102.3, "adj_em": -1.9, "adj_t": 73.2, "luck": 0.006, "sos_adj_em": -0.8, "net_ranking": 85, "kenpom_rank": 87},
+    {"name": "American University", "abbr": "AMER", "seed": 16, "region": "South", "conf": "Patriot", "record": "22-11", "wins": 22, "losses": 11, "adj_o": 100.1, "adj_d": 102.1, "adj_em": -2.0, "adj_t": 68.9, "luck": 0.014, "sos_adj_em": -0.6, "net_ranking": 86, "kenpom_rank": 88, "first_four": true},
+    {"name": "Grambling", "abbr": "GRAM", "seed": 16, "region": "Midwest", "conf": "SWAC", "record": "19-14", "wins": 19, "losses": 14, "adj_o": 99.8, "adj_d": 102.0, "adj_em": -2.2, "adj_t": 74.1, "luck": 0.005, "sos_adj_em": -1.0, "net_ranking": 87, "kenpom_rank": 89},
+    {"name": "Northern Arizona", "abbr": "NAU", "seed": 16, "region": "West", "conf": "Big Sky", "record": "22-10", "wins": 22, "losses": 10, "adj_o": 99.6, "adj_d": 101.9, "adj_em": -2.3, "adj_t": 70.3, "luck": 0.010, "sos_adj_em": -0.9, "net_ranking": 88, "kenpom_rank": 90},
+    {"name": "St. Francis PA", "abbr": "SFR", "seed": 16, "region": "East", "conf": "NEC", "record": "19-14", "wins": 19, "losses": 14, "adj_o": 99.3, "adj_d": 102.1, "adj_em": -2.8, "adj_t": 69.1, "luck": 0.004, "sos_adj_em": -1.2, "net_ranking": 90, "kenpom_rank": 92, "first_four": true}
+  ],
+  "first_four_matchups": [
+    {"region": "East", "seed": 16, "teams": ["Longwood", "St. Francis PA"]},
+    {"region": "South", "seed": 16, "teams": ["Texas Southern", "American University"]},
+    {"region": "East", "seed": 11, "teams": ["NC State", "Pittsburgh"]},
+    {"region": "South", "seed": 11, "teams": ["SMU", "Kansas State"]}
+  ]
+}

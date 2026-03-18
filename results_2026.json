@@ -1,0 +1,1324 @@
+{
+  "n_simulations": 100000,
+  "upset_factor": 1.0,
+  "champion": "Duke",
+  "teams": [
+    {
+      "name": "Duke",
+      "seed": 1,
+      "region": "East",
+      "conf": "ACC",
+      "record": "31-3",
+      "adj_em": 33.3,
+      "net_ranking": 1,
+      "sweet_16_pct": 55.89,
+      "elite_8_pct": 39.85,
+      "final_four_pct": 26.88,
+      "finalist_pct": 26.88,
+      "champion_pct": 17.25
+    },
+    {
+      "name": "Auburn",
+      "seed": 1,
+      "region": "South",
+      "conf": "SEC",
+      "record": "29-4",
+      "adj_em": 30.6,
+      "net_ranking": 2,
+      "sweet_16_pct": 52.8,
+      "elite_8_pct": 35.32,
+      "final_four_pct": 21.86,
+      "finalist_pct": 21.86,
+      "champion_pct": 12.88
+    },
+    {
+      "name": "Kansas",
+      "seed": 1,
+      "region": "West",
+      "conf": "Big 12",
+      "record": "28-5",
+      "adj_em": 27.8,
+      "net_ranking": 4,
+      "sweet_16_pct": 47.76,
+      "elite_8_pct": 30.51,
+      "final_four_pct": 16.67,
+      "finalist_pct": 16.67,
+      "champion_pct": 9.3
+    },
+    {
+      "name": "Alabama",
+      "seed": 2,
+      "region": "Midwest",
+      "conf": "SEC",
+      "record": "26-7",
+      "adj_em": 25.3,
+      "net_ranking": 7,
+      "sweet_16_pct": 45.7,
+      "elite_8_pct": 26.87,
+      "final_four_pct": 15.21,
+      "finalist_pct": 15.21,
+      "champion_pct": 8.24
+    },
+    {
+      "name": "Houston",
+      "seed": 1,
+      "region": "Midwest",
+      "conf": "Big 12",
+      "record": "30-4",
+      "adj_em": 30.2,
+      "net_ranking": 3,
+      "sweet_16_pct": 44.17,
+      "elite_8_pct": 26.36,
+      "final_four_pct": 15.22,
+      "finalist_pct": 15.22,
+      "champion_pct": 8.21
+    },
+    {
+      "name": "Florida",
+      "seed": 2,
+      "region": "West",
+      "conf": "SEC",
+      "record": "27-5",
+      "adj_em": 24.5,
+      "net_ranking": 8,
+      "sweet_16_pct": 43.0,
+      "elite_8_pct": 23.49,
+      "final_four_pct": 11.73,
+      "finalist_pct": 11.73,
+      "champion_pct": 5.88
+    },
+    {
+      "name": "Iowa State",
+      "seed": 2,
+      "region": "South",
+      "conf": "Big 12",
+      "record": "27-6",
+      "adj_em": 25.7,
+      "net_ranking": 6,
+      "sweet_16_pct": 40.66,
+      "elite_8_pct": 21.21,
+      "final_four_pct": 11.17,
+      "finalist_pct": 11.17,
+      "champion_pct": 5.61
+    },
+    {
+      "name": "Tennessee",
+      "seed": 2,
+      "region": "East",
+      "conf": "SEC",
+      "record": "27-6",
+      "adj_em": 26.4,
+      "net_ranking": 5,
+      "sweet_16_pct": 37.98,
+      "elite_8_pct": 18.02,
+      "final_four_pct": 9.61,
+      "finalist_pct": 9.61,
+      "champion_pct": 4.87
+    },
+    {
+      "name": "Marquette",
+      "seed": 3,
+      "region": "Midwest",
+      "conf": "Big East",
+      "record": "25-8",
+      "adj_em": 22.7,
+      "net_ranking": 11,
+      "sweet_16_pct": 26.8,
+      "elite_8_pct": 13.69,
+      "final_four_pct": 6.63,
+      "finalist_pct": 6.63,
+      "champion_pct": 2.96
+    },
+    {
+      "name": "Wisconsin",
+      "seed": 3,
+      "region": "East",
+      "conf": "Big Ten",
+      "record": "25-8",
+      "adj_em": 23.7,
+      "net_ranking": 9,
+      "sweet_16_pct": 28.17,
+      "elite_8_pct": 11.99,
+      "final_four_pct": 5.9,
+      "finalist_pct": 5.9,
+      "champion_pct": 2.57
+    },
+    {
+      "name": "Michigan State",
+      "seed": 3,
+      "region": "South",
+      "conf": "Big Ten",
+      "record": "25-8",
+      "adj_em": 23.0,
+      "net_ranking": 10,
+      "sweet_16_pct": 27.16,
+      "elite_8_pct": 12.56,
+      "final_four_pct": 5.78,
+      "finalist_pct": 5.78,
+      "champion_pct": 2.55
+    },
+    {
+      "name": "Purdue",
+      "seed": 4,
+      "region": "Midwest",
+      "conf": "Big Ten",
+      "record": "23-10",
+      "adj_em": 20.2,
+      "net_ranking": 15,
+      "sweet_16_pct": 23.15,
+      "elite_8_pct": 10.87,
+      "final_four_pct": 4.94,
+      "finalist_pct": 4.94,
+      "champion_pct": 2.14
+    },
+    {
+      "name": "Gonzaga",
+      "seed": 5,
+      "region": "West",
+      "conf": "WCC",
+      "record": "26-7",
+      "adj_em": 17.9,
+      "net_ranking": 20,
+      "sweet_16_pct": 21.29,
+      "elite_8_pct": 11.15,
+      "final_four_pct": 4.9,
+      "finalist_pct": 4.9,
+      "champion_pct": 2.08
+    },
+    {
+      "name": "Arizona",
+      "seed": 4,
+      "region": "East",
+      "conf": "Big 12",
+      "record": "24-9",
+      "adj_em": 20.9,
+      "net_ranking": 13,
+      "sweet_16_pct": 18.26,
+      "elite_8_pct": 9.4,
+      "final_four_pct": 4.41,
+      "finalist_pct": 4.41,
+      "champion_pct": 1.89
+    },
+    {
+      "name": "Texas Tech",
+      "seed": 3,
+      "region": "West",
+      "conf": "Big 12",
+      "record": "24-9",
+      "adj_em": 22.4,
+      "net_ranking": 12,
+      "sweet_16_pct": 24.06,
+      "elite_8_pct": 11.1,
+      "final_four_pct": 4.58,
+      "finalist_pct": 4.58,
+      "champion_pct": 1.84
+    },
+    {
+      "name": "St. John's",
+      "seed": 4,
+      "region": "South",
+      "conf": "Big East",
+      "record": "27-6",
+      "adj_em": 20.2,
+      "net_ranking": 14,
+      "sweet_16_pct": 16.72,
+      "elite_8_pct": 7.91,
+      "final_four_pct": 3.28,
+      "finalist_pct": 3.28,
+      "champion_pct": 1.25
+    },
+    {
+      "name": "Oregon",
+      "seed": 4,
+      "region": "West",
+      "conf": "Big Ten",
+      "record": "24-9",
+      "adj_em": 19.6,
+      "net_ranking": 16,
+      "sweet_16_pct": 16.13,
+      "elite_8_pct": 7.56,
+      "final_four_pct": 2.98,
+      "finalist_pct": 2.98,
+      "champion_pct": 1.17
+    },
+    {
+      "name": "Kentucky",
+      "seed": 5,
+      "region": "Midwest",
+      "conf": "SEC",
+      "record": "22-11",
+      "adj_em": 18.1,
+      "net_ranking": 19,
+      "sweet_16_pct": 15.2,
+      "elite_8_pct": 6.4,
+      "final_four_pct": 2.64,
+      "finalist_pct": 2.64,
+      "champion_pct": 0.97
+    },
+    {
+      "name": "Illinois",
+      "seed": 5,
+      "region": "South",
+      "conf": "Big Ten",
+      "record": "22-11",
+      "adj_em": 18.3,
+      "net_ranking": 18,
+      "sweet_16_pct": 13.8,
+      "elite_8_pct": 6.36,
+      "final_four_pct": 2.48,
+      "finalist_pct": 2.48,
+      "champion_pct": 0.91
+    },
+    {
+      "name": "Clemson",
+      "seed": 5,
+      "region": "East",
+      "conf": "ACC",
+      "record": "23-10",
+      "adj_em": 18.5,
+      "net_ranking": 17,
+      "sweet_16_pct": 11.0,
+      "elite_8_pct": 4.99,
+      "final_four_pct": 2.0,
+      "finalist_pct": 2.0,
+      "champion_pct": 0.73
+    },
+    {
+      "name": "UCLA",
+      "seed": 6,
+      "region": "Midwest",
+      "conf": "Big Ten",
+      "record": "21-12",
+      "adj_em": 16.2,
+      "net_ranking": 23,
+      "sweet_16_pct": 11.49,
+      "elite_8_pct": 4.82,
+      "final_four_pct": 1.83,
+      "finalist_pct": 1.83,
+      "champion_pct": 0.69
+    },
+    {
+      "name": "Connecticut",
+      "seed": 6,
+      "region": "South",
+      "conf": "Big East",
+      "record": "22-11",
+      "adj_em": 16.4,
+      "net_ranking": 22,
+      "sweet_16_pct": 12.69,
+      "elite_8_pct": 4.92,
+      "final_four_pct": 1.86,
+      "finalist_pct": 1.86,
+      "champion_pct": 0.64
+    },
+    {
+      "name": "Missouri",
+      "seed": 6,
+      "region": "West",
+      "conf": "SEC",
+      "record": "22-11",
+      "adj_em": 16.0,
+      "net_ranking": 24,
+      "sweet_16_pct": 13.25,
+      "elite_8_pct": 4.97,
+      "final_four_pct": 1.77,
+      "finalist_pct": 1.77,
+      "champion_pct": 0.61
+    },
+    {
+      "name": "Creighton",
+      "seed": 7,
+      "region": "Midwest",
+      "conf": "Big East",
+      "record": "21-12",
+      "adj_em": 14.4,
+      "net_ranking": 26,
+      "sweet_16_pct": 9.17,
+      "elite_8_pct": 3.78,
+      "final_four_pct": 1.41,
+      "finalist_pct": 1.41,
+      "champion_pct": 0.55
+    },
+    {
+      "name": "Baylor",
+      "seed": 6,
+      "region": "East",
+      "conf": "Big 12",
+      "record": "21-12",
+      "adj_em": 16.6,
+      "net_ranking": 21,
+      "sweet_16_pct": 12.64,
+      "elite_8_pct": 4.43,
+      "final_four_pct": 1.63,
+      "finalist_pct": 1.63,
+      "champion_pct": 0.54
+    },
+    {
+      "name": "Saint Mary's",
+      "seed": 7,
+      "region": "East",
+      "conf": "WCC",
+      "record": "25-8",
+      "adj_em": 14.6,
+      "net_ranking": 28,
+      "sweet_16_pct": 10.05,
+      "elite_8_pct": 3.31,
+      "final_four_pct": 1.18,
+      "finalist_pct": 1.18,
+      "champion_pct": 0.38
+    },
+    {
+      "name": "Ole Miss",
+      "seed": 7,
+      "region": "West",
+      "conf": "SEC",
+      "record": "21-12",
+      "adj_em": 14.2,
+      "net_ranking": 27,
+      "sweet_16_pct": 8.75,
+      "elite_8_pct": 3.11,
+      "final_four_pct": 1.03,
+      "finalist_pct": 1.03,
+      "champion_pct": 0.35
+    },
+    {
+      "name": "Texas A&M",
+      "seed": 7,
+      "region": "South",
+      "conf": "SEC",
+      "record": "20-13",
+      "adj_em": 14.4,
+      "net_ranking": 25,
+      "sweet_16_pct": 9.01,
+      "elite_8_pct": 3.11,
+      "final_four_pct": 1.04,
+      "finalist_pct": 1.04,
+      "champion_pct": 0.34
+    },
+    {
+      "name": "Utah State",
+      "seed": 8,
+      "region": "West",
+      "conf": "MWC",
+      "record": "24-9",
+      "adj_em": 12.2,
+      "net_ranking": 32,
+      "sweet_16_pct": 6.73,
+      "elite_8_pct": 2.62,
+      "final_four_pct": 0.86,
+      "finalist_pct": 0.86,
+      "champion_pct": 0.28
+    },
+    {
+      "name": "Xavier",
+      "seed": 8,
+      "region": "Midwest",
+      "conf": "Big East",
+      "record": "20-13",
+      "adj_em": 12.3,
+      "net_ranking": 30,
+      "sweet_16_pct": 6.96,
+      "elite_8_pct": 2.29,
+      "final_four_pct": 0.75,
+      "finalist_pct": 0.75,
+      "champion_pct": 0.23
+    },
+    {
+      "name": "Memphis",
+      "seed": 9,
+      "region": "South",
+      "conf": "AAC",
+      "record": "23-10",
+      "adj_em": 11.5,
+      "net_ranking": 33,
+      "sweet_16_pct": 5.76,
+      "elite_8_pct": 2.17,
+      "final_four_pct": 0.73,
+      "finalist_pct": 0.73,
+      "champion_pct": 0.21
+    },
+    {
+      "name": "Cincinnati",
+      "seed": 8,
+      "region": "South",
+      "conf": "Big 12",
+      "record": "21-12",
+      "adj_em": 12.4,
+      "net_ranking": 29,
+      "sweet_16_pct": 5.39,
+      "elite_8_pct": 1.86,
+      "final_four_pct": 0.58,
+      "finalist_pct": 0.58,
+      "champion_pct": 0.19
+    },
+    {
+      "name": "Villanova",
+      "seed": 8,
+      "region": "East",
+      "conf": "Big East",
+      "record": "20-13",
+      "adj_em": 12.5,
+      "net_ranking": 31,
+      "sweet_16_pct": 4.75,
+      "elite_8_pct": 1.7,
+      "final_four_pct": 0.56,
+      "finalist_pct": 0.56,
+      "champion_pct": 0.16
+    },
+    {
+      "name": "Indiana",
+      "seed": 9,
+      "region": "Midwest",
+      "conf": "Big Ten",
+      "record": "19-14",
+      "adj_em": 11.4,
+      "net_ranking": 34,
+      "sweet_16_pct": 5.49,
+      "elite_8_pct": 1.7,
+      "final_four_pct": 0.53,
+      "finalist_pct": 0.53,
+      "champion_pct": 0.16
+    },
+    {
+      "name": "Drake",
+      "seed": 10,
+      "region": "West",
+      "conf": "MVC",
+      "record": "25-8",
+      "adj_em": 10.3,
+      "net_ranking": 40,
+      "sweet_16_pct": 5.23,
+      "elite_8_pct": 1.67,
+      "final_four_pct": 0.55,
+      "finalist_pct": 0.55,
+      "champion_pct": 0.14
+    },
+    {
+      "name": "Oklahoma",
+      "seed": 9,
+      "region": "East",
+      "conf": "SEC",
+      "record": "19-14",
+      "adj_em": 11.6,
+      "net_ranking": 35,
+      "sweet_16_pct": 4.56,
+      "elite_8_pct": 1.67,
+      "final_four_pct": 0.5,
+      "finalist_pct": 0.5,
+      "champion_pct": 0.14
+    },
+    {
+      "name": "Wake Forest",
+      "seed": 10,
+      "region": "South",
+      "conf": "ACC",
+      "record": "20-13",
+      "adj_em": 10.5,
+      "net_ranking": 37,
+      "sweet_16_pct": 4.73,
+      "elite_8_pct": 1.44,
+      "final_four_pct": 0.41,
+      "finalist_pct": 0.41,
+      "champion_pct": 0.11
+    },
+    {
+      "name": "Liberty",
+      "seed": 12,
+      "region": "South",
+      "conf": "CUSA",
+      "record": "27-6",
+      "adj_em": 8.3,
+      "net_ranking": 49,
+      "sweet_16_pct": 3.42,
+      "elite_8_pct": 1.13,
+      "final_four_pct": 0.3,
+      "finalist_pct": 0.3,
+      "champion_pct": 0.1
+    },
+    {
+      "name": "San Diego State",
+      "seed": 9,
+      "region": "West",
+      "conf": "MWC",
+      "record": "23-10",
+      "adj_em": 11.2,
+      "net_ranking": 36,
+      "sweet_16_pct": 3.89,
+      "elite_8_pct": 1.35,
+      "final_four_pct": 0.38,
+      "finalist_pct": 0.38,
+      "champion_pct": 0.1
+    },
+    {
+      "name": "Nebraska",
+      "seed": 10,
+      "region": "East",
+      "conf": "Big Ten",
+      "record": "19-14",
+      "adj_em": 10.6,
+      "net_ranking": 38,
+      "sweet_16_pct": 4.62,
+      "elite_8_pct": 1.28,
+      "final_four_pct": 0.39,
+      "finalist_pct": 0.39,
+      "champion_pct": 0.1
+    },
+    {
+      "name": "Dayton",
+      "seed": 12,
+      "region": "East",
+      "conf": "A-10",
+      "record": "23-10",
+      "adj_em": 8.5,
+      "net_ranking": 47,
+      "sweet_16_pct": 3.16,
+      "elite_8_pct": 1.09,
+      "final_four_pct": 0.32,
+      "finalist_pct": 0.32,
+      "champion_pct": 0.09
+    },
+    {
+      "name": "Virginia Tech",
+      "seed": 10,
+      "region": "Midwest",
+      "conf": "ACC",
+      "record": "19-14",
+      "adj_em": 10.4,
+      "net_ranking": 39,
+      "sweet_16_pct": 2.96,
+      "elite_8_pct": 0.91,
+      "final_four_pct": 0.26,
+      "finalist_pct": 0.26,
+      "champion_pct": 0.07
+    },
+    {
+      "name": "SMU",
+      "seed": 11,
+      "region": "South",
+      "conf": "ACC",
+      "record": "21-12",
+      "adj_em": 9.5,
+      "net_ranking": 41,
+      "sweet_16_pct": 3.8,
+      "elite_8_pct": 1.02,
+      "final_four_pct": 0.27,
+      "finalist_pct": 0.27,
+      "champion_pct": 0.07
+    },
+    {
+      "name": "Boise State",
+      "seed": 12,
+      "region": "West",
+      "conf": "MWC",
+      "record": "24-9",
+      "adj_em": 8.1,
+      "net_ranking": 48,
+      "sweet_16_pct": 2.42,
+      "elite_8_pct": 0.7,
+      "final_four_pct": 0.19,
+      "finalist_pct": 0.19,
+      "champion_pct": 0.06
+    },
+    {
+      "name": "NC State",
+      "seed": 11,
+      "region": "East",
+      "conf": "ACC",
+      "record": "18-15",
+      "adj_em": 9.7,
+      "net_ranking": 42,
+      "sweet_16_pct": 3.86,
+      "elite_8_pct": 1.02,
+      "final_four_pct": 0.29,
+      "finalist_pct": 0.29,
+      "champion_pct": 0.06
+    },
+    {
+      "name": "New Mexico",
+      "seed": 12,
+      "region": "Midwest",
+      "conf": "MWC",
+      "record": "25-8",
+      "adj_em": 8.2,
+      "net_ranking": 50,
+      "sweet_16_pct": 2.95,
+      "elite_8_pct": 0.8,
+      "final_four_pct": 0.24,
+      "finalist_pct": 0.24,
+      "champion_pct": 0.06
+    },
+    {
+      "name": "West Virginia",
+      "seed": 11,
+      "region": "West",
+      "conf": "Big 12",
+      "record": "18-15",
+      "adj_em": 9.4,
+      "net_ranking": 46,
+      "sweet_16_pct": 3.45,
+      "elite_8_pct": 0.84,
+      "final_four_pct": 0.22,
+      "finalist_pct": 0.22,
+      "champion_pct": 0.04
+    },
+    {
+      "name": "VCU",
+      "seed": 11,
+      "region": "Midwest",
+      "conf": "A-10",
+      "record": "22-11",
+      "adj_em": 9.5,
+      "net_ranking": 45,
+      "sweet_16_pct": 2.53,
+      "elite_8_pct": 0.73,
+      "final_four_pct": 0.2,
+      "finalist_pct": 0.2,
+      "champion_pct": 0.04
+    },
+    {
+      "name": "Yale",
+      "seed": 13,
+      "region": "East",
+      "conf": "Ivy",
+      "record": "22-8",
+      "adj_em": 6.4,
+      "net_ranking": 55,
+      "sweet_16_pct": 2.08,
+      "elite_8_pct": 0.62,
+      "final_four_pct": 0.15,
+      "finalist_pct": 0.15,
+      "champion_pct": 0.03
+    },
+    {
+      "name": "High Point",
+      "seed": 13,
+      "region": "South",
+      "conf": "Big South",
+      "record": "27-5",
+      "adj_em": 6.3,
+      "net_ranking": 58,
+      "sweet_16_pct": 1.92,
+      "elite_8_pct": 0.54,
+      "final_four_pct": 0.12,
+      "finalist_pct": 0.12,
+      "champion_pct": 0.03
+    },
+    {
+      "name": "South Dakota State",
+      "seed": 13,
+      "region": "Midwest",
+      "conf": "Summit",
+      "record": "28-5",
+      "adj_em": 6.2,
+      "net_ranking": 57,
+      "sweet_16_pct": 1.85,
+      "elite_8_pct": 0.43,
+      "final_four_pct": 0.1,
+      "finalist_pct": 0.1,
+      "champion_pct": 0.02
+    },
+    {
+      "name": "UC San Diego",
+      "seed": 13,
+      "region": "West",
+      "conf": "Big West",
+      "record": "26-6",
+      "adj_em": 6.2,
+      "net_ranking": 59,
+      "sweet_16_pct": 1.62,
+      "elite_8_pct": 0.44,
+      "final_four_pct": 0.12,
+      "finalist_pct": 0.12,
+      "champion_pct": 0.02
+    },
+    {
+      "name": "Eastern Washington",
+      "seed": 14,
+      "region": "West",
+      "conf": "Big Sky",
+      "record": "25-8",
+      "adj_em": 4.1,
+      "net_ranking": 67,
+      "sweet_16_pct": 1.6,
+      "elite_8_pct": 0.35,
+      "final_four_pct": 0.08,
+      "finalist_pct": 0.08,
+      "champion_pct": 0.02
+    },
+    {
+      "name": "Lipscomb",
+      "seed": 14,
+      "region": "East",
+      "conf": "ASUN",
+      "record": "26-7",
+      "adj_em": 4.3,
+      "net_ranking": 64,
+      "sweet_16_pct": 1.74,
+      "elite_8_pct": 0.39,
+      "final_four_pct": 0.08,
+      "finalist_pct": 0.08,
+      "champion_pct": 0.01
+    },
+    {
+      "name": "Northern Iowa",
+      "seed": 14,
+      "region": "South",
+      "conf": "MVC",
+      "record": "23-10",
+      "adj_em": 4.2,
+      "net_ranking": 65,
+      "sweet_16_pct": 1.3,
+      "elite_8_pct": 0.29,
+      "final_four_pct": 0.05,
+      "finalist_pct": 0.05,
+      "champion_pct": 0.01
+    },
+    {
+      "name": "Akron",
+      "seed": 14,
+      "region": "Midwest",
+      "conf": "MAC",
+      "record": "24-9",
+      "adj_em": 4.2,
+      "net_ranking": 66,
+      "sweet_16_pct": 1.0,
+      "elite_8_pct": 0.24,
+      "final_four_pct": 0.06,
+      "finalist_pct": 0.06,
+      "champion_pct": 0.01
+    },
+    {
+      "name": "Bryant",
+      "seed": 15,
+      "region": "East",
+      "conf": "America East",
+      "record": "24-9",
+      "adj_em": 2.2,
+      "net_ranking": 72,
+      "sweet_16_pct": 0.95,
+      "elite_8_pct": 0.19,
+      "final_four_pct": 0.03,
+      "finalist_pct": 0.03,
+      "champion_pct": 0.01
+    },
+    {
+      "name": "Long Beach State",
+      "seed": 15,
+      "region": "Midwest",
+      "conf": "Big West",
+      "record": "22-11",
+      "adj_em": 2.0,
+      "net_ranking": 75,
+      "sweet_16_pct": 0.35,
+      "elite_8_pct": 0.08,
+      "final_four_pct": 0.01,
+      "finalist_pct": 0.01,
+      "champion_pct": 0.01
+    },
+    {
+      "name": "Central Arkansas",
+      "seed": 15,
+      "region": "South",
+      "conf": "Southland",
+      "record": "23-10",
+      "adj_em": 2.1,
+      "net_ranking": 74,
+      "sweet_16_pct": 0.65,
+      "elite_8_pct": 0.13,
+      "final_four_pct": 0.02,
+      "finalist_pct": 0.02,
+      "champion_pct": 0.0
+    },
+    {
+      "name": "Montana State",
+      "seed": 15,
+      "region": "West",
+      "conf": "Big Sky",
+      "record": "24-8",
+      "adj_em": 1.9,
+      "net_ranking": 76,
+      "sweet_16_pct": 0.66,
+      "elite_8_pct": 0.11,
+      "final_four_pct": 0.02,
+      "finalist_pct": 0.02,
+      "champion_pct": 0.0
+    },
+    {
+      "name": "Longwood",
+      "seed": 16,
+      "region": "East",
+      "conf": "Big South",
+      "record": "21-12",
+      "adj_em": -1.6,
+      "net_ranking": 82,
+      "sweet_16_pct": 0.29,
+      "elite_8_pct": 0.07,
+      "final_four_pct": 0.01,
+      "finalist_pct": 0.01,
+      "champion_pct": 0.0
+    },
+    {
+      "name": "Texas Southern",
+      "seed": 16,
+      "region": "South",
+      "conf": "SWAC",
+      "record": "20-13",
+      "adj_em": -1.9,
+      "net_ranking": 85,
+      "sweet_16_pct": 0.2,
+      "elite_8_pct": 0.03,
+      "final_four_pct": 0.0,
+      "finalist_pct": 0.0,
+      "champion_pct": 0.0
+    },
+    {
+      "name": "Northern Arizona",
+      "seed": 16,
+      "region": "West",
+      "conf": "Big Sky",
+      "record": "22-10",
+      "adj_em": -2.3,
+      "net_ranking": 88,
+      "sweet_16_pct": 0.17,
+      "elite_8_pct": 0.02,
+      "final_four_pct": 0.0,
+      "finalist_pct": 0.0,
+      "champion_pct": 0.0
+    },
+    {
+      "name": "Pittsburgh",
+      "seed": 11,
+      "region": "East",
+      "conf": "ACC",
+      "record": "19-14",
+      "adj_em": 9.6,
+      "net_ranking": 43,
+      "sweet_16_pct": 0.0,
+      "elite_8_pct": 0.0,
+      "final_four_pct": 0.0,
+      "finalist_pct": 0.0,
+      "champion_pct": 0.0
+    },
+    {
+      "name": "Kansas State",
+      "seed": 11,
+      "region": "South",
+      "conf": "Big 12",
+      "record": "18-15",
+      "adj_em": 9.5,
+      "net_ranking": 44,
+      "sweet_16_pct": 0.0,
+      "elite_8_pct": 0.0,
+      "final_four_pct": 0.0,
+      "finalist_pct": 0.0,
+      "champion_pct": 0.0
+    },
+    {
+      "name": "American University",
+      "seed": 16,
+      "region": "South",
+      "conf": "Patriot",
+      "record": "22-11",
+      "adj_em": -2.0,
+      "net_ranking": 86,
+      "sweet_16_pct": 0.0,
+      "elite_8_pct": 0.0,
+      "final_four_pct": 0.0,
+      "finalist_pct": 0.0,
+      "champion_pct": 0.0
+    },
+    {
+      "name": "Grambling",
+      "seed": 16,
+      "region": "Midwest",
+      "conf": "SWAC",
+      "record": "19-14",
+      "adj_em": -2.2,
+      "net_ranking": 87,
+      "sweet_16_pct": 0.24,
+      "elite_8_pct": 0.02,
+      "final_four_pct": 0.0,
+      "finalist_pct": 0.0,
+      "champion_pct": 0.0
+    },
+    {
+      "name": "St. Francis PA",
+      "seed": 16,
+      "region": "East",
+      "conf": "NEC",
+      "record": "19-14",
+      "adj_em": -2.8,
+      "net_ranking": 90,
+      "sweet_16_pct": 0.0,
+      "elite_8_pct": 0.0,
+      "final_four_pct": 0.0,
+      "finalist_pct": 0.0,
+      "champion_pct": 0.0
+    }
+  ],
+  "consensus_bracket": {
+    "regions": {
+      "East": {
+        "champion": "Duke",
+        "rounds": {
+          "First Round": [
+            {
+              "winner": "Duke",
+              "seed": 1,
+              "vs": "Longwood"
+            },
+            {
+              "winner": "Villanova",
+              "seed": 8,
+              "vs": "Oklahoma"
+            },
+            {
+              "winner": "Clemson",
+              "seed": 5,
+              "vs": "Dayton"
+            },
+            {
+              "winner": "Arizona",
+              "seed": 4,
+              "vs": "Yale"
+            },
+            {
+              "winner": "Baylor",
+              "seed": 6,
+              "vs": "NC State"
+            },
+            {
+              "winner": "Wisconsin",
+              "seed": 3,
+              "vs": "Lipscomb"
+            },
+            {
+              "winner": "Saint Mary's",
+              "seed": 7,
+              "vs": "Nebraska"
+            },
+            {
+              "winner": "Tennessee",
+              "seed": 2,
+              "vs": "Bryant"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Duke",
+              "seed": 1,
+              "vs": "Villanova"
+            },
+            {
+              "winner": "Arizona",
+              "seed": 4,
+              "vs": "Clemson"
+            },
+            {
+              "winner": "Wisconsin",
+              "seed": 3,
+              "vs": "Baylor"
+            },
+            {
+              "winner": "Tennessee",
+              "seed": 2,
+              "vs": "Saint Mary's"
+            }
+          ],
+          "Sweet 16": [
+            {
+              "winner": "Duke",
+              "seed": 1,
+              "vs": "Arizona"
+            },
+            {
+              "winner": "Tennessee",
+              "seed": 2,
+              "vs": "Wisconsin"
+            }
+          ],
+          "Elite 8": [
+            {
+              "winner": "Duke",
+              "seed": 1,
+              "vs": "Tennessee"
+            }
+          ]
+        }
+      },
+      "South": {
+        "champion": "Auburn",
+        "rounds": {
+          "First Round": [
+            {
+              "winner": "Auburn",
+              "seed": 1,
+              "vs": "Texas Southern"
+            },
+            {
+              "winner": "Memphis",
+              "seed": 9,
+              "vs": "Cincinnati"
+            },
+            {
+              "winner": "Illinois",
+              "seed": 5,
+              "vs": "Liberty"
+            },
+            {
+              "winner": "St. John's",
+              "seed": 4,
+              "vs": "High Point"
+            },
+            {
+              "winner": "Connecticut",
+              "seed": 6,
+              "vs": "SMU"
+            },
+            {
+              "winner": "Michigan State",
+              "seed": 3,
+              "vs": "Northern Iowa"
+            },
+            {
+              "winner": "Texas A&M",
+              "seed": 7,
+              "vs": "Wake Forest"
+            },
+            {
+              "winner": "Iowa State",
+              "seed": 2,
+              "vs": "Central Arkansas"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Auburn",
+              "seed": 1,
+              "vs": "Memphis"
+            },
+            {
+              "winner": "St. John's",
+              "seed": 4,
+              "vs": "Illinois"
+            },
+            {
+              "winner": "Michigan State",
+              "seed": 3,
+              "vs": "Connecticut"
+            },
+            {
+              "winner": "Iowa State",
+              "seed": 2,
+              "vs": "Texas A&M"
+            }
+          ],
+          "Sweet 16": [
+            {
+              "winner": "Auburn",
+              "seed": 1,
+              "vs": "St. John's"
+            },
+            {
+              "winner": "Iowa State",
+              "seed": 2,
+              "vs": "Michigan State"
+            }
+          ],
+          "Elite 8": [
+            {
+              "winner": "Auburn",
+              "seed": 1,
+              "vs": "Iowa State"
+            }
+          ]
+        }
+      },
+      "Midwest": {
+        "champion": "Houston",
+        "rounds": {
+          "First Round": [
+            {
+              "winner": "Houston",
+              "seed": 1,
+              "vs": "Grambling"
+            },
+            {
+              "winner": "Xavier",
+              "seed": 8,
+              "vs": "Indiana"
+            },
+            {
+              "winner": "Kentucky",
+              "seed": 5,
+              "vs": "New Mexico"
+            },
+            {
+              "winner": "Purdue",
+              "seed": 4,
+              "vs": "South Dakota State"
+            },
+            {
+              "winner": "UCLA",
+              "seed": 6,
+              "vs": "VCU"
+            },
+            {
+              "winner": "Marquette",
+              "seed": 3,
+              "vs": "Akron"
+            },
+            {
+              "winner": "Creighton",
+              "seed": 7,
+              "vs": "Virginia Tech"
+            },
+            {
+              "winner": "Alabama",
+              "seed": 2,
+              "vs": "Long Beach State"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Houston",
+              "seed": 1,
+              "vs": "Xavier"
+            },
+            {
+              "winner": "Purdue",
+              "seed": 4,
+              "vs": "Kentucky"
+            },
+            {
+              "winner": "Marquette",
+              "seed": 3,
+              "vs": "UCLA"
+            },
+            {
+              "winner": "Alabama",
+              "seed": 2,
+              "vs": "Creighton"
+            }
+          ],
+          "Sweet 16": [
+            {
+              "winner": "Houston",
+              "seed": 1,
+              "vs": "Purdue"
+            },
+            {
+              "winner": "Alabama",
+              "seed": 2,
+              "vs": "Marquette"
+            }
+          ],
+          "Elite 8": [
+            {
+              "winner": "Houston",
+              "seed": 1,
+              "vs": "Alabama"
+            }
+          ]
+        }
+      },
+      "West": {
+        "champion": "Kansas",
+        "rounds": {
+          "First Round": [
+            {
+              "winner": "Kansas",
+              "seed": 1,
+              "vs": "Northern Arizona"
+            },
+            {
+              "winner": "Utah State",
+              "seed": 8,
+              "vs": "San Diego State"
+            },
+            {
+              "winner": "Gonzaga",
+              "seed": 5,
+              "vs": "Boise State"
+            },
+            {
+              "winner": "Oregon",
+              "seed": 4,
+              "vs": "UC San Diego"
+            },
+            {
+              "winner": "Missouri",
+              "seed": 6,
+              "vs": "West Virginia"
+            },
+            {
+              "winner": "Texas Tech",
+              "seed": 3,
+              "vs": "Eastern Washington"
+            },
+            {
+              "winner": "Ole Miss",
+              "seed": 7,
+              "vs": "Drake"
+            },
+            {
+              "winner": "Florida",
+              "seed": 2,
+              "vs": "Montana State"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Kansas",
+              "seed": 1,
+              "vs": "Utah State"
+            },
+            {
+              "winner": "Gonzaga",
+              "seed": 5,
+              "vs": "Oregon"
+            },
+            {
+              "winner": "Texas Tech",
+              "seed": 3,
+              "vs": "Missouri"
+            },
+            {
+              "winner": "Florida",
+              "seed": 2,
+              "vs": "Ole Miss"
+            }
+          ],
+          "Sweet 16": [
+            {
+              "winner": "Kansas",
+              "seed": 1,
+              "vs": "Gonzaga"
+            },
+            {
+              "winner": "Florida",
+              "seed": 2,
+              "vs": "Texas Tech"
+            }
+          ],
+          "Elite 8": [
+            {
+              "winner": "Kansas",
+              "seed": 1,
+              "vs": "Florida"
+            }
+          ]
+        }
+      }
+    },
+    "final_four": {
+      "East vs West": "Duke",
+      "South vs Midwest": "Auburn"
+    },
+    "champion": "Duke",
+    "championship": {
+      "winner": "Duke",
+      "loser": "Auburn"
+    }
+  }
+}
