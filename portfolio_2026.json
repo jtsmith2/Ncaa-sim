@@ -4,8 +4,8 @@
     "champion": "Duke",
     "champion_seed": 1,
     "champion_region": "East",
-    "champion_prob_pct": 17.2,
-    "runner_up": "Auburn",
+    "champion_prob_pct": 15.2,
+    "runner_up": "Florida",
     "runner_up_seed": 1,
     "runner_up_region": "South",
     "regions": {
@@ -16,347 +16,347 @@
             {
               "winner": "Duke",
               "seed": 1,
-              "defeated": "Longwood"
+              "defeated": "Siena"
             },
             {
-              "winner": "Villanova",
+              "winner": "Ohio State",
               "seed": 8,
-              "defeated": "Oklahoma"
-            },
-            {
-              "winner": "Clemson",
-              "seed": 5,
-              "defeated": "Dayton"
-            },
-            {
-              "winner": "Arizona",
-              "seed": 4,
-              "defeated": "Yale"
-            },
-            {
-              "winner": "Baylor",
-              "seed": 6,
-              "defeated": "NC State"
-            },
-            {
-              "winner": "Wisconsin",
-              "seed": 3,
-              "defeated": "Lipscomb"
-            },
-            {
-              "winner": "Saint Mary's",
-              "seed": 7,
-              "defeated": "Nebraska"
-            },
-            {
-              "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Bryant"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Villanova"
-            },
-            {
-              "winner": "Arizona",
-              "seed": 4,
-              "defeated": "Clemson"
-            },
-            {
-              "winner": "Wisconsin",
-              "seed": 3,
-              "defeated": "Baylor"
-            },
-            {
-              "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Saint Mary's"
-            }
-          ],
-          "Sweet 16": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Arizona"
-            },
-            {
-              "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Wisconsin"
-            }
-          ],
-          "Elite 8": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Tennessee"
-            }
-          ]
-        }
-      },
-      "South": {
-        "champion": "Auburn",
-        "rounds": {
-          "First Round": [
-            {
-              "winner": "Auburn",
-              "seed": 1,
-              "defeated": "Texas Southern"
-            },
-            {
-              "winner": "Memphis",
-              "seed": 9,
-              "defeated": "Cincinnati"
-            },
-            {
-              "winner": "Illinois",
-              "seed": 5,
-              "defeated": "Liberty"
+              "defeated": "TCU"
             },
             {
               "winner": "St. John's",
-              "seed": 4,
-              "defeated": "High Point"
-            },
-            {
-              "winner": "Connecticut",
-              "seed": 6,
-              "defeated": "SMU"
-            },
-            {
-              "winner": "Michigan State",
-              "seed": 3,
+              "seed": 5,
               "defeated": "Northern Iowa"
             },
             {
-              "winner": "Texas A&M",
-              "seed": 7,
-              "defeated": "Wake Forest"
-            },
-            {
-              "winner": "Iowa State",
-              "seed": 2,
-              "defeated": "Central Arkansas"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Auburn",
-              "seed": 1,
-              "defeated": "Memphis"
-            },
-            {
-              "winner": "St. John's",
+              "winner": "Kansas",
               "seed": 4,
-              "defeated": "Illinois"
+              "defeated": "Cal Baptist"
+            },
+            {
+              "winner": "Louisville",
+              "seed": 6,
+              "defeated": "South Florida"
             },
             {
               "winner": "Michigan State",
               "seed": 3,
-              "defeated": "Connecticut"
+              "defeated": "North Dakota St"
             },
             {
-              "winner": "Iowa State",
+              "winner": "UCLA",
+              "seed": 7,
+              "defeated": "UCF"
+            },
+            {
+              "winner": "UConn",
               "seed": 2,
-              "defeated": "Texas A&M"
+              "defeated": "Furman"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Duke",
+              "seed": 1,
+              "defeated": "Ohio State"
+            },
+            {
+              "winner": "Kansas",
+              "seed": 4,
+              "defeated": "St. John's"
+            },
+            {
+              "winner": "Michigan State",
+              "seed": 3,
+              "defeated": "Louisville"
+            },
+            {
+              "winner": "UConn",
+              "seed": 2,
+              "defeated": "UCLA"
             }
           ],
           "Sweet 16": [
             {
-              "winner": "Auburn",
+              "winner": "Duke",
               "seed": 1,
-              "defeated": "St. John's"
+              "defeated": "Kansas"
             },
             {
-              "winner": "Iowa State",
+              "winner": "UConn",
               "seed": 2,
               "defeated": "Michigan State"
             }
           ],
           "Elite 8": [
             {
-              "winner": "Auburn",
+              "winner": "Duke",
+              "seed": 1,
+              "defeated": "UConn"
+            }
+          ]
+        }
+      },
+      "South": {
+        "champion": "Florida",
+        "rounds": {
+          "First Round": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Lehigh"
+            },
+            {
+              "winner": "Clemson",
+              "seed": 8,
+              "defeated": "Iowa"
+            },
+            {
+              "winner": "Vanderbilt",
+              "seed": 5,
+              "defeated": "McNeese"
+            },
+            {
+              "winner": "Nebraska",
+              "seed": 4,
+              "defeated": "Troy"
+            },
+            {
+              "winner": "North Carolina",
+              "seed": 6,
+              "defeated": "VCU"
+            },
+            {
+              "winner": "Illinois",
+              "seed": 3,
+              "defeated": "Penn"
+            },
+            {
+              "winner": "Saint Mary's",
+              "seed": 7,
+              "defeated": "Texas A&M"
+            },
+            {
+              "winner": "Houston",
+              "seed": 2,
+              "defeated": "Idaho"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Clemson"
+            },
+            {
+              "winner": "Nebraska",
+              "seed": 4,
+              "defeated": "Vanderbilt"
+            },
+            {
+              "winner": "Illinois",
+              "seed": 3,
+              "defeated": "North Carolina"
+            },
+            {
+              "winner": "Houston",
+              "seed": 2,
+              "defeated": "Saint Mary's"
+            }
+          ],
+          "Sweet 16": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Nebraska"
+            },
+            {
+              "winner": "Houston",
+              "seed": 2,
+              "defeated": "Illinois"
+            }
+          ],
+          "Elite 8": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Houston"
+            }
+          ]
+        }
+      },
+      "Midwest": {
+        "champion": "Michigan",
+        "rounds": {
+          "First Round": [
+            {
+              "winner": "Michigan",
+              "seed": 1,
+              "defeated": "UMBC"
+            },
+            {
+              "winner": "Georgia",
+              "seed": 8,
+              "defeated": "Saint Louis"
+            },
+            {
+              "winner": "Texas Tech",
+              "seed": 5,
+              "defeated": "Akron"
+            },
+            {
+              "winner": "Alabama",
+              "seed": 4,
+              "defeated": "Hofstra"
+            },
+            {
+              "winner": "Tennessee",
+              "seed": 6,
+              "defeated": "SMU"
+            },
+            {
+              "winner": "Virginia",
+              "seed": 3,
+              "defeated": "Wright State"
+            },
+            {
+              "winner": "Kentucky",
+              "seed": 7,
+              "defeated": "Santa Clara"
+            },
+            {
+              "winner": "Iowa State",
+              "seed": 2,
+              "defeated": "Tennessee State"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Michigan",
+              "seed": 1,
+              "defeated": "Georgia"
+            },
+            {
+              "winner": "Alabama",
+              "seed": 4,
+              "defeated": "Texas Tech"
+            },
+            {
+              "winner": "Virginia",
+              "seed": 3,
+              "defeated": "Tennessee"
+            },
+            {
+              "winner": "Iowa State",
+              "seed": 2,
+              "defeated": "Kentucky"
+            }
+          ],
+          "Sweet 16": [
+            {
+              "winner": "Michigan",
+              "seed": 1,
+              "defeated": "Alabama"
+            },
+            {
+              "winner": "Iowa State",
+              "seed": 2,
+              "defeated": "Virginia"
+            }
+          ],
+          "Elite 8": [
+            {
+              "winner": "Michigan",
               "seed": 1,
               "defeated": "Iowa State"
             }
           ]
         }
       },
-      "Midwest": {
-        "champion": "Houston",
-        "rounds": {
-          "First Round": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Grambling"
-            },
-            {
-              "winner": "Xavier",
-              "seed": 8,
-              "defeated": "Indiana"
-            },
-            {
-              "winner": "Kentucky",
-              "seed": 5,
-              "defeated": "New Mexico"
-            },
-            {
-              "winner": "Purdue",
-              "seed": 4,
-              "defeated": "South Dakota State"
-            },
-            {
-              "winner": "UCLA",
-              "seed": 6,
-              "defeated": "VCU"
-            },
-            {
-              "winner": "Marquette",
-              "seed": 3,
-              "defeated": "Akron"
-            },
-            {
-              "winner": "Creighton",
-              "seed": 7,
-              "defeated": "Virginia Tech"
-            },
-            {
-              "winner": "Alabama",
-              "seed": 2,
-              "defeated": "Long Beach State"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Xavier"
-            },
-            {
-              "winner": "Purdue",
-              "seed": 4,
-              "defeated": "Kentucky"
-            },
-            {
-              "winner": "Marquette",
-              "seed": 3,
-              "defeated": "UCLA"
-            },
-            {
-              "winner": "Alabama",
-              "seed": 2,
-              "defeated": "Creighton"
-            }
-          ],
-          "Sweet 16": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Purdue"
-            },
-            {
-              "winner": "Alabama",
-              "seed": 2,
-              "defeated": "Marquette"
-            }
-          ],
-          "Elite 8": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Alabama"
-            }
-          ]
-        }
-      },
       "West": {
-        "champion": "Kansas",
+        "champion": "Arizona",
         "rounds": {
           "First Round": [
             {
-              "winner": "Kansas",
+              "winner": "Arizona",
               "seed": 1,
-              "defeated": "Northern Arizona"
+              "defeated": "LIU"
             },
             {
-              "winner": "Utah State",
+              "winner": "Villanova",
               "seed": 8,
-              "defeated": "San Diego State"
-            },
-            {
-              "winner": "Gonzaga",
-              "seed": 5,
-              "defeated": "Boise State"
-            },
-            {
-              "winner": "Oregon",
-              "seed": 4,
-              "defeated": "UC San Diego"
-            },
-            {
-              "winner": "Missouri",
-              "seed": 6,
-              "defeated": "West Virginia"
-            },
-            {
-              "winner": "Texas Tech",
-              "seed": 3,
-              "defeated": "Eastern Washington"
-            },
-            {
-              "winner": "Ole Miss",
-              "seed": 7,
-              "defeated": "Drake"
-            },
-            {
-              "winner": "Florida",
-              "seed": 2,
-              "defeated": "Montana State"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Kansas",
-              "seed": 1,
               "defeated": "Utah State"
             },
             {
-              "winner": "Gonzaga",
+              "winner": "Wisconsin",
               "seed": 5,
-              "defeated": "Oregon"
+              "defeated": "High Point"
             },
             {
-              "winner": "Texas Tech",
+              "winner": "Arkansas",
+              "seed": 4,
+              "defeated": "Hawaii"
+            },
+            {
+              "winner": "BYU",
+              "seed": 6,
+              "defeated": "Texas"
+            },
+            {
+              "winner": "Gonzaga",
               "seed": 3,
+              "defeated": "Kennesaw State"
+            },
+            {
+              "winner": "Miami (FL)",
+              "seed": 7,
               "defeated": "Missouri"
             },
             {
-              "winner": "Florida",
+              "winner": "Purdue",
               "seed": 2,
-              "defeated": "Ole Miss"
+              "defeated": "Queens"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Arizona",
+              "seed": 1,
+              "defeated": "Villanova"
+            },
+            {
+              "winner": "Arkansas",
+              "seed": 4,
+              "defeated": "Wisconsin"
+            },
+            {
+              "winner": "Gonzaga",
+              "seed": 3,
+              "defeated": "BYU"
+            },
+            {
+              "winner": "Purdue",
+              "seed": 2,
+              "defeated": "Miami (FL)"
             }
           ],
           "Sweet 16": [
             {
-              "winner": "Kansas",
+              "winner": "Arizona",
               "seed": 1,
-              "defeated": "Gonzaga"
+              "defeated": "Arkansas"
             },
             {
-              "winner": "Florida",
+              "winner": "Purdue",
               "seed": 2,
-              "defeated": "Texas Tech"
+              "defeated": "Gonzaga"
             }
           ],
           "Elite 8": [
             {
-              "winner": "Kansas",
+              "winner": "Arizona",
               "seed": 1,
-              "defeated": "Florida"
+              "defeated": "Purdue"
             }
           ]
         }
@@ -368,8 +368,8 @@
     "champion": "Duke",
     "champion_seed": 1,
     "champion_region": "East",
-    "champion_prob_pct": 17.2,
-    "runner_up": "Houston",
+    "champion_prob_pct": 15.2,
+    "runner_up": "Michigan",
     "runner_up_seed": 1,
     "runner_up_region": "Midwest",
     "regions": {
@@ -380,347 +380,347 @@
             {
               "winner": "Duke",
               "seed": 1,
-              "defeated": "Longwood"
+              "defeated": "Siena"
             },
             {
-              "winner": "Villanova",
+              "winner": "Ohio State",
               "seed": 8,
-              "defeated": "Oklahoma"
-            },
-            {
-              "winner": "Clemson",
-              "seed": 5,
-              "defeated": "Dayton"
-            },
-            {
-              "winner": "Arizona",
-              "seed": 4,
-              "defeated": "Yale"
-            },
-            {
-              "winner": "Baylor",
-              "seed": 6,
-              "defeated": "NC State"
-            },
-            {
-              "winner": "Wisconsin",
-              "seed": 3,
-              "defeated": "Lipscomb"
-            },
-            {
-              "winner": "Saint Mary's",
-              "seed": 7,
-              "defeated": "Nebraska"
-            },
-            {
-              "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Bryant"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Villanova"
-            },
-            {
-              "winner": "Arizona",
-              "seed": 4,
-              "defeated": "Clemson"
-            },
-            {
-              "winner": "Wisconsin",
-              "seed": 3,
-              "defeated": "Baylor"
-            },
-            {
-              "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Saint Mary's"
-            }
-          ],
-          "Sweet 16": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Arizona"
-            },
-            {
-              "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Wisconsin"
-            }
-          ],
-          "Elite 8": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Tennessee"
-            }
-          ]
-        }
-      },
-      "South": {
-        "champion": "Auburn",
-        "rounds": {
-          "First Round": [
-            {
-              "winner": "Auburn",
-              "seed": 1,
-              "defeated": "Texas Southern"
-            },
-            {
-              "winner": "Memphis",
-              "seed": 9,
-              "defeated": "Cincinnati"
-            },
-            {
-              "winner": "Illinois",
-              "seed": 5,
-              "defeated": "Liberty"
+              "defeated": "TCU"
             },
             {
               "winner": "St. John's",
-              "seed": 4,
-              "defeated": "High Point"
-            },
-            {
-              "winner": "Connecticut",
-              "seed": 6,
-              "defeated": "SMU"
-            },
-            {
-              "winner": "Michigan State",
-              "seed": 3,
+              "seed": 5,
               "defeated": "Northern Iowa"
             },
             {
-              "winner": "Texas A&M",
-              "seed": 7,
-              "defeated": "Wake Forest"
-            },
-            {
-              "winner": "Iowa State",
-              "seed": 2,
-              "defeated": "Central Arkansas"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Auburn",
-              "seed": 1,
-              "defeated": "Memphis"
-            },
-            {
-              "winner": "St. John's",
+              "winner": "Kansas",
               "seed": 4,
-              "defeated": "Illinois"
+              "defeated": "Cal Baptist"
+            },
+            {
+              "winner": "Louisville",
+              "seed": 6,
+              "defeated": "South Florida"
             },
             {
               "winner": "Michigan State",
               "seed": 3,
-              "defeated": "Connecticut"
+              "defeated": "North Dakota St"
             },
             {
-              "winner": "Iowa State",
+              "winner": "UCLA",
+              "seed": 7,
+              "defeated": "UCF"
+            },
+            {
+              "winner": "UConn",
               "seed": 2,
-              "defeated": "Texas A&M"
+              "defeated": "Furman"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Duke",
+              "seed": 1,
+              "defeated": "Ohio State"
+            },
+            {
+              "winner": "Kansas",
+              "seed": 4,
+              "defeated": "St. John's"
+            },
+            {
+              "winner": "Michigan State",
+              "seed": 3,
+              "defeated": "Louisville"
+            },
+            {
+              "winner": "UConn",
+              "seed": 2,
+              "defeated": "UCLA"
             }
           ],
           "Sweet 16": [
             {
-              "winner": "Auburn",
+              "winner": "Duke",
               "seed": 1,
-              "defeated": "St. John's"
+              "defeated": "Kansas"
             },
             {
-              "winner": "Iowa State",
+              "winner": "UConn",
               "seed": 2,
               "defeated": "Michigan State"
             }
           ],
           "Elite 8": [
             {
-              "winner": "Auburn",
+              "winner": "Duke",
+              "seed": 1,
+              "defeated": "UConn"
+            }
+          ]
+        }
+      },
+      "South": {
+        "champion": "Florida",
+        "rounds": {
+          "First Round": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Lehigh"
+            },
+            {
+              "winner": "Clemson",
+              "seed": 8,
+              "defeated": "Iowa"
+            },
+            {
+              "winner": "Vanderbilt",
+              "seed": 5,
+              "defeated": "McNeese"
+            },
+            {
+              "winner": "Nebraska",
+              "seed": 4,
+              "defeated": "Troy"
+            },
+            {
+              "winner": "North Carolina",
+              "seed": 6,
+              "defeated": "VCU"
+            },
+            {
+              "winner": "Illinois",
+              "seed": 3,
+              "defeated": "Penn"
+            },
+            {
+              "winner": "Saint Mary's",
+              "seed": 7,
+              "defeated": "Texas A&M"
+            },
+            {
+              "winner": "Houston",
+              "seed": 2,
+              "defeated": "Idaho"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Clemson"
+            },
+            {
+              "winner": "Nebraska",
+              "seed": 4,
+              "defeated": "Vanderbilt"
+            },
+            {
+              "winner": "Illinois",
+              "seed": 3,
+              "defeated": "North Carolina"
+            },
+            {
+              "winner": "Houston",
+              "seed": 2,
+              "defeated": "Saint Mary's"
+            }
+          ],
+          "Sweet 16": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Nebraska"
+            },
+            {
+              "winner": "Houston",
+              "seed": 2,
+              "defeated": "Illinois"
+            }
+          ],
+          "Elite 8": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Houston"
+            }
+          ]
+        }
+      },
+      "Midwest": {
+        "champion": "Michigan",
+        "rounds": {
+          "First Round": [
+            {
+              "winner": "Michigan",
+              "seed": 1,
+              "defeated": "UMBC"
+            },
+            {
+              "winner": "Georgia",
+              "seed": 8,
+              "defeated": "Saint Louis"
+            },
+            {
+              "winner": "Texas Tech",
+              "seed": 5,
+              "defeated": "Akron"
+            },
+            {
+              "winner": "Alabama",
+              "seed": 4,
+              "defeated": "Hofstra"
+            },
+            {
+              "winner": "Tennessee",
+              "seed": 6,
+              "defeated": "SMU"
+            },
+            {
+              "winner": "Virginia",
+              "seed": 3,
+              "defeated": "Wright State"
+            },
+            {
+              "winner": "Kentucky",
+              "seed": 7,
+              "defeated": "Santa Clara"
+            },
+            {
+              "winner": "Iowa State",
+              "seed": 2,
+              "defeated": "Tennessee State"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Michigan",
+              "seed": 1,
+              "defeated": "Georgia"
+            },
+            {
+              "winner": "Alabama",
+              "seed": 4,
+              "defeated": "Texas Tech"
+            },
+            {
+              "winner": "Virginia",
+              "seed": 3,
+              "defeated": "Tennessee"
+            },
+            {
+              "winner": "Iowa State",
+              "seed": 2,
+              "defeated": "Kentucky"
+            }
+          ],
+          "Sweet 16": [
+            {
+              "winner": "Michigan",
+              "seed": 1,
+              "defeated": "Alabama"
+            },
+            {
+              "winner": "Iowa State",
+              "seed": 2,
+              "defeated": "Virginia"
+            }
+          ],
+          "Elite 8": [
+            {
+              "winner": "Michigan",
               "seed": 1,
               "defeated": "Iowa State"
             }
           ]
         }
       },
-      "Midwest": {
-        "champion": "Houston",
-        "rounds": {
-          "First Round": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Grambling"
-            },
-            {
-              "winner": "Xavier",
-              "seed": 8,
-              "defeated": "Indiana"
-            },
-            {
-              "winner": "Kentucky",
-              "seed": 5,
-              "defeated": "New Mexico"
-            },
-            {
-              "winner": "Purdue",
-              "seed": 4,
-              "defeated": "South Dakota State"
-            },
-            {
-              "winner": "UCLA",
-              "seed": 6,
-              "defeated": "VCU"
-            },
-            {
-              "winner": "Marquette",
-              "seed": 3,
-              "defeated": "Akron"
-            },
-            {
-              "winner": "Creighton",
-              "seed": 7,
-              "defeated": "Virginia Tech"
-            },
-            {
-              "winner": "Alabama",
-              "seed": 2,
-              "defeated": "Long Beach State"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Xavier"
-            },
-            {
-              "winner": "Purdue",
-              "seed": 4,
-              "defeated": "Kentucky"
-            },
-            {
-              "winner": "Marquette",
-              "seed": 3,
-              "defeated": "UCLA"
-            },
-            {
-              "winner": "Alabama",
-              "seed": 2,
-              "defeated": "Creighton"
-            }
-          ],
-          "Sweet 16": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Purdue"
-            },
-            {
-              "winner": "Alabama",
-              "seed": 2,
-              "defeated": "Marquette"
-            }
-          ],
-          "Elite 8": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Alabama"
-            }
-          ]
-        }
-      },
       "West": {
-        "champion": "Kansas",
+        "champion": "Arizona",
         "rounds": {
           "First Round": [
             {
-              "winner": "Kansas",
+              "winner": "Arizona",
               "seed": 1,
-              "defeated": "Northern Arizona"
+              "defeated": "LIU"
             },
             {
-              "winner": "Utah State",
+              "winner": "Villanova",
               "seed": 8,
-              "defeated": "San Diego State"
-            },
-            {
-              "winner": "Gonzaga",
-              "seed": 5,
-              "defeated": "Boise State"
-            },
-            {
-              "winner": "Oregon",
-              "seed": 4,
-              "defeated": "UC San Diego"
-            },
-            {
-              "winner": "Missouri",
-              "seed": 6,
-              "defeated": "West Virginia"
-            },
-            {
-              "winner": "Texas Tech",
-              "seed": 3,
-              "defeated": "Eastern Washington"
-            },
-            {
-              "winner": "Ole Miss",
-              "seed": 7,
-              "defeated": "Drake"
-            },
-            {
-              "winner": "Florida",
-              "seed": 2,
-              "defeated": "Montana State"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Kansas",
-              "seed": 1,
               "defeated": "Utah State"
             },
             {
-              "winner": "Gonzaga",
+              "winner": "Wisconsin",
               "seed": 5,
-              "defeated": "Oregon"
+              "defeated": "High Point"
             },
             {
-              "winner": "Texas Tech",
+              "winner": "Arkansas",
+              "seed": 4,
+              "defeated": "Hawaii"
+            },
+            {
+              "winner": "BYU",
+              "seed": 6,
+              "defeated": "Texas"
+            },
+            {
+              "winner": "Gonzaga",
               "seed": 3,
+              "defeated": "Kennesaw State"
+            },
+            {
+              "winner": "Miami (FL)",
+              "seed": 7,
               "defeated": "Missouri"
             },
             {
-              "winner": "Florida",
+              "winner": "Purdue",
               "seed": 2,
-              "defeated": "Ole Miss"
+              "defeated": "Queens"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Arizona",
+              "seed": 1,
+              "defeated": "Villanova"
+            },
+            {
+              "winner": "Arkansas",
+              "seed": 4,
+              "defeated": "Wisconsin"
+            },
+            {
+              "winner": "Gonzaga",
+              "seed": 3,
+              "defeated": "BYU"
+            },
+            {
+              "winner": "Purdue",
+              "seed": 2,
+              "defeated": "Miami (FL)"
             }
           ],
           "Sweet 16": [
             {
-              "winner": "Kansas",
+              "winner": "Arizona",
               "seed": 1,
-              "defeated": "Gonzaga"
+              "defeated": "Arkansas"
             },
             {
-              "winner": "Florida",
+              "winner": "Purdue",
               "seed": 2,
-              "defeated": "Texas Tech"
+              "defeated": "Gonzaga"
             }
           ],
           "Elite 8": [
             {
-              "winner": "Kansas",
+              "winner": "Arizona",
               "seed": 1,
-              "defeated": "Florida"
+              "defeated": "Purdue"
             }
           ]
         }
@@ -729,739 +729,11 @@
   },
   {
     "bracket_num": 3,
-    "champion": "Auburn",
-    "champion_seed": 1,
-    "champion_region": "South",
-    "champion_prob_pct": 12.9,
-    "runner_up": "Duke",
-    "runner_up_seed": 1,
-    "runner_up_region": "East",
-    "regions": {
-      "East": {
-        "champion": "Duke",
-        "rounds": {
-          "First Round": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Longwood"
-            },
-            {
-              "winner": "Villanova",
-              "seed": 8,
-              "defeated": "Oklahoma"
-            },
-            {
-              "winner": "Clemson",
-              "seed": 5,
-              "defeated": "Dayton"
-            },
-            {
-              "winner": "Arizona",
-              "seed": 4,
-              "defeated": "Yale"
-            },
-            {
-              "winner": "Baylor",
-              "seed": 6,
-              "defeated": "NC State"
-            },
-            {
-              "winner": "Wisconsin",
-              "seed": 3,
-              "defeated": "Lipscomb"
-            },
-            {
-              "winner": "Saint Mary's",
-              "seed": 7,
-              "defeated": "Nebraska"
-            },
-            {
-              "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Bryant"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Villanova"
-            },
-            {
-              "winner": "Arizona",
-              "seed": 4,
-              "defeated": "Clemson"
-            },
-            {
-              "winner": "Wisconsin",
-              "seed": 3,
-              "defeated": "Baylor"
-            },
-            {
-              "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Saint Mary's"
-            }
-          ],
-          "Sweet 16": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Arizona"
-            },
-            {
-              "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Wisconsin"
-            }
-          ],
-          "Elite 8": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Tennessee"
-            }
-          ]
-        }
-      },
-      "South": {
-        "champion": "Auburn",
-        "rounds": {
-          "First Round": [
-            {
-              "winner": "Auburn",
-              "seed": 1,
-              "defeated": "Texas Southern"
-            },
-            {
-              "winner": "Memphis",
-              "seed": 9,
-              "defeated": "Cincinnati"
-            },
-            {
-              "winner": "Illinois",
-              "seed": 5,
-              "defeated": "Liberty"
-            },
-            {
-              "winner": "St. John's",
-              "seed": 4,
-              "defeated": "High Point"
-            },
-            {
-              "winner": "Connecticut",
-              "seed": 6,
-              "defeated": "SMU"
-            },
-            {
-              "winner": "Michigan State",
-              "seed": 3,
-              "defeated": "Northern Iowa"
-            },
-            {
-              "winner": "Texas A&M",
-              "seed": 7,
-              "defeated": "Wake Forest"
-            },
-            {
-              "winner": "Iowa State",
-              "seed": 2,
-              "defeated": "Central Arkansas"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Auburn",
-              "seed": 1,
-              "defeated": "Memphis"
-            },
-            {
-              "winner": "St. John's",
-              "seed": 4,
-              "defeated": "Illinois"
-            },
-            {
-              "winner": "Michigan State",
-              "seed": 3,
-              "defeated": "Connecticut"
-            },
-            {
-              "winner": "Iowa State",
-              "seed": 2,
-              "defeated": "Texas A&M"
-            }
-          ],
-          "Sweet 16": [
-            {
-              "winner": "Auburn",
-              "seed": 1,
-              "defeated": "St. John's"
-            },
-            {
-              "winner": "Iowa State",
-              "seed": 2,
-              "defeated": "Michigan State"
-            }
-          ],
-          "Elite 8": [
-            {
-              "winner": "Auburn",
-              "seed": 1,
-              "defeated": "Iowa State"
-            }
-          ]
-        }
-      },
-      "Midwest": {
-        "champion": "Houston",
-        "rounds": {
-          "First Round": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Grambling"
-            },
-            {
-              "winner": "Xavier",
-              "seed": 8,
-              "defeated": "Indiana"
-            },
-            {
-              "winner": "Kentucky",
-              "seed": 5,
-              "defeated": "New Mexico"
-            },
-            {
-              "winner": "Purdue",
-              "seed": 4,
-              "defeated": "South Dakota State"
-            },
-            {
-              "winner": "UCLA",
-              "seed": 6,
-              "defeated": "VCU"
-            },
-            {
-              "winner": "Marquette",
-              "seed": 3,
-              "defeated": "Akron"
-            },
-            {
-              "winner": "Creighton",
-              "seed": 7,
-              "defeated": "Virginia Tech"
-            },
-            {
-              "winner": "Alabama",
-              "seed": 2,
-              "defeated": "Long Beach State"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Xavier"
-            },
-            {
-              "winner": "Purdue",
-              "seed": 4,
-              "defeated": "Kentucky"
-            },
-            {
-              "winner": "Marquette",
-              "seed": 3,
-              "defeated": "UCLA"
-            },
-            {
-              "winner": "Alabama",
-              "seed": 2,
-              "defeated": "Creighton"
-            }
-          ],
-          "Sweet 16": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Purdue"
-            },
-            {
-              "winner": "Alabama",
-              "seed": 2,
-              "defeated": "Marquette"
-            }
-          ],
-          "Elite 8": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Alabama"
-            }
-          ]
-        }
-      },
-      "West": {
-        "champion": "Kansas",
-        "rounds": {
-          "First Round": [
-            {
-              "winner": "Kansas",
-              "seed": 1,
-              "defeated": "Northern Arizona"
-            },
-            {
-              "winner": "Utah State",
-              "seed": 8,
-              "defeated": "San Diego State"
-            },
-            {
-              "winner": "Gonzaga",
-              "seed": 5,
-              "defeated": "Boise State"
-            },
-            {
-              "winner": "Oregon",
-              "seed": 4,
-              "defeated": "UC San Diego"
-            },
-            {
-              "winner": "Missouri",
-              "seed": 6,
-              "defeated": "West Virginia"
-            },
-            {
-              "winner": "Texas Tech",
-              "seed": 3,
-              "defeated": "Eastern Washington"
-            },
-            {
-              "winner": "Ole Miss",
-              "seed": 7,
-              "defeated": "Drake"
-            },
-            {
-              "winner": "Florida",
-              "seed": 2,
-              "defeated": "Montana State"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Kansas",
-              "seed": 1,
-              "defeated": "Utah State"
-            },
-            {
-              "winner": "Gonzaga",
-              "seed": 5,
-              "defeated": "Oregon"
-            },
-            {
-              "winner": "Texas Tech",
-              "seed": 3,
-              "defeated": "Missouri"
-            },
-            {
-              "winner": "Florida",
-              "seed": 2,
-              "defeated": "Ole Miss"
-            }
-          ],
-          "Sweet 16": [
-            {
-              "winner": "Kansas",
-              "seed": 1,
-              "defeated": "Gonzaga"
-            },
-            {
-              "winner": "Florida",
-              "seed": 2,
-              "defeated": "Texas Tech"
-            }
-          ],
-          "Elite 8": [
-            {
-              "winner": "Kansas",
-              "seed": 1,
-              "defeated": "Florida"
-            }
-          ]
-        }
-      }
-    }
-  },
-  {
-    "bracket_num": 4,
-    "champion": "Auburn",
-    "champion_seed": 1,
-    "champion_region": "South",
-    "champion_prob_pct": 12.9,
-    "runner_up": "Kansas",
-    "runner_up_seed": 1,
-    "runner_up_region": "West",
-    "regions": {
-      "East": {
-        "champion": "Duke",
-        "rounds": {
-          "First Round": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Longwood"
-            },
-            {
-              "winner": "Villanova",
-              "seed": 8,
-              "defeated": "Oklahoma"
-            },
-            {
-              "winner": "Clemson",
-              "seed": 5,
-              "defeated": "Dayton"
-            },
-            {
-              "winner": "Arizona",
-              "seed": 4,
-              "defeated": "Yale"
-            },
-            {
-              "winner": "Baylor",
-              "seed": 6,
-              "defeated": "NC State"
-            },
-            {
-              "winner": "Wisconsin",
-              "seed": 3,
-              "defeated": "Lipscomb"
-            },
-            {
-              "winner": "Saint Mary's",
-              "seed": 7,
-              "defeated": "Nebraska"
-            },
-            {
-              "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Bryant"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Villanova"
-            },
-            {
-              "winner": "Arizona",
-              "seed": 4,
-              "defeated": "Clemson"
-            },
-            {
-              "winner": "Wisconsin",
-              "seed": 3,
-              "defeated": "Baylor"
-            },
-            {
-              "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Saint Mary's"
-            }
-          ],
-          "Sweet 16": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Arizona"
-            },
-            {
-              "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Wisconsin"
-            }
-          ],
-          "Elite 8": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Tennessee"
-            }
-          ]
-        }
-      },
-      "South": {
-        "champion": "Auburn",
-        "rounds": {
-          "First Round": [
-            {
-              "winner": "Auburn",
-              "seed": 1,
-              "defeated": "Texas Southern"
-            },
-            {
-              "winner": "Memphis",
-              "seed": 9,
-              "defeated": "Cincinnati"
-            },
-            {
-              "winner": "Illinois",
-              "seed": 5,
-              "defeated": "Liberty"
-            },
-            {
-              "winner": "St. John's",
-              "seed": 4,
-              "defeated": "High Point"
-            },
-            {
-              "winner": "Connecticut",
-              "seed": 6,
-              "defeated": "SMU"
-            },
-            {
-              "winner": "Michigan State",
-              "seed": 3,
-              "defeated": "Northern Iowa"
-            },
-            {
-              "winner": "Texas A&M",
-              "seed": 7,
-              "defeated": "Wake Forest"
-            },
-            {
-              "winner": "Iowa State",
-              "seed": 2,
-              "defeated": "Central Arkansas"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Auburn",
-              "seed": 1,
-              "defeated": "Memphis"
-            },
-            {
-              "winner": "St. John's",
-              "seed": 4,
-              "defeated": "Illinois"
-            },
-            {
-              "winner": "Michigan State",
-              "seed": 3,
-              "defeated": "Connecticut"
-            },
-            {
-              "winner": "Iowa State",
-              "seed": 2,
-              "defeated": "Texas A&M"
-            }
-          ],
-          "Sweet 16": [
-            {
-              "winner": "Auburn",
-              "seed": 1,
-              "defeated": "St. John's"
-            },
-            {
-              "winner": "Iowa State",
-              "seed": 2,
-              "defeated": "Michigan State"
-            }
-          ],
-          "Elite 8": [
-            {
-              "winner": "Auburn",
-              "seed": 1,
-              "defeated": "Iowa State"
-            }
-          ]
-        }
-      },
-      "Midwest": {
-        "champion": "Houston",
-        "rounds": {
-          "First Round": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Grambling"
-            },
-            {
-              "winner": "Xavier",
-              "seed": 8,
-              "defeated": "Indiana"
-            },
-            {
-              "winner": "Kentucky",
-              "seed": 5,
-              "defeated": "New Mexico"
-            },
-            {
-              "winner": "Purdue",
-              "seed": 4,
-              "defeated": "South Dakota State"
-            },
-            {
-              "winner": "UCLA",
-              "seed": 6,
-              "defeated": "VCU"
-            },
-            {
-              "winner": "Marquette",
-              "seed": 3,
-              "defeated": "Akron"
-            },
-            {
-              "winner": "Creighton",
-              "seed": 7,
-              "defeated": "Virginia Tech"
-            },
-            {
-              "winner": "Alabama",
-              "seed": 2,
-              "defeated": "Long Beach State"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Xavier"
-            },
-            {
-              "winner": "Purdue",
-              "seed": 4,
-              "defeated": "Kentucky"
-            },
-            {
-              "winner": "Marquette",
-              "seed": 3,
-              "defeated": "UCLA"
-            },
-            {
-              "winner": "Alabama",
-              "seed": 2,
-              "defeated": "Creighton"
-            }
-          ],
-          "Sweet 16": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Purdue"
-            },
-            {
-              "winner": "Alabama",
-              "seed": 2,
-              "defeated": "Marquette"
-            }
-          ],
-          "Elite 8": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Alabama"
-            }
-          ]
-        }
-      },
-      "West": {
-        "champion": "Kansas",
-        "rounds": {
-          "First Round": [
-            {
-              "winner": "Kansas",
-              "seed": 1,
-              "defeated": "Northern Arizona"
-            },
-            {
-              "winner": "Utah State",
-              "seed": 8,
-              "defeated": "San Diego State"
-            },
-            {
-              "winner": "Gonzaga",
-              "seed": 5,
-              "defeated": "Boise State"
-            },
-            {
-              "winner": "Oregon",
-              "seed": 4,
-              "defeated": "UC San Diego"
-            },
-            {
-              "winner": "Missouri",
-              "seed": 6,
-              "defeated": "West Virginia"
-            },
-            {
-              "winner": "Texas Tech",
-              "seed": 3,
-              "defeated": "Eastern Washington"
-            },
-            {
-              "winner": "Ole Miss",
-              "seed": 7,
-              "defeated": "Drake"
-            },
-            {
-              "winner": "Florida",
-              "seed": 2,
-              "defeated": "Montana State"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Kansas",
-              "seed": 1,
-              "defeated": "Utah State"
-            },
-            {
-              "winner": "Gonzaga",
-              "seed": 5,
-              "defeated": "Oregon"
-            },
-            {
-              "winner": "Texas Tech",
-              "seed": 3,
-              "defeated": "Missouri"
-            },
-            {
-              "winner": "Florida",
-              "seed": 2,
-              "defeated": "Ole Miss"
-            }
-          ],
-          "Sweet 16": [
-            {
-              "winner": "Kansas",
-              "seed": 1,
-              "defeated": "Gonzaga"
-            },
-            {
-              "winner": "Florida",
-              "seed": 2,
-              "defeated": "Texas Tech"
-            }
-          ],
-          "Elite 8": [
-            {
-              "winner": "Kansas",
-              "seed": 1,
-              "defeated": "Florida"
-            }
-          ]
-        }
-      }
-    }
-  },
-  {
-    "bracket_num": 5,
-    "champion": "Kansas",
+    "champion": "Arizona",
     "champion_seed": 1,
     "champion_region": "West",
-    "champion_prob_pct": 9.3,
-    "runner_up": "Auburn",
+    "champion_prob_pct": 13.2,
+    "runner_up": "Florida",
     "runner_up_seed": 1,
     "runner_up_region": "South",
     "regions": {
@@ -1472,347 +744,347 @@
             {
               "winner": "Duke",
               "seed": 1,
-              "defeated": "Longwood"
+              "defeated": "Siena"
             },
             {
-              "winner": "Villanova",
+              "winner": "Ohio State",
               "seed": 8,
-              "defeated": "Oklahoma"
-            },
-            {
-              "winner": "Clemson",
-              "seed": 5,
-              "defeated": "Dayton"
-            },
-            {
-              "winner": "Arizona",
-              "seed": 4,
-              "defeated": "Yale"
-            },
-            {
-              "winner": "Baylor",
-              "seed": 6,
-              "defeated": "NC State"
-            },
-            {
-              "winner": "Wisconsin",
-              "seed": 3,
-              "defeated": "Lipscomb"
-            },
-            {
-              "winner": "Saint Mary's",
-              "seed": 7,
-              "defeated": "Nebraska"
-            },
-            {
-              "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Bryant"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Villanova"
-            },
-            {
-              "winner": "Arizona",
-              "seed": 4,
-              "defeated": "Clemson"
-            },
-            {
-              "winner": "Wisconsin",
-              "seed": 3,
-              "defeated": "Baylor"
-            },
-            {
-              "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Saint Mary's"
-            }
-          ],
-          "Sweet 16": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Arizona"
-            },
-            {
-              "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Wisconsin"
-            }
-          ],
-          "Elite 8": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Tennessee"
-            }
-          ]
-        }
-      },
-      "South": {
-        "champion": "Auburn",
-        "rounds": {
-          "First Round": [
-            {
-              "winner": "Auburn",
-              "seed": 1,
-              "defeated": "Texas Southern"
-            },
-            {
-              "winner": "Memphis",
-              "seed": 9,
-              "defeated": "Cincinnati"
-            },
-            {
-              "winner": "Illinois",
-              "seed": 5,
-              "defeated": "Liberty"
+              "defeated": "TCU"
             },
             {
               "winner": "St. John's",
-              "seed": 4,
-              "defeated": "High Point"
-            },
-            {
-              "winner": "Connecticut",
-              "seed": 6,
-              "defeated": "SMU"
-            },
-            {
-              "winner": "Michigan State",
-              "seed": 3,
+              "seed": 5,
               "defeated": "Northern Iowa"
             },
             {
-              "winner": "Texas A&M",
-              "seed": 7,
-              "defeated": "Wake Forest"
-            },
-            {
-              "winner": "Iowa State",
-              "seed": 2,
-              "defeated": "Central Arkansas"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Auburn",
-              "seed": 1,
-              "defeated": "Memphis"
-            },
-            {
-              "winner": "St. John's",
+              "winner": "Kansas",
               "seed": 4,
-              "defeated": "Illinois"
+              "defeated": "Cal Baptist"
+            },
+            {
+              "winner": "Louisville",
+              "seed": 6,
+              "defeated": "South Florida"
             },
             {
               "winner": "Michigan State",
               "seed": 3,
-              "defeated": "Connecticut"
+              "defeated": "North Dakota St"
             },
             {
-              "winner": "Iowa State",
+              "winner": "UCLA",
+              "seed": 7,
+              "defeated": "UCF"
+            },
+            {
+              "winner": "UConn",
               "seed": 2,
-              "defeated": "Texas A&M"
+              "defeated": "Furman"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Duke",
+              "seed": 1,
+              "defeated": "Ohio State"
+            },
+            {
+              "winner": "Kansas",
+              "seed": 4,
+              "defeated": "St. John's"
+            },
+            {
+              "winner": "Michigan State",
+              "seed": 3,
+              "defeated": "Louisville"
+            },
+            {
+              "winner": "UConn",
+              "seed": 2,
+              "defeated": "UCLA"
             }
           ],
           "Sweet 16": [
             {
-              "winner": "Auburn",
+              "winner": "Duke",
               "seed": 1,
-              "defeated": "St. John's"
+              "defeated": "Kansas"
             },
             {
-              "winner": "Iowa State",
+              "winner": "UConn",
               "seed": 2,
               "defeated": "Michigan State"
             }
           ],
           "Elite 8": [
             {
-              "winner": "Auburn",
+              "winner": "Duke",
+              "seed": 1,
+              "defeated": "UConn"
+            }
+          ]
+        }
+      },
+      "South": {
+        "champion": "Florida",
+        "rounds": {
+          "First Round": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Lehigh"
+            },
+            {
+              "winner": "Clemson",
+              "seed": 8,
+              "defeated": "Iowa"
+            },
+            {
+              "winner": "Vanderbilt",
+              "seed": 5,
+              "defeated": "McNeese"
+            },
+            {
+              "winner": "Nebraska",
+              "seed": 4,
+              "defeated": "Troy"
+            },
+            {
+              "winner": "North Carolina",
+              "seed": 6,
+              "defeated": "VCU"
+            },
+            {
+              "winner": "Illinois",
+              "seed": 3,
+              "defeated": "Penn"
+            },
+            {
+              "winner": "Saint Mary's",
+              "seed": 7,
+              "defeated": "Texas A&M"
+            },
+            {
+              "winner": "Houston",
+              "seed": 2,
+              "defeated": "Idaho"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Clemson"
+            },
+            {
+              "winner": "Nebraska",
+              "seed": 4,
+              "defeated": "Vanderbilt"
+            },
+            {
+              "winner": "Illinois",
+              "seed": 3,
+              "defeated": "North Carolina"
+            },
+            {
+              "winner": "Houston",
+              "seed": 2,
+              "defeated": "Saint Mary's"
+            }
+          ],
+          "Sweet 16": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Nebraska"
+            },
+            {
+              "winner": "Houston",
+              "seed": 2,
+              "defeated": "Illinois"
+            }
+          ],
+          "Elite 8": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Houston"
+            }
+          ]
+        }
+      },
+      "Midwest": {
+        "champion": "Michigan",
+        "rounds": {
+          "First Round": [
+            {
+              "winner": "Michigan",
+              "seed": 1,
+              "defeated": "UMBC"
+            },
+            {
+              "winner": "Georgia",
+              "seed": 8,
+              "defeated": "Saint Louis"
+            },
+            {
+              "winner": "Texas Tech",
+              "seed": 5,
+              "defeated": "Akron"
+            },
+            {
+              "winner": "Alabama",
+              "seed": 4,
+              "defeated": "Hofstra"
+            },
+            {
+              "winner": "Tennessee",
+              "seed": 6,
+              "defeated": "SMU"
+            },
+            {
+              "winner": "Virginia",
+              "seed": 3,
+              "defeated": "Wright State"
+            },
+            {
+              "winner": "Kentucky",
+              "seed": 7,
+              "defeated": "Santa Clara"
+            },
+            {
+              "winner": "Iowa State",
+              "seed": 2,
+              "defeated": "Tennessee State"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Michigan",
+              "seed": 1,
+              "defeated": "Georgia"
+            },
+            {
+              "winner": "Alabama",
+              "seed": 4,
+              "defeated": "Texas Tech"
+            },
+            {
+              "winner": "Virginia",
+              "seed": 3,
+              "defeated": "Tennessee"
+            },
+            {
+              "winner": "Iowa State",
+              "seed": 2,
+              "defeated": "Kentucky"
+            }
+          ],
+          "Sweet 16": [
+            {
+              "winner": "Michigan",
+              "seed": 1,
+              "defeated": "Alabama"
+            },
+            {
+              "winner": "Iowa State",
+              "seed": 2,
+              "defeated": "Virginia"
+            }
+          ],
+          "Elite 8": [
+            {
+              "winner": "Michigan",
               "seed": 1,
               "defeated": "Iowa State"
             }
           ]
         }
       },
-      "Midwest": {
-        "champion": "Houston",
-        "rounds": {
-          "First Round": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Grambling"
-            },
-            {
-              "winner": "Xavier",
-              "seed": 8,
-              "defeated": "Indiana"
-            },
-            {
-              "winner": "Kentucky",
-              "seed": 5,
-              "defeated": "New Mexico"
-            },
-            {
-              "winner": "Purdue",
-              "seed": 4,
-              "defeated": "South Dakota State"
-            },
-            {
-              "winner": "UCLA",
-              "seed": 6,
-              "defeated": "VCU"
-            },
-            {
-              "winner": "Marquette",
-              "seed": 3,
-              "defeated": "Akron"
-            },
-            {
-              "winner": "Creighton",
-              "seed": 7,
-              "defeated": "Virginia Tech"
-            },
-            {
-              "winner": "Alabama",
-              "seed": 2,
-              "defeated": "Long Beach State"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Xavier"
-            },
-            {
-              "winner": "Purdue",
-              "seed": 4,
-              "defeated": "Kentucky"
-            },
-            {
-              "winner": "Marquette",
-              "seed": 3,
-              "defeated": "UCLA"
-            },
-            {
-              "winner": "Alabama",
-              "seed": 2,
-              "defeated": "Creighton"
-            }
-          ],
-          "Sweet 16": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Purdue"
-            },
-            {
-              "winner": "Alabama",
-              "seed": 2,
-              "defeated": "Marquette"
-            }
-          ],
-          "Elite 8": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Alabama"
-            }
-          ]
-        }
-      },
       "West": {
-        "champion": "Kansas",
+        "champion": "Arizona",
         "rounds": {
           "First Round": [
             {
-              "winner": "Kansas",
+              "winner": "Arizona",
               "seed": 1,
-              "defeated": "Northern Arizona"
+              "defeated": "LIU"
             },
             {
-              "winner": "Utah State",
+              "winner": "Villanova",
               "seed": 8,
-              "defeated": "San Diego State"
-            },
-            {
-              "winner": "Gonzaga",
-              "seed": 5,
-              "defeated": "Boise State"
-            },
-            {
-              "winner": "Oregon",
-              "seed": 4,
-              "defeated": "UC San Diego"
-            },
-            {
-              "winner": "Missouri",
-              "seed": 6,
-              "defeated": "West Virginia"
-            },
-            {
-              "winner": "Texas Tech",
-              "seed": 3,
-              "defeated": "Eastern Washington"
-            },
-            {
-              "winner": "Ole Miss",
-              "seed": 7,
-              "defeated": "Drake"
-            },
-            {
-              "winner": "Florida",
-              "seed": 2,
-              "defeated": "Montana State"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Kansas",
-              "seed": 1,
               "defeated": "Utah State"
             },
             {
-              "winner": "Gonzaga",
+              "winner": "Wisconsin",
               "seed": 5,
-              "defeated": "Oregon"
+              "defeated": "High Point"
             },
             {
-              "winner": "Texas Tech",
+              "winner": "Arkansas",
+              "seed": 4,
+              "defeated": "Hawaii"
+            },
+            {
+              "winner": "BYU",
+              "seed": 6,
+              "defeated": "Texas"
+            },
+            {
+              "winner": "Gonzaga",
               "seed": 3,
+              "defeated": "Kennesaw State"
+            },
+            {
+              "winner": "Miami (FL)",
+              "seed": 7,
               "defeated": "Missouri"
             },
             {
-              "winner": "Florida",
+              "winner": "Purdue",
               "seed": 2,
-              "defeated": "Ole Miss"
+              "defeated": "Queens"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Arizona",
+              "seed": 1,
+              "defeated": "Villanova"
+            },
+            {
+              "winner": "Arkansas",
+              "seed": 4,
+              "defeated": "Wisconsin"
+            },
+            {
+              "winner": "Gonzaga",
+              "seed": 3,
+              "defeated": "BYU"
+            },
+            {
+              "winner": "Purdue",
+              "seed": 2,
+              "defeated": "Miami (FL)"
             }
           ],
           "Sweet 16": [
             {
-              "winner": "Kansas",
+              "winner": "Arizona",
               "seed": 1,
-              "defeated": "Gonzaga"
+              "defeated": "Arkansas"
             },
             {
-              "winner": "Florida",
+              "winner": "Purdue",
               "seed": 2,
-              "defeated": "Texas Tech"
+              "defeated": "Gonzaga"
             }
           ],
           "Elite 8": [
             {
-              "winner": "Kansas",
+              "winner": "Arizona",
               "seed": 1,
-              "defeated": "Florida"
+              "defeated": "Purdue"
             }
           ]
         }
@@ -1820,11 +1092,11 @@
     }
   },
   {
-    "bracket_num": 6,
-    "champion": "Alabama",
-    "champion_seed": 2,
-    "champion_region": "Midwest",
-    "champion_prob_pct": 8.2,
+    "bracket_num": 4,
+    "champion": "Florida",
+    "champion_seed": 1,
+    "champion_region": "South",
+    "champion_prob_pct": 11.6,
     "runner_up": "Duke",
     "runner_up_seed": 1,
     "runner_up_region": "East",
@@ -1836,347 +1108,1075 @@
             {
               "winner": "Duke",
               "seed": 1,
-              "defeated": "Longwood"
+              "defeated": "Siena"
             },
             {
-              "winner": "Villanova",
+              "winner": "Ohio State",
               "seed": 8,
-              "defeated": "Oklahoma"
-            },
-            {
-              "winner": "Clemson",
-              "seed": 5,
-              "defeated": "Dayton"
-            },
-            {
-              "winner": "Arizona",
-              "seed": 4,
-              "defeated": "Yale"
-            },
-            {
-              "winner": "Baylor",
-              "seed": 6,
-              "defeated": "NC State"
-            },
-            {
-              "winner": "Wisconsin",
-              "seed": 3,
-              "defeated": "Lipscomb"
-            },
-            {
-              "winner": "Saint Mary's",
-              "seed": 7,
-              "defeated": "Nebraska"
-            },
-            {
-              "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Bryant"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Villanova"
-            },
-            {
-              "winner": "Arizona",
-              "seed": 4,
-              "defeated": "Clemson"
-            },
-            {
-              "winner": "Wisconsin",
-              "seed": 3,
-              "defeated": "Baylor"
-            },
-            {
-              "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Saint Mary's"
-            }
-          ],
-          "Sweet 16": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Arizona"
-            },
-            {
-              "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Wisconsin"
-            }
-          ],
-          "Elite 8": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Tennessee"
-            }
-          ]
-        }
-      },
-      "South": {
-        "champion": "Auburn",
-        "rounds": {
-          "First Round": [
-            {
-              "winner": "Auburn",
-              "seed": 1,
-              "defeated": "Texas Southern"
-            },
-            {
-              "winner": "Memphis",
-              "seed": 9,
-              "defeated": "Cincinnati"
-            },
-            {
-              "winner": "Illinois",
-              "seed": 5,
-              "defeated": "Liberty"
+              "defeated": "TCU"
             },
             {
               "winner": "St. John's",
-              "seed": 4,
-              "defeated": "High Point"
-            },
-            {
-              "winner": "Connecticut",
-              "seed": 6,
-              "defeated": "SMU"
-            },
-            {
-              "winner": "Michigan State",
-              "seed": 3,
+              "seed": 5,
               "defeated": "Northern Iowa"
             },
             {
-              "winner": "Texas A&M",
-              "seed": 7,
-              "defeated": "Wake Forest"
-            },
-            {
-              "winner": "Iowa State",
-              "seed": 2,
-              "defeated": "Central Arkansas"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Auburn",
-              "seed": 1,
-              "defeated": "Memphis"
-            },
-            {
-              "winner": "St. John's",
+              "winner": "Kansas",
               "seed": 4,
-              "defeated": "Illinois"
+              "defeated": "Cal Baptist"
+            },
+            {
+              "winner": "Louisville",
+              "seed": 6,
+              "defeated": "South Florida"
             },
             {
               "winner": "Michigan State",
               "seed": 3,
-              "defeated": "Connecticut"
+              "defeated": "North Dakota St"
             },
             {
-              "winner": "Iowa State",
+              "winner": "UCLA",
+              "seed": 7,
+              "defeated": "UCF"
+            },
+            {
+              "winner": "UConn",
               "seed": 2,
-              "defeated": "Texas A&M"
+              "defeated": "Furman"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Duke",
+              "seed": 1,
+              "defeated": "Ohio State"
+            },
+            {
+              "winner": "Kansas",
+              "seed": 4,
+              "defeated": "St. John's"
+            },
+            {
+              "winner": "Michigan State",
+              "seed": 3,
+              "defeated": "Louisville"
+            },
+            {
+              "winner": "UConn",
+              "seed": 2,
+              "defeated": "UCLA"
             }
           ],
           "Sweet 16": [
             {
-              "winner": "Auburn",
+              "winner": "Duke",
               "seed": 1,
-              "defeated": "St. John's"
+              "defeated": "Kansas"
             },
             {
-              "winner": "Iowa State",
+              "winner": "UConn",
               "seed": 2,
               "defeated": "Michigan State"
             }
           ],
           "Elite 8": [
             {
-              "winner": "Auburn",
+              "winner": "Duke",
+              "seed": 1,
+              "defeated": "UConn"
+            }
+          ]
+        }
+      },
+      "South": {
+        "champion": "Florida",
+        "rounds": {
+          "First Round": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Lehigh"
+            },
+            {
+              "winner": "Clemson",
+              "seed": 8,
+              "defeated": "Iowa"
+            },
+            {
+              "winner": "Vanderbilt",
+              "seed": 5,
+              "defeated": "McNeese"
+            },
+            {
+              "winner": "Nebraska",
+              "seed": 4,
+              "defeated": "Troy"
+            },
+            {
+              "winner": "North Carolina",
+              "seed": 6,
+              "defeated": "VCU"
+            },
+            {
+              "winner": "Illinois",
+              "seed": 3,
+              "defeated": "Penn"
+            },
+            {
+              "winner": "Saint Mary's",
+              "seed": 7,
+              "defeated": "Texas A&M"
+            },
+            {
+              "winner": "Houston",
+              "seed": 2,
+              "defeated": "Idaho"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Clemson"
+            },
+            {
+              "winner": "Nebraska",
+              "seed": 4,
+              "defeated": "Vanderbilt"
+            },
+            {
+              "winner": "Illinois",
+              "seed": 3,
+              "defeated": "North Carolina"
+            },
+            {
+              "winner": "Houston",
+              "seed": 2,
+              "defeated": "Saint Mary's"
+            }
+          ],
+          "Sweet 16": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Nebraska"
+            },
+            {
+              "winner": "Houston",
+              "seed": 2,
+              "defeated": "Illinois"
+            }
+          ],
+          "Elite 8": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Houston"
+            }
+          ]
+        }
+      },
+      "Midwest": {
+        "champion": "Michigan",
+        "rounds": {
+          "First Round": [
+            {
+              "winner": "Michigan",
+              "seed": 1,
+              "defeated": "UMBC"
+            },
+            {
+              "winner": "Georgia",
+              "seed": 8,
+              "defeated": "Saint Louis"
+            },
+            {
+              "winner": "Texas Tech",
+              "seed": 5,
+              "defeated": "Akron"
+            },
+            {
+              "winner": "Alabama",
+              "seed": 4,
+              "defeated": "Hofstra"
+            },
+            {
+              "winner": "Tennessee",
+              "seed": 6,
+              "defeated": "SMU"
+            },
+            {
+              "winner": "Virginia",
+              "seed": 3,
+              "defeated": "Wright State"
+            },
+            {
+              "winner": "Kentucky",
+              "seed": 7,
+              "defeated": "Santa Clara"
+            },
+            {
+              "winner": "Iowa State",
+              "seed": 2,
+              "defeated": "Tennessee State"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Michigan",
+              "seed": 1,
+              "defeated": "Georgia"
+            },
+            {
+              "winner": "Alabama",
+              "seed": 4,
+              "defeated": "Texas Tech"
+            },
+            {
+              "winner": "Virginia",
+              "seed": 3,
+              "defeated": "Tennessee"
+            },
+            {
+              "winner": "Iowa State",
+              "seed": 2,
+              "defeated": "Kentucky"
+            }
+          ],
+          "Sweet 16": [
+            {
+              "winner": "Michigan",
+              "seed": 1,
+              "defeated": "Alabama"
+            },
+            {
+              "winner": "Iowa State",
+              "seed": 2,
+              "defeated": "Virginia"
+            }
+          ],
+          "Elite 8": [
+            {
+              "winner": "Michigan",
               "seed": 1,
               "defeated": "Iowa State"
             }
           ]
         }
       },
-      "Midwest": {
-        "champion": "Alabama",
+      "West": {
+        "champion": "Arizona",
         "rounds": {
           "First Round": [
             {
-              "winner": "Houston",
+              "winner": "Arizona",
               "seed": 1,
-              "defeated": "Grambling"
+              "defeated": "LIU"
             },
             {
-              "winner": "Xavier",
+              "winner": "Villanova",
               "seed": 8,
-              "defeated": "Indiana"
+              "defeated": "Utah State"
             },
             {
-              "winner": "Kentucky",
+              "winner": "Wisconsin",
               "seed": 5,
-              "defeated": "New Mexico"
+              "defeated": "High Point"
+            },
+            {
+              "winner": "Arkansas",
+              "seed": 4,
+              "defeated": "Hawaii"
+            },
+            {
+              "winner": "BYU",
+              "seed": 6,
+              "defeated": "Texas"
+            },
+            {
+              "winner": "Gonzaga",
+              "seed": 3,
+              "defeated": "Kennesaw State"
+            },
+            {
+              "winner": "Miami (FL)",
+              "seed": 7,
+              "defeated": "Missouri"
             },
             {
               "winner": "Purdue",
-              "seed": 4,
-              "defeated": "South Dakota State"
-            },
-            {
-              "winner": "UCLA",
-              "seed": 6,
-              "defeated": "VCU"
-            },
-            {
-              "winner": "Marquette",
-              "seed": 3,
-              "defeated": "Akron"
-            },
-            {
-              "winner": "Creighton",
-              "seed": 7,
-              "defeated": "Virginia Tech"
-            },
-            {
-              "winner": "Alabama",
               "seed": 2,
-              "defeated": "Long Beach State"
+              "defeated": "Queens"
             }
           ],
           "Second Round": [
             {
-              "winner": "Houston",
+              "winner": "Arizona",
               "seed": 1,
-              "defeated": "Xavier"
+              "defeated": "Villanova"
+            },
+            {
+              "winner": "Arkansas",
+              "seed": 4,
+              "defeated": "Wisconsin"
+            },
+            {
+              "winner": "Gonzaga",
+              "seed": 3,
+              "defeated": "BYU"
             },
             {
               "winner": "Purdue",
-              "seed": 4,
-              "defeated": "Kentucky"
-            },
-            {
-              "winner": "Marquette",
-              "seed": 3,
-              "defeated": "UCLA"
-            },
-            {
-              "winner": "Alabama",
               "seed": 2,
-              "defeated": "Creighton"
+              "defeated": "Miami (FL)"
             }
           ],
           "Sweet 16": [
             {
-              "winner": "Houston",
+              "winner": "Arizona",
               "seed": 1,
-              "defeated": "Purdue"
+              "defeated": "Arkansas"
             },
             {
-              "winner": "Alabama",
+              "winner": "Purdue",
               "seed": 2,
-              "defeated": "Marquette"
+              "defeated": "Gonzaga"
             }
           ],
           "Elite 8": [
             {
-              "winner": "Alabama",
+              "winner": "Arizona",
+              "seed": 1,
+              "defeated": "Purdue"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "bracket_num": 5,
+    "champion": "Michigan",
+    "champion_seed": 1,
+    "champion_region": "Midwest",
+    "champion_prob_pct": 10.3,
+    "runner_up": "Duke",
+    "runner_up_seed": 1,
+    "runner_up_region": "East",
+    "regions": {
+      "East": {
+        "champion": "Duke",
+        "rounds": {
+          "First Round": [
+            {
+              "winner": "Duke",
+              "seed": 1,
+              "defeated": "Siena"
+            },
+            {
+              "winner": "Ohio State",
+              "seed": 8,
+              "defeated": "TCU"
+            },
+            {
+              "winner": "St. John's",
+              "seed": 5,
+              "defeated": "Northern Iowa"
+            },
+            {
+              "winner": "Kansas",
+              "seed": 4,
+              "defeated": "Cal Baptist"
+            },
+            {
+              "winner": "Louisville",
+              "seed": 6,
+              "defeated": "South Florida"
+            },
+            {
+              "winner": "Michigan State",
+              "seed": 3,
+              "defeated": "North Dakota St"
+            },
+            {
+              "winner": "UCLA",
+              "seed": 7,
+              "defeated": "UCF"
+            },
+            {
+              "winner": "UConn",
               "seed": 2,
+              "defeated": "Furman"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Duke",
+              "seed": 1,
+              "defeated": "Ohio State"
+            },
+            {
+              "winner": "Kansas",
+              "seed": 4,
+              "defeated": "St. John's"
+            },
+            {
+              "winner": "Michigan State",
+              "seed": 3,
+              "defeated": "Louisville"
+            },
+            {
+              "winner": "UConn",
+              "seed": 2,
+              "defeated": "UCLA"
+            }
+          ],
+          "Sweet 16": [
+            {
+              "winner": "Duke",
+              "seed": 1,
+              "defeated": "Kansas"
+            },
+            {
+              "winner": "UConn",
+              "seed": 2,
+              "defeated": "Michigan State"
+            }
+          ],
+          "Elite 8": [
+            {
+              "winner": "Duke",
+              "seed": 1,
+              "defeated": "UConn"
+            }
+          ]
+        }
+      },
+      "South": {
+        "champion": "Florida",
+        "rounds": {
+          "First Round": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Lehigh"
+            },
+            {
+              "winner": "Clemson",
+              "seed": 8,
+              "defeated": "Iowa"
+            },
+            {
+              "winner": "Vanderbilt",
+              "seed": 5,
+              "defeated": "McNeese"
+            },
+            {
+              "winner": "Nebraska",
+              "seed": 4,
+              "defeated": "Troy"
+            },
+            {
+              "winner": "North Carolina",
+              "seed": 6,
+              "defeated": "VCU"
+            },
+            {
+              "winner": "Illinois",
+              "seed": 3,
+              "defeated": "Penn"
+            },
+            {
+              "winner": "Saint Mary's",
+              "seed": 7,
+              "defeated": "Texas A&M"
+            },
+            {
+              "winner": "Houston",
+              "seed": 2,
+              "defeated": "Idaho"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Clemson"
+            },
+            {
+              "winner": "Nebraska",
+              "seed": 4,
+              "defeated": "Vanderbilt"
+            },
+            {
+              "winner": "Illinois",
+              "seed": 3,
+              "defeated": "North Carolina"
+            },
+            {
+              "winner": "Houston",
+              "seed": 2,
+              "defeated": "Saint Mary's"
+            }
+          ],
+          "Sweet 16": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Nebraska"
+            },
+            {
+              "winner": "Houston",
+              "seed": 2,
+              "defeated": "Illinois"
+            }
+          ],
+          "Elite 8": [
+            {
+              "winner": "Florida",
+              "seed": 1,
               "defeated": "Houston"
             }
           ]
         }
       },
-      "West": {
-        "champion": "Kansas",
+      "Midwest": {
+        "champion": "Michigan",
         "rounds": {
           "First Round": [
             {
-              "winner": "Kansas",
+              "winner": "Michigan",
               "seed": 1,
-              "defeated": "Northern Arizona"
+              "defeated": "UMBC"
             },
             {
-              "winner": "Utah State",
+              "winner": "Georgia",
               "seed": 8,
-              "defeated": "San Diego State"
-            },
-            {
-              "winner": "Gonzaga",
-              "seed": 5,
-              "defeated": "Boise State"
-            },
-            {
-              "winner": "Oregon",
-              "seed": 4,
-              "defeated": "UC San Diego"
-            },
-            {
-              "winner": "Missouri",
-              "seed": 6,
-              "defeated": "West Virginia"
+              "defeated": "Saint Louis"
             },
             {
               "winner": "Texas Tech",
+              "seed": 5,
+              "defeated": "Akron"
+            },
+            {
+              "winner": "Alabama",
+              "seed": 4,
+              "defeated": "Hofstra"
+            },
+            {
+              "winner": "Tennessee",
+              "seed": 6,
+              "defeated": "SMU"
+            },
+            {
+              "winner": "Virginia",
               "seed": 3,
-              "defeated": "Eastern Washington"
+              "defeated": "Wright State"
             },
             {
-              "winner": "Ole Miss",
+              "winner": "Kentucky",
               "seed": 7,
-              "defeated": "Drake"
+              "defeated": "Santa Clara"
             },
             {
-              "winner": "Florida",
+              "winner": "Iowa State",
               "seed": 2,
-              "defeated": "Montana State"
+              "defeated": "Tennessee State"
             }
           ],
           "Second Round": [
             {
-              "winner": "Kansas",
+              "winner": "Michigan",
               "seed": 1,
-              "defeated": "Utah State"
+              "defeated": "Georgia"
             },
             {
-              "winner": "Gonzaga",
-              "seed": 5,
-              "defeated": "Oregon"
+              "winner": "Alabama",
+              "seed": 4,
+              "defeated": "Texas Tech"
             },
             {
-              "winner": "Texas Tech",
+              "winner": "Virginia",
               "seed": 3,
-              "defeated": "Missouri"
+              "defeated": "Tennessee"
             },
             {
-              "winner": "Florida",
+              "winner": "Iowa State",
               "seed": 2,
-              "defeated": "Ole Miss"
+              "defeated": "Kentucky"
             }
           ],
           "Sweet 16": [
             {
-              "winner": "Kansas",
+              "winner": "Michigan",
               "seed": 1,
-              "defeated": "Gonzaga"
+              "defeated": "Alabama"
             },
             {
-              "winner": "Florida",
+              "winner": "Iowa State",
               "seed": 2,
-              "defeated": "Texas Tech"
+              "defeated": "Virginia"
             }
           ],
           "Elite 8": [
             {
-              "winner": "Kansas",
+              "winner": "Michigan",
               "seed": 1,
-              "defeated": "Florida"
+              "defeated": "Iowa State"
+            }
+          ]
+        }
+      },
+      "West": {
+        "champion": "Arizona",
+        "rounds": {
+          "First Round": [
+            {
+              "winner": "Arizona",
+              "seed": 1,
+              "defeated": "LIU"
+            },
+            {
+              "winner": "Villanova",
+              "seed": 8,
+              "defeated": "Utah State"
+            },
+            {
+              "winner": "Wisconsin",
+              "seed": 5,
+              "defeated": "High Point"
+            },
+            {
+              "winner": "Arkansas",
+              "seed": 4,
+              "defeated": "Hawaii"
+            },
+            {
+              "winner": "BYU",
+              "seed": 6,
+              "defeated": "Texas"
+            },
+            {
+              "winner": "Gonzaga",
+              "seed": 3,
+              "defeated": "Kennesaw State"
+            },
+            {
+              "winner": "Miami (FL)",
+              "seed": 7,
+              "defeated": "Missouri"
+            },
+            {
+              "winner": "Purdue",
+              "seed": 2,
+              "defeated": "Queens"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Arizona",
+              "seed": 1,
+              "defeated": "Villanova"
+            },
+            {
+              "winner": "Arkansas",
+              "seed": 4,
+              "defeated": "Wisconsin"
+            },
+            {
+              "winner": "Gonzaga",
+              "seed": 3,
+              "defeated": "BYU"
+            },
+            {
+              "winner": "Purdue",
+              "seed": 2,
+              "defeated": "Miami (FL)"
+            }
+          ],
+          "Sweet 16": [
+            {
+              "winner": "Arizona",
+              "seed": 1,
+              "defeated": "Arkansas"
+            },
+            {
+              "winner": "Purdue",
+              "seed": 2,
+              "defeated": "Gonzaga"
+            }
+          ],
+          "Elite 8": [
+            {
+              "winner": "Arizona",
+              "seed": 1,
+              "defeated": "Purdue"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "bracket_num": 6,
+    "champion": "UConn",
+    "champion_seed": 2,
+    "champion_region": "East",
+    "champion_prob_pct": 5.9,
+    "runner_up": "Florida",
+    "runner_up_seed": 1,
+    "runner_up_region": "South",
+    "regions": {
+      "East": {
+        "champion": "UConn",
+        "rounds": {
+          "First Round": [
+            {
+              "winner": "Duke",
+              "seed": 1,
+              "defeated": "Siena"
+            },
+            {
+              "winner": "Ohio State",
+              "seed": 8,
+              "defeated": "TCU"
+            },
+            {
+              "winner": "St. John's",
+              "seed": 5,
+              "defeated": "Northern Iowa"
+            },
+            {
+              "winner": "Kansas",
+              "seed": 4,
+              "defeated": "Cal Baptist"
+            },
+            {
+              "winner": "Louisville",
+              "seed": 6,
+              "defeated": "South Florida"
+            },
+            {
+              "winner": "Michigan State",
+              "seed": 3,
+              "defeated": "North Dakota St"
+            },
+            {
+              "winner": "UCLA",
+              "seed": 7,
+              "defeated": "UCF"
+            },
+            {
+              "winner": "UConn",
+              "seed": 2,
+              "defeated": "Furman"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Duke",
+              "seed": 1,
+              "defeated": "Ohio State"
+            },
+            {
+              "winner": "Kansas",
+              "seed": 4,
+              "defeated": "St. John's"
+            },
+            {
+              "winner": "Michigan State",
+              "seed": 3,
+              "defeated": "Louisville"
+            },
+            {
+              "winner": "UConn",
+              "seed": 2,
+              "defeated": "UCLA"
+            }
+          ],
+          "Sweet 16": [
+            {
+              "winner": "Duke",
+              "seed": 1,
+              "defeated": "Kansas"
+            },
+            {
+              "winner": "UConn",
+              "seed": 2,
+              "defeated": "Michigan State"
+            }
+          ],
+          "Elite 8": [
+            {
+              "winner": "UConn",
+              "seed": 2,
+              "defeated": "Duke"
+            }
+          ]
+        }
+      },
+      "South": {
+        "champion": "Florida",
+        "rounds": {
+          "First Round": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Lehigh"
+            },
+            {
+              "winner": "Clemson",
+              "seed": 8,
+              "defeated": "Iowa"
+            },
+            {
+              "winner": "Vanderbilt",
+              "seed": 5,
+              "defeated": "McNeese"
+            },
+            {
+              "winner": "Nebraska",
+              "seed": 4,
+              "defeated": "Troy"
+            },
+            {
+              "winner": "North Carolina",
+              "seed": 6,
+              "defeated": "VCU"
+            },
+            {
+              "winner": "Illinois",
+              "seed": 3,
+              "defeated": "Penn"
+            },
+            {
+              "winner": "Saint Mary's",
+              "seed": 7,
+              "defeated": "Texas A&M"
+            },
+            {
+              "winner": "Houston",
+              "seed": 2,
+              "defeated": "Idaho"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Clemson"
+            },
+            {
+              "winner": "Nebraska",
+              "seed": 4,
+              "defeated": "Vanderbilt"
+            },
+            {
+              "winner": "Illinois",
+              "seed": 3,
+              "defeated": "North Carolina"
+            },
+            {
+              "winner": "Houston",
+              "seed": 2,
+              "defeated": "Saint Mary's"
+            }
+          ],
+          "Sweet 16": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Nebraska"
+            },
+            {
+              "winner": "Houston",
+              "seed": 2,
+              "defeated": "Illinois"
+            }
+          ],
+          "Elite 8": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Houston"
+            }
+          ]
+        }
+      },
+      "Midwest": {
+        "champion": "Michigan",
+        "rounds": {
+          "First Round": [
+            {
+              "winner": "Michigan",
+              "seed": 1,
+              "defeated": "UMBC"
+            },
+            {
+              "winner": "Georgia",
+              "seed": 8,
+              "defeated": "Saint Louis"
+            },
+            {
+              "winner": "Texas Tech",
+              "seed": 5,
+              "defeated": "Akron"
+            },
+            {
+              "winner": "Alabama",
+              "seed": 4,
+              "defeated": "Hofstra"
+            },
+            {
+              "winner": "Tennessee",
+              "seed": 6,
+              "defeated": "SMU"
+            },
+            {
+              "winner": "Virginia",
+              "seed": 3,
+              "defeated": "Wright State"
+            },
+            {
+              "winner": "Kentucky",
+              "seed": 7,
+              "defeated": "Santa Clara"
+            },
+            {
+              "winner": "Iowa State",
+              "seed": 2,
+              "defeated": "Tennessee State"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Michigan",
+              "seed": 1,
+              "defeated": "Georgia"
+            },
+            {
+              "winner": "Alabama",
+              "seed": 4,
+              "defeated": "Texas Tech"
+            },
+            {
+              "winner": "Virginia",
+              "seed": 3,
+              "defeated": "Tennessee"
+            },
+            {
+              "winner": "Iowa State",
+              "seed": 2,
+              "defeated": "Kentucky"
+            }
+          ],
+          "Sweet 16": [
+            {
+              "winner": "Michigan",
+              "seed": 1,
+              "defeated": "Alabama"
+            },
+            {
+              "winner": "Iowa State",
+              "seed": 2,
+              "defeated": "Virginia"
+            }
+          ],
+          "Elite 8": [
+            {
+              "winner": "Michigan",
+              "seed": 1,
+              "defeated": "Iowa State"
+            }
+          ]
+        }
+      },
+      "West": {
+        "champion": "Arizona",
+        "rounds": {
+          "First Round": [
+            {
+              "winner": "Arizona",
+              "seed": 1,
+              "defeated": "LIU"
+            },
+            {
+              "winner": "Villanova",
+              "seed": 8,
+              "defeated": "Utah State"
+            },
+            {
+              "winner": "Wisconsin",
+              "seed": 5,
+              "defeated": "High Point"
+            },
+            {
+              "winner": "Arkansas",
+              "seed": 4,
+              "defeated": "Hawaii"
+            },
+            {
+              "winner": "BYU",
+              "seed": 6,
+              "defeated": "Texas"
+            },
+            {
+              "winner": "Gonzaga",
+              "seed": 3,
+              "defeated": "Kennesaw State"
+            },
+            {
+              "winner": "Miami (FL)",
+              "seed": 7,
+              "defeated": "Missouri"
+            },
+            {
+              "winner": "Purdue",
+              "seed": 2,
+              "defeated": "Queens"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Arizona",
+              "seed": 1,
+              "defeated": "Villanova"
+            },
+            {
+              "winner": "Arkansas",
+              "seed": 4,
+              "defeated": "Wisconsin"
+            },
+            {
+              "winner": "Gonzaga",
+              "seed": 3,
+              "defeated": "BYU"
+            },
+            {
+              "winner": "Purdue",
+              "seed": 2,
+              "defeated": "Miami (FL)"
+            }
+          ],
+          "Sweet 16": [
+            {
+              "winner": "Arizona",
+              "seed": 1,
+              "defeated": "Arkansas"
+            },
+            {
+              "winner": "Purdue",
+              "seed": 2,
+              "defeated": "Gonzaga"
+            }
+          ],
+          "Elite 8": [
+            {
+              "winner": "Arizona",
+              "seed": 1,
+              "defeated": "Purdue"
             }
           ]
         }
@@ -2186,9 +2186,9 @@
   {
     "bracket_num": 7,
     "champion": "Houston",
-    "champion_seed": 1,
-    "champion_region": "Midwest",
-    "champion_prob_pct": 8.2,
+    "champion_seed": 2,
+    "champion_region": "South",
+    "champion_prob_pct": 5.5,
     "runner_up": "Duke",
     "runner_up_seed": 1,
     "runner_up_region": "East",
@@ -2200,347 +2200,347 @@
             {
               "winner": "Duke",
               "seed": 1,
-              "defeated": "Longwood"
+              "defeated": "Siena"
             },
             {
-              "winner": "Villanova",
+              "winner": "Ohio State",
               "seed": 8,
-              "defeated": "Oklahoma"
-            },
-            {
-              "winner": "Clemson",
-              "seed": 5,
-              "defeated": "Dayton"
-            },
-            {
-              "winner": "Arizona",
-              "seed": 4,
-              "defeated": "Yale"
-            },
-            {
-              "winner": "Baylor",
-              "seed": 6,
-              "defeated": "NC State"
-            },
-            {
-              "winner": "Wisconsin",
-              "seed": 3,
-              "defeated": "Lipscomb"
-            },
-            {
-              "winner": "Saint Mary's",
-              "seed": 7,
-              "defeated": "Nebraska"
-            },
-            {
-              "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Bryant"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Villanova"
-            },
-            {
-              "winner": "Arizona",
-              "seed": 4,
-              "defeated": "Clemson"
-            },
-            {
-              "winner": "Wisconsin",
-              "seed": 3,
-              "defeated": "Baylor"
-            },
-            {
-              "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Saint Mary's"
-            }
-          ],
-          "Sweet 16": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Arizona"
-            },
-            {
-              "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Wisconsin"
-            }
-          ],
-          "Elite 8": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Tennessee"
-            }
-          ]
-        }
-      },
-      "South": {
-        "champion": "Auburn",
-        "rounds": {
-          "First Round": [
-            {
-              "winner": "Auburn",
-              "seed": 1,
-              "defeated": "Texas Southern"
-            },
-            {
-              "winner": "Memphis",
-              "seed": 9,
-              "defeated": "Cincinnati"
-            },
-            {
-              "winner": "Illinois",
-              "seed": 5,
-              "defeated": "Liberty"
+              "defeated": "TCU"
             },
             {
               "winner": "St. John's",
-              "seed": 4,
-              "defeated": "High Point"
-            },
-            {
-              "winner": "Connecticut",
-              "seed": 6,
-              "defeated": "SMU"
-            },
-            {
-              "winner": "Michigan State",
-              "seed": 3,
+              "seed": 5,
               "defeated": "Northern Iowa"
             },
             {
-              "winner": "Texas A&M",
-              "seed": 7,
-              "defeated": "Wake Forest"
-            },
-            {
-              "winner": "Iowa State",
-              "seed": 2,
-              "defeated": "Central Arkansas"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Auburn",
-              "seed": 1,
-              "defeated": "Memphis"
-            },
-            {
-              "winner": "St. John's",
+              "winner": "Kansas",
               "seed": 4,
-              "defeated": "Illinois"
+              "defeated": "Cal Baptist"
+            },
+            {
+              "winner": "Louisville",
+              "seed": 6,
+              "defeated": "South Florida"
             },
             {
               "winner": "Michigan State",
               "seed": 3,
-              "defeated": "Connecticut"
+              "defeated": "North Dakota St"
             },
             {
-              "winner": "Iowa State",
+              "winner": "UCLA",
+              "seed": 7,
+              "defeated": "UCF"
+            },
+            {
+              "winner": "UConn",
               "seed": 2,
-              "defeated": "Texas A&M"
+              "defeated": "Furman"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Duke",
+              "seed": 1,
+              "defeated": "Ohio State"
+            },
+            {
+              "winner": "Kansas",
+              "seed": 4,
+              "defeated": "St. John's"
+            },
+            {
+              "winner": "Michigan State",
+              "seed": 3,
+              "defeated": "Louisville"
+            },
+            {
+              "winner": "UConn",
+              "seed": 2,
+              "defeated": "UCLA"
             }
           ],
           "Sweet 16": [
             {
-              "winner": "Auburn",
+              "winner": "Duke",
               "seed": 1,
-              "defeated": "St. John's"
+              "defeated": "Kansas"
             },
             {
-              "winner": "Iowa State",
+              "winner": "UConn",
               "seed": 2,
               "defeated": "Michigan State"
             }
           ],
           "Elite 8": [
             {
-              "winner": "Auburn",
+              "winner": "Duke",
+              "seed": 1,
+              "defeated": "UConn"
+            }
+          ]
+        }
+      },
+      "South": {
+        "champion": "Houston",
+        "rounds": {
+          "First Round": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Lehigh"
+            },
+            {
+              "winner": "Clemson",
+              "seed": 8,
+              "defeated": "Iowa"
+            },
+            {
+              "winner": "Vanderbilt",
+              "seed": 5,
+              "defeated": "McNeese"
+            },
+            {
+              "winner": "Nebraska",
+              "seed": 4,
+              "defeated": "Troy"
+            },
+            {
+              "winner": "North Carolina",
+              "seed": 6,
+              "defeated": "VCU"
+            },
+            {
+              "winner": "Illinois",
+              "seed": 3,
+              "defeated": "Penn"
+            },
+            {
+              "winner": "Saint Mary's",
+              "seed": 7,
+              "defeated": "Texas A&M"
+            },
+            {
+              "winner": "Houston",
+              "seed": 2,
+              "defeated": "Idaho"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Clemson"
+            },
+            {
+              "winner": "Nebraska",
+              "seed": 4,
+              "defeated": "Vanderbilt"
+            },
+            {
+              "winner": "Illinois",
+              "seed": 3,
+              "defeated": "North Carolina"
+            },
+            {
+              "winner": "Houston",
+              "seed": 2,
+              "defeated": "Saint Mary's"
+            }
+          ],
+          "Sweet 16": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Nebraska"
+            },
+            {
+              "winner": "Houston",
+              "seed": 2,
+              "defeated": "Illinois"
+            }
+          ],
+          "Elite 8": [
+            {
+              "winner": "Houston",
+              "seed": 2,
+              "defeated": "Florida"
+            }
+          ]
+        }
+      },
+      "Midwest": {
+        "champion": "Michigan",
+        "rounds": {
+          "First Round": [
+            {
+              "winner": "Michigan",
+              "seed": 1,
+              "defeated": "UMBC"
+            },
+            {
+              "winner": "Georgia",
+              "seed": 8,
+              "defeated": "Saint Louis"
+            },
+            {
+              "winner": "Texas Tech",
+              "seed": 5,
+              "defeated": "Akron"
+            },
+            {
+              "winner": "Alabama",
+              "seed": 4,
+              "defeated": "Hofstra"
+            },
+            {
+              "winner": "Tennessee",
+              "seed": 6,
+              "defeated": "SMU"
+            },
+            {
+              "winner": "Virginia",
+              "seed": 3,
+              "defeated": "Wright State"
+            },
+            {
+              "winner": "Kentucky",
+              "seed": 7,
+              "defeated": "Santa Clara"
+            },
+            {
+              "winner": "Iowa State",
+              "seed": 2,
+              "defeated": "Tennessee State"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Michigan",
+              "seed": 1,
+              "defeated": "Georgia"
+            },
+            {
+              "winner": "Alabama",
+              "seed": 4,
+              "defeated": "Texas Tech"
+            },
+            {
+              "winner": "Virginia",
+              "seed": 3,
+              "defeated": "Tennessee"
+            },
+            {
+              "winner": "Iowa State",
+              "seed": 2,
+              "defeated": "Kentucky"
+            }
+          ],
+          "Sweet 16": [
+            {
+              "winner": "Michigan",
+              "seed": 1,
+              "defeated": "Alabama"
+            },
+            {
+              "winner": "Iowa State",
+              "seed": 2,
+              "defeated": "Virginia"
+            }
+          ],
+          "Elite 8": [
+            {
+              "winner": "Michigan",
               "seed": 1,
               "defeated": "Iowa State"
             }
           ]
         }
       },
-      "Midwest": {
-        "champion": "Houston",
-        "rounds": {
-          "First Round": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Grambling"
-            },
-            {
-              "winner": "Xavier",
-              "seed": 8,
-              "defeated": "Indiana"
-            },
-            {
-              "winner": "Kentucky",
-              "seed": 5,
-              "defeated": "New Mexico"
-            },
-            {
-              "winner": "Purdue",
-              "seed": 4,
-              "defeated": "South Dakota State"
-            },
-            {
-              "winner": "UCLA",
-              "seed": 6,
-              "defeated": "VCU"
-            },
-            {
-              "winner": "Marquette",
-              "seed": 3,
-              "defeated": "Akron"
-            },
-            {
-              "winner": "Creighton",
-              "seed": 7,
-              "defeated": "Virginia Tech"
-            },
-            {
-              "winner": "Alabama",
-              "seed": 2,
-              "defeated": "Long Beach State"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Xavier"
-            },
-            {
-              "winner": "Purdue",
-              "seed": 4,
-              "defeated": "Kentucky"
-            },
-            {
-              "winner": "Marquette",
-              "seed": 3,
-              "defeated": "UCLA"
-            },
-            {
-              "winner": "Alabama",
-              "seed": 2,
-              "defeated": "Creighton"
-            }
-          ],
-          "Sweet 16": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Purdue"
-            },
-            {
-              "winner": "Alabama",
-              "seed": 2,
-              "defeated": "Marquette"
-            }
-          ],
-          "Elite 8": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Alabama"
-            }
-          ]
-        }
-      },
       "West": {
-        "champion": "Kansas",
+        "champion": "Arizona",
         "rounds": {
           "First Round": [
             {
-              "winner": "Kansas",
+              "winner": "Arizona",
               "seed": 1,
-              "defeated": "Northern Arizona"
+              "defeated": "LIU"
             },
             {
-              "winner": "Utah State",
+              "winner": "Villanova",
               "seed": 8,
-              "defeated": "San Diego State"
-            },
-            {
-              "winner": "Gonzaga",
-              "seed": 5,
-              "defeated": "Boise State"
-            },
-            {
-              "winner": "Oregon",
-              "seed": 4,
-              "defeated": "UC San Diego"
-            },
-            {
-              "winner": "Missouri",
-              "seed": 6,
-              "defeated": "West Virginia"
-            },
-            {
-              "winner": "Texas Tech",
-              "seed": 3,
-              "defeated": "Eastern Washington"
-            },
-            {
-              "winner": "Ole Miss",
-              "seed": 7,
-              "defeated": "Drake"
-            },
-            {
-              "winner": "Florida",
-              "seed": 2,
-              "defeated": "Montana State"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Kansas",
-              "seed": 1,
               "defeated": "Utah State"
             },
             {
-              "winner": "Gonzaga",
+              "winner": "Wisconsin",
               "seed": 5,
-              "defeated": "Oregon"
+              "defeated": "High Point"
             },
             {
-              "winner": "Texas Tech",
+              "winner": "Arkansas",
+              "seed": 4,
+              "defeated": "Hawaii"
+            },
+            {
+              "winner": "BYU",
+              "seed": 6,
+              "defeated": "Texas"
+            },
+            {
+              "winner": "Gonzaga",
               "seed": 3,
+              "defeated": "Kennesaw State"
+            },
+            {
+              "winner": "Miami (FL)",
+              "seed": 7,
               "defeated": "Missouri"
             },
             {
-              "winner": "Florida",
+              "winner": "Purdue",
               "seed": 2,
-              "defeated": "Ole Miss"
+              "defeated": "Queens"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Arizona",
+              "seed": 1,
+              "defeated": "Villanova"
+            },
+            {
+              "winner": "Arkansas",
+              "seed": 4,
+              "defeated": "Wisconsin"
+            },
+            {
+              "winner": "Gonzaga",
+              "seed": 3,
+              "defeated": "BYU"
+            },
+            {
+              "winner": "Purdue",
+              "seed": 2,
+              "defeated": "Miami (FL)"
             }
           ],
           "Sweet 16": [
             {
-              "winner": "Kansas",
+              "winner": "Arizona",
               "seed": 1,
-              "defeated": "Gonzaga"
+              "defeated": "Arkansas"
             },
             {
-              "winner": "Florida",
+              "winner": "Purdue",
               "seed": 2,
-              "defeated": "Texas Tech"
+              "defeated": "Gonzaga"
             }
           ],
           "Elite 8": [
             {
-              "winner": "Kansas",
+              "winner": "Arizona",
               "seed": 1,
-              "defeated": "Florida"
+              "defeated": "Purdue"
             }
           ]
         }
@@ -2549,11 +2549,11 @@
   },
   {
     "bracket_num": 8,
-    "champion": "Florida",
-    "champion_seed": 2,
+    "champion": "Gonzaga",
+    "champion_seed": 3,
     "champion_region": "West",
-    "champion_prob_pct": 5.9,
-    "runner_up": "Auburn",
+    "champion_prob_pct": 4.7,
+    "runner_up": "Florida",
     "runner_up_seed": 1,
     "runner_up_region": "South",
     "regions": {
@@ -2564,347 +2564,347 @@
             {
               "winner": "Duke",
               "seed": 1,
-              "defeated": "Longwood"
+              "defeated": "Siena"
             },
             {
-              "winner": "Villanova",
+              "winner": "Ohio State",
               "seed": 8,
-              "defeated": "Oklahoma"
-            },
-            {
-              "winner": "Clemson",
-              "seed": 5,
-              "defeated": "Dayton"
-            },
-            {
-              "winner": "Arizona",
-              "seed": 4,
-              "defeated": "Yale"
-            },
-            {
-              "winner": "Baylor",
-              "seed": 6,
-              "defeated": "NC State"
-            },
-            {
-              "winner": "Wisconsin",
-              "seed": 3,
-              "defeated": "Lipscomb"
-            },
-            {
-              "winner": "Saint Mary's",
-              "seed": 7,
-              "defeated": "Nebraska"
-            },
-            {
-              "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Bryant"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Villanova"
-            },
-            {
-              "winner": "Arizona",
-              "seed": 4,
-              "defeated": "Clemson"
-            },
-            {
-              "winner": "Wisconsin",
-              "seed": 3,
-              "defeated": "Baylor"
-            },
-            {
-              "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Saint Mary's"
-            }
-          ],
-          "Sweet 16": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Arizona"
-            },
-            {
-              "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Wisconsin"
-            }
-          ],
-          "Elite 8": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Tennessee"
-            }
-          ]
-        }
-      },
-      "South": {
-        "champion": "Auburn",
-        "rounds": {
-          "First Round": [
-            {
-              "winner": "Auburn",
-              "seed": 1,
-              "defeated": "Texas Southern"
-            },
-            {
-              "winner": "Memphis",
-              "seed": 9,
-              "defeated": "Cincinnati"
-            },
-            {
-              "winner": "Illinois",
-              "seed": 5,
-              "defeated": "Liberty"
+              "defeated": "TCU"
             },
             {
               "winner": "St. John's",
-              "seed": 4,
-              "defeated": "High Point"
-            },
-            {
-              "winner": "Connecticut",
-              "seed": 6,
-              "defeated": "SMU"
-            },
-            {
-              "winner": "Michigan State",
-              "seed": 3,
+              "seed": 5,
               "defeated": "Northern Iowa"
             },
             {
-              "winner": "Texas A&M",
-              "seed": 7,
-              "defeated": "Wake Forest"
-            },
-            {
-              "winner": "Iowa State",
-              "seed": 2,
-              "defeated": "Central Arkansas"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Auburn",
-              "seed": 1,
-              "defeated": "Memphis"
-            },
-            {
-              "winner": "St. John's",
+              "winner": "Kansas",
               "seed": 4,
-              "defeated": "Illinois"
+              "defeated": "Cal Baptist"
+            },
+            {
+              "winner": "Louisville",
+              "seed": 6,
+              "defeated": "South Florida"
             },
             {
               "winner": "Michigan State",
               "seed": 3,
-              "defeated": "Connecticut"
+              "defeated": "North Dakota St"
             },
             {
-              "winner": "Iowa State",
+              "winner": "UCLA",
+              "seed": 7,
+              "defeated": "UCF"
+            },
+            {
+              "winner": "UConn",
               "seed": 2,
-              "defeated": "Texas A&M"
+              "defeated": "Furman"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Duke",
+              "seed": 1,
+              "defeated": "Ohio State"
+            },
+            {
+              "winner": "Kansas",
+              "seed": 4,
+              "defeated": "St. John's"
+            },
+            {
+              "winner": "Michigan State",
+              "seed": 3,
+              "defeated": "Louisville"
+            },
+            {
+              "winner": "UConn",
+              "seed": 2,
+              "defeated": "UCLA"
             }
           ],
           "Sweet 16": [
             {
-              "winner": "Auburn",
+              "winner": "Duke",
               "seed": 1,
-              "defeated": "St. John's"
+              "defeated": "Kansas"
             },
             {
-              "winner": "Iowa State",
+              "winner": "UConn",
               "seed": 2,
               "defeated": "Michigan State"
             }
           ],
           "Elite 8": [
             {
-              "winner": "Auburn",
+              "winner": "Duke",
+              "seed": 1,
+              "defeated": "UConn"
+            }
+          ]
+        }
+      },
+      "South": {
+        "champion": "Florida",
+        "rounds": {
+          "First Round": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Lehigh"
+            },
+            {
+              "winner": "Clemson",
+              "seed": 8,
+              "defeated": "Iowa"
+            },
+            {
+              "winner": "Vanderbilt",
+              "seed": 5,
+              "defeated": "McNeese"
+            },
+            {
+              "winner": "Nebraska",
+              "seed": 4,
+              "defeated": "Troy"
+            },
+            {
+              "winner": "North Carolina",
+              "seed": 6,
+              "defeated": "VCU"
+            },
+            {
+              "winner": "Illinois",
+              "seed": 3,
+              "defeated": "Penn"
+            },
+            {
+              "winner": "Saint Mary's",
+              "seed": 7,
+              "defeated": "Texas A&M"
+            },
+            {
+              "winner": "Houston",
+              "seed": 2,
+              "defeated": "Idaho"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Clemson"
+            },
+            {
+              "winner": "Nebraska",
+              "seed": 4,
+              "defeated": "Vanderbilt"
+            },
+            {
+              "winner": "Illinois",
+              "seed": 3,
+              "defeated": "North Carolina"
+            },
+            {
+              "winner": "Houston",
+              "seed": 2,
+              "defeated": "Saint Mary's"
+            }
+          ],
+          "Sweet 16": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Nebraska"
+            },
+            {
+              "winner": "Houston",
+              "seed": 2,
+              "defeated": "Illinois"
+            }
+          ],
+          "Elite 8": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Houston"
+            }
+          ]
+        }
+      },
+      "Midwest": {
+        "champion": "Michigan",
+        "rounds": {
+          "First Round": [
+            {
+              "winner": "Michigan",
+              "seed": 1,
+              "defeated": "UMBC"
+            },
+            {
+              "winner": "Georgia",
+              "seed": 8,
+              "defeated": "Saint Louis"
+            },
+            {
+              "winner": "Texas Tech",
+              "seed": 5,
+              "defeated": "Akron"
+            },
+            {
+              "winner": "Alabama",
+              "seed": 4,
+              "defeated": "Hofstra"
+            },
+            {
+              "winner": "Tennessee",
+              "seed": 6,
+              "defeated": "SMU"
+            },
+            {
+              "winner": "Virginia",
+              "seed": 3,
+              "defeated": "Wright State"
+            },
+            {
+              "winner": "Kentucky",
+              "seed": 7,
+              "defeated": "Santa Clara"
+            },
+            {
+              "winner": "Iowa State",
+              "seed": 2,
+              "defeated": "Tennessee State"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Michigan",
+              "seed": 1,
+              "defeated": "Georgia"
+            },
+            {
+              "winner": "Alabama",
+              "seed": 4,
+              "defeated": "Texas Tech"
+            },
+            {
+              "winner": "Virginia",
+              "seed": 3,
+              "defeated": "Tennessee"
+            },
+            {
+              "winner": "Iowa State",
+              "seed": 2,
+              "defeated": "Kentucky"
+            }
+          ],
+          "Sweet 16": [
+            {
+              "winner": "Michigan",
+              "seed": 1,
+              "defeated": "Alabama"
+            },
+            {
+              "winner": "Iowa State",
+              "seed": 2,
+              "defeated": "Virginia"
+            }
+          ],
+          "Elite 8": [
+            {
+              "winner": "Michigan",
               "seed": 1,
               "defeated": "Iowa State"
             }
           ]
         }
       },
-      "Midwest": {
-        "champion": "Houston",
-        "rounds": {
-          "First Round": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Grambling"
-            },
-            {
-              "winner": "Xavier",
-              "seed": 8,
-              "defeated": "Indiana"
-            },
-            {
-              "winner": "Kentucky",
-              "seed": 5,
-              "defeated": "New Mexico"
-            },
-            {
-              "winner": "Purdue",
-              "seed": 4,
-              "defeated": "South Dakota State"
-            },
-            {
-              "winner": "UCLA",
-              "seed": 6,
-              "defeated": "VCU"
-            },
-            {
-              "winner": "Marquette",
-              "seed": 3,
-              "defeated": "Akron"
-            },
-            {
-              "winner": "Creighton",
-              "seed": 7,
-              "defeated": "Virginia Tech"
-            },
-            {
-              "winner": "Alabama",
-              "seed": 2,
-              "defeated": "Long Beach State"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Xavier"
-            },
-            {
-              "winner": "Purdue",
-              "seed": 4,
-              "defeated": "Kentucky"
-            },
-            {
-              "winner": "Marquette",
-              "seed": 3,
-              "defeated": "UCLA"
-            },
-            {
-              "winner": "Alabama",
-              "seed": 2,
-              "defeated": "Creighton"
-            }
-          ],
-          "Sweet 16": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Purdue"
-            },
-            {
-              "winner": "Alabama",
-              "seed": 2,
-              "defeated": "Marquette"
-            }
-          ],
-          "Elite 8": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Alabama"
-            }
-          ]
-        }
-      },
       "West": {
-        "champion": "Florida",
+        "champion": "Gonzaga",
         "rounds": {
           "First Round": [
             {
-              "winner": "Kansas",
+              "winner": "Arizona",
               "seed": 1,
-              "defeated": "Northern Arizona"
+              "defeated": "LIU"
             },
             {
-              "winner": "Utah State",
+              "winner": "Villanova",
               "seed": 8,
-              "defeated": "San Diego State"
-            },
-            {
-              "winner": "Gonzaga",
-              "seed": 5,
-              "defeated": "Boise State"
-            },
-            {
-              "winner": "Oregon",
-              "seed": 4,
-              "defeated": "UC San Diego"
-            },
-            {
-              "winner": "Missouri",
-              "seed": 6,
-              "defeated": "West Virginia"
-            },
-            {
-              "winner": "Texas Tech",
-              "seed": 3,
-              "defeated": "Eastern Washington"
-            },
-            {
-              "winner": "Ole Miss",
-              "seed": 7,
-              "defeated": "Drake"
-            },
-            {
-              "winner": "Florida",
-              "seed": 2,
-              "defeated": "Montana State"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Kansas",
-              "seed": 1,
               "defeated": "Utah State"
             },
             {
-              "winner": "Gonzaga",
+              "winner": "Wisconsin",
               "seed": 5,
-              "defeated": "Oregon"
+              "defeated": "High Point"
             },
             {
-              "winner": "Texas Tech",
+              "winner": "Arkansas",
+              "seed": 4,
+              "defeated": "Hawaii"
+            },
+            {
+              "winner": "BYU",
+              "seed": 6,
+              "defeated": "Texas"
+            },
+            {
+              "winner": "Gonzaga",
               "seed": 3,
+              "defeated": "Kennesaw State"
+            },
+            {
+              "winner": "Miami (FL)",
+              "seed": 7,
               "defeated": "Missouri"
             },
             {
-              "winner": "Florida",
+              "winner": "Purdue",
               "seed": 2,
-              "defeated": "Ole Miss"
+              "defeated": "Queens"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Arizona",
+              "seed": 1,
+              "defeated": "Villanova"
+            },
+            {
+              "winner": "Arkansas",
+              "seed": 4,
+              "defeated": "Wisconsin"
+            },
+            {
+              "winner": "Gonzaga",
+              "seed": 3,
+              "defeated": "BYU"
+            },
+            {
+              "winner": "Purdue",
+              "seed": 2,
+              "defeated": "Miami (FL)"
             }
           ],
           "Sweet 16": [
             {
-              "winner": "Kansas",
+              "winner": "Arizona",
               "seed": 1,
-              "defeated": "Gonzaga"
+              "defeated": "Arkansas"
             },
             {
-              "winner": "Florida",
-              "seed": 2,
-              "defeated": "Texas Tech"
+              "winner": "Gonzaga",
+              "seed": 3,
+              "defeated": "Purdue"
             }
           ],
           "Elite 8": [
             {
-              "winner": "Florida",
-              "seed": 2,
-              "defeated": "Kansas"
+              "winner": "Gonzaga",
+              "seed": 3,
+              "defeated": "Arizona"
             }
           ]
         }
@@ -2913,10 +2913,374 @@
   },
   {
     "bracket_num": 9,
-    "champion": "Iowa State",
+    "champion": "Purdue",
     "champion_seed": 2,
+    "champion_region": "West",
+    "champion_prob_pct": 4.7,
+    "runner_up": "Florida",
+    "runner_up_seed": 1,
+    "runner_up_region": "South",
+    "regions": {
+      "East": {
+        "champion": "Duke",
+        "rounds": {
+          "First Round": [
+            {
+              "winner": "Duke",
+              "seed": 1,
+              "defeated": "Siena"
+            },
+            {
+              "winner": "Ohio State",
+              "seed": 8,
+              "defeated": "TCU"
+            },
+            {
+              "winner": "St. John's",
+              "seed": 5,
+              "defeated": "Northern Iowa"
+            },
+            {
+              "winner": "Kansas",
+              "seed": 4,
+              "defeated": "Cal Baptist"
+            },
+            {
+              "winner": "Louisville",
+              "seed": 6,
+              "defeated": "South Florida"
+            },
+            {
+              "winner": "Michigan State",
+              "seed": 3,
+              "defeated": "North Dakota St"
+            },
+            {
+              "winner": "UCLA",
+              "seed": 7,
+              "defeated": "UCF"
+            },
+            {
+              "winner": "UConn",
+              "seed": 2,
+              "defeated": "Furman"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Duke",
+              "seed": 1,
+              "defeated": "Ohio State"
+            },
+            {
+              "winner": "Kansas",
+              "seed": 4,
+              "defeated": "St. John's"
+            },
+            {
+              "winner": "Michigan State",
+              "seed": 3,
+              "defeated": "Louisville"
+            },
+            {
+              "winner": "UConn",
+              "seed": 2,
+              "defeated": "UCLA"
+            }
+          ],
+          "Sweet 16": [
+            {
+              "winner": "Duke",
+              "seed": 1,
+              "defeated": "Kansas"
+            },
+            {
+              "winner": "UConn",
+              "seed": 2,
+              "defeated": "Michigan State"
+            }
+          ],
+          "Elite 8": [
+            {
+              "winner": "Duke",
+              "seed": 1,
+              "defeated": "UConn"
+            }
+          ]
+        }
+      },
+      "South": {
+        "champion": "Florida",
+        "rounds": {
+          "First Round": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Lehigh"
+            },
+            {
+              "winner": "Clemson",
+              "seed": 8,
+              "defeated": "Iowa"
+            },
+            {
+              "winner": "Vanderbilt",
+              "seed": 5,
+              "defeated": "McNeese"
+            },
+            {
+              "winner": "Nebraska",
+              "seed": 4,
+              "defeated": "Troy"
+            },
+            {
+              "winner": "North Carolina",
+              "seed": 6,
+              "defeated": "VCU"
+            },
+            {
+              "winner": "Illinois",
+              "seed": 3,
+              "defeated": "Penn"
+            },
+            {
+              "winner": "Saint Mary's",
+              "seed": 7,
+              "defeated": "Texas A&M"
+            },
+            {
+              "winner": "Houston",
+              "seed": 2,
+              "defeated": "Idaho"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Clemson"
+            },
+            {
+              "winner": "Nebraska",
+              "seed": 4,
+              "defeated": "Vanderbilt"
+            },
+            {
+              "winner": "Illinois",
+              "seed": 3,
+              "defeated": "North Carolina"
+            },
+            {
+              "winner": "Houston",
+              "seed": 2,
+              "defeated": "Saint Mary's"
+            }
+          ],
+          "Sweet 16": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Nebraska"
+            },
+            {
+              "winner": "Houston",
+              "seed": 2,
+              "defeated": "Illinois"
+            }
+          ],
+          "Elite 8": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Houston"
+            }
+          ]
+        }
+      },
+      "Midwest": {
+        "champion": "Michigan",
+        "rounds": {
+          "First Round": [
+            {
+              "winner": "Michigan",
+              "seed": 1,
+              "defeated": "UMBC"
+            },
+            {
+              "winner": "Georgia",
+              "seed": 8,
+              "defeated": "Saint Louis"
+            },
+            {
+              "winner": "Texas Tech",
+              "seed": 5,
+              "defeated": "Akron"
+            },
+            {
+              "winner": "Alabama",
+              "seed": 4,
+              "defeated": "Hofstra"
+            },
+            {
+              "winner": "Tennessee",
+              "seed": 6,
+              "defeated": "SMU"
+            },
+            {
+              "winner": "Virginia",
+              "seed": 3,
+              "defeated": "Wright State"
+            },
+            {
+              "winner": "Kentucky",
+              "seed": 7,
+              "defeated": "Santa Clara"
+            },
+            {
+              "winner": "Iowa State",
+              "seed": 2,
+              "defeated": "Tennessee State"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Michigan",
+              "seed": 1,
+              "defeated": "Georgia"
+            },
+            {
+              "winner": "Alabama",
+              "seed": 4,
+              "defeated": "Texas Tech"
+            },
+            {
+              "winner": "Virginia",
+              "seed": 3,
+              "defeated": "Tennessee"
+            },
+            {
+              "winner": "Iowa State",
+              "seed": 2,
+              "defeated": "Kentucky"
+            }
+          ],
+          "Sweet 16": [
+            {
+              "winner": "Michigan",
+              "seed": 1,
+              "defeated": "Alabama"
+            },
+            {
+              "winner": "Iowa State",
+              "seed": 2,
+              "defeated": "Virginia"
+            }
+          ],
+          "Elite 8": [
+            {
+              "winner": "Michigan",
+              "seed": 1,
+              "defeated": "Iowa State"
+            }
+          ]
+        }
+      },
+      "West": {
+        "champion": "Purdue",
+        "rounds": {
+          "First Round": [
+            {
+              "winner": "Arizona",
+              "seed": 1,
+              "defeated": "LIU"
+            },
+            {
+              "winner": "Villanova",
+              "seed": 8,
+              "defeated": "Utah State"
+            },
+            {
+              "winner": "Wisconsin",
+              "seed": 5,
+              "defeated": "High Point"
+            },
+            {
+              "winner": "Arkansas",
+              "seed": 4,
+              "defeated": "Hawaii"
+            },
+            {
+              "winner": "BYU",
+              "seed": 6,
+              "defeated": "Texas"
+            },
+            {
+              "winner": "Gonzaga",
+              "seed": 3,
+              "defeated": "Kennesaw State"
+            },
+            {
+              "winner": "Miami (FL)",
+              "seed": 7,
+              "defeated": "Missouri"
+            },
+            {
+              "winner": "Purdue",
+              "seed": 2,
+              "defeated": "Queens"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Arizona",
+              "seed": 1,
+              "defeated": "Villanova"
+            },
+            {
+              "winner": "Arkansas",
+              "seed": 4,
+              "defeated": "Wisconsin"
+            },
+            {
+              "winner": "Gonzaga",
+              "seed": 3,
+              "defeated": "BYU"
+            },
+            {
+              "winner": "Purdue",
+              "seed": 2,
+              "defeated": "Miami (FL)"
+            }
+          ],
+          "Sweet 16": [
+            {
+              "winner": "Arizona",
+              "seed": 1,
+              "defeated": "Arkansas"
+            },
+            {
+              "winner": "Purdue",
+              "seed": 2,
+              "defeated": "Gonzaga"
+            }
+          ],
+          "Elite 8": [
+            {
+              "winner": "Purdue",
+              "seed": 2,
+              "defeated": "Arizona"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "bracket_num": 10,
+    "champion": "Illinois",
+    "champion_seed": 3,
     "champion_region": "South",
-    "champion_prob_pct": 5.6,
+    "champion_prob_pct": 4.6,
     "runner_up": "Duke",
     "runner_up_seed": 1,
     "runner_up_region": "East",
@@ -2928,711 +3292,347 @@
             {
               "winner": "Duke",
               "seed": 1,
-              "defeated": "Longwood"
+              "defeated": "Siena"
             },
             {
-              "winner": "Villanova",
+              "winner": "Ohio State",
               "seed": 8,
-              "defeated": "Oklahoma"
-            },
-            {
-              "winner": "Clemson",
-              "seed": 5,
-              "defeated": "Dayton"
-            },
-            {
-              "winner": "Arizona",
-              "seed": 4,
-              "defeated": "Yale"
-            },
-            {
-              "winner": "Baylor",
-              "seed": 6,
-              "defeated": "NC State"
-            },
-            {
-              "winner": "Wisconsin",
-              "seed": 3,
-              "defeated": "Lipscomb"
-            },
-            {
-              "winner": "Saint Mary's",
-              "seed": 7,
-              "defeated": "Nebraska"
-            },
-            {
-              "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Bryant"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Villanova"
-            },
-            {
-              "winner": "Arizona",
-              "seed": 4,
-              "defeated": "Clemson"
-            },
-            {
-              "winner": "Wisconsin",
-              "seed": 3,
-              "defeated": "Baylor"
-            },
-            {
-              "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Saint Mary's"
-            }
-          ],
-          "Sweet 16": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Arizona"
-            },
-            {
-              "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Wisconsin"
-            }
-          ],
-          "Elite 8": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Tennessee"
-            }
-          ]
-        }
-      },
-      "South": {
-        "champion": "Iowa State",
-        "rounds": {
-          "First Round": [
-            {
-              "winner": "Auburn",
-              "seed": 1,
-              "defeated": "Texas Southern"
-            },
-            {
-              "winner": "Memphis",
-              "seed": 9,
-              "defeated": "Cincinnati"
-            },
-            {
-              "winner": "Illinois",
-              "seed": 5,
-              "defeated": "Liberty"
+              "defeated": "TCU"
             },
             {
               "winner": "St. John's",
-              "seed": 4,
-              "defeated": "High Point"
-            },
-            {
-              "winner": "Connecticut",
-              "seed": 6,
-              "defeated": "SMU"
-            },
-            {
-              "winner": "Michigan State",
-              "seed": 3,
+              "seed": 5,
               "defeated": "Northern Iowa"
             },
             {
-              "winner": "Texas A&M",
-              "seed": 7,
-              "defeated": "Wake Forest"
-            },
-            {
-              "winner": "Iowa State",
-              "seed": 2,
-              "defeated": "Central Arkansas"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Auburn",
-              "seed": 1,
-              "defeated": "Memphis"
-            },
-            {
-              "winner": "St. John's",
+              "winner": "Kansas",
               "seed": 4,
-              "defeated": "Illinois"
+              "defeated": "Cal Baptist"
+            },
+            {
+              "winner": "Louisville",
+              "seed": 6,
+              "defeated": "South Florida"
             },
             {
               "winner": "Michigan State",
               "seed": 3,
-              "defeated": "Connecticut"
+              "defeated": "North Dakota St"
             },
             {
-              "winner": "Iowa State",
+              "winner": "UCLA",
+              "seed": 7,
+              "defeated": "UCF"
+            },
+            {
+              "winner": "UConn",
               "seed": 2,
-              "defeated": "Texas A&M"
+              "defeated": "Furman"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Duke",
+              "seed": 1,
+              "defeated": "Ohio State"
+            },
+            {
+              "winner": "Kansas",
+              "seed": 4,
+              "defeated": "St. John's"
+            },
+            {
+              "winner": "Michigan State",
+              "seed": 3,
+              "defeated": "Louisville"
+            },
+            {
+              "winner": "UConn",
+              "seed": 2,
+              "defeated": "UCLA"
             }
           ],
           "Sweet 16": [
             {
-              "winner": "Auburn",
+              "winner": "Duke",
               "seed": 1,
-              "defeated": "St. John's"
+              "defeated": "Kansas"
             },
             {
-              "winner": "Iowa State",
+              "winner": "UConn",
               "seed": 2,
               "defeated": "Michigan State"
             }
           ],
           "Elite 8": [
             {
-              "winner": "Iowa State",
+              "winner": "Duke",
+              "seed": 1,
+              "defeated": "UConn"
+            }
+          ]
+        }
+      },
+      "South": {
+        "champion": "Illinois",
+        "rounds": {
+          "First Round": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Lehigh"
+            },
+            {
+              "winner": "Clemson",
+              "seed": 8,
+              "defeated": "Iowa"
+            },
+            {
+              "winner": "Vanderbilt",
+              "seed": 5,
+              "defeated": "McNeese"
+            },
+            {
+              "winner": "Nebraska",
+              "seed": 4,
+              "defeated": "Troy"
+            },
+            {
+              "winner": "North Carolina",
+              "seed": 6,
+              "defeated": "VCU"
+            },
+            {
+              "winner": "Illinois",
+              "seed": 3,
+              "defeated": "Penn"
+            },
+            {
+              "winner": "Saint Mary's",
+              "seed": 7,
+              "defeated": "Texas A&M"
+            },
+            {
+              "winner": "Houston",
               "seed": 2,
-              "defeated": "Auburn"
+              "defeated": "Idaho"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Clemson"
+            },
+            {
+              "winner": "Nebraska",
+              "seed": 4,
+              "defeated": "Vanderbilt"
+            },
+            {
+              "winner": "Illinois",
+              "seed": 3,
+              "defeated": "North Carolina"
+            },
+            {
+              "winner": "Houston",
+              "seed": 2,
+              "defeated": "Saint Mary's"
+            }
+          ],
+          "Sweet 16": [
+            {
+              "winner": "Florida",
+              "seed": 1,
+              "defeated": "Nebraska"
+            },
+            {
+              "winner": "Illinois",
+              "seed": 3,
+              "defeated": "Houston"
+            }
+          ],
+          "Elite 8": [
+            {
+              "winner": "Illinois",
+              "seed": 3,
+              "defeated": "Florida"
             }
           ]
         }
       },
       "Midwest": {
-        "champion": "Houston",
+        "champion": "Michigan",
         "rounds": {
           "First Round": [
             {
-              "winner": "Houston",
+              "winner": "Michigan",
               "seed": 1,
-              "defeated": "Grambling"
+              "defeated": "UMBC"
             },
             {
-              "winner": "Xavier",
+              "winner": "Georgia",
               "seed": 8,
-              "defeated": "Indiana"
+              "defeated": "Saint Louis"
             },
             {
-              "winner": "Kentucky",
+              "winner": "Texas Tech",
               "seed": 5,
-              "defeated": "New Mexico"
-            },
-            {
-              "winner": "Purdue",
-              "seed": 4,
-              "defeated": "South Dakota State"
-            },
-            {
-              "winner": "UCLA",
-              "seed": 6,
-              "defeated": "VCU"
-            },
-            {
-              "winner": "Marquette",
-              "seed": 3,
               "defeated": "Akron"
             },
             {
-              "winner": "Creighton",
-              "seed": 7,
-              "defeated": "Virginia Tech"
-            },
-            {
               "winner": "Alabama",
-              "seed": 2,
-              "defeated": "Long Beach State"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Xavier"
-            },
-            {
-              "winner": "Purdue",
               "seed": 4,
-              "defeated": "Kentucky"
-            },
-            {
-              "winner": "Marquette",
-              "seed": 3,
-              "defeated": "UCLA"
-            },
-            {
-              "winner": "Alabama",
-              "seed": 2,
-              "defeated": "Creighton"
-            }
-          ],
-          "Sweet 16": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Purdue"
-            },
-            {
-              "winner": "Alabama",
-              "seed": 2,
-              "defeated": "Marquette"
-            }
-          ],
-          "Elite 8": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Alabama"
-            }
-          ]
-        }
-      },
-      "West": {
-        "champion": "Kansas",
-        "rounds": {
-          "First Round": [
-            {
-              "winner": "Kansas",
-              "seed": 1,
-              "defeated": "Northern Arizona"
-            },
-            {
-              "winner": "Utah State",
-              "seed": 8,
-              "defeated": "San Diego State"
-            },
-            {
-              "winner": "Gonzaga",
-              "seed": 5,
-              "defeated": "Boise State"
-            },
-            {
-              "winner": "Oregon",
-              "seed": 4,
-              "defeated": "UC San Diego"
-            },
-            {
-              "winner": "Missouri",
-              "seed": 6,
-              "defeated": "West Virginia"
-            },
-            {
-              "winner": "Texas Tech",
-              "seed": 3,
-              "defeated": "Eastern Washington"
-            },
-            {
-              "winner": "Ole Miss",
-              "seed": 7,
-              "defeated": "Drake"
-            },
-            {
-              "winner": "Florida",
-              "seed": 2,
-              "defeated": "Montana State"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Kansas",
-              "seed": 1,
-              "defeated": "Utah State"
-            },
-            {
-              "winner": "Gonzaga",
-              "seed": 5,
-              "defeated": "Oregon"
-            },
-            {
-              "winner": "Texas Tech",
-              "seed": 3,
-              "defeated": "Missouri"
-            },
-            {
-              "winner": "Florida",
-              "seed": 2,
-              "defeated": "Ole Miss"
-            }
-          ],
-          "Sweet 16": [
-            {
-              "winner": "Kansas",
-              "seed": 1,
-              "defeated": "Gonzaga"
-            },
-            {
-              "winner": "Florida",
-              "seed": 2,
-              "defeated": "Texas Tech"
-            }
-          ],
-          "Elite 8": [
-            {
-              "winner": "Kansas",
-              "seed": 1,
-              "defeated": "Florida"
-            }
-          ]
-        }
-      }
-    }
-  },
-  {
-    "bracket_num": 10,
-    "champion": "Tennessee",
-    "champion_seed": 2,
-    "champion_region": "East",
-    "champion_prob_pct": 4.9,
-    "runner_up": "Auburn",
-    "runner_up_seed": 1,
-    "runner_up_region": "South",
-    "regions": {
-      "East": {
-        "champion": "Tennessee",
-        "rounds": {
-          "First Round": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Longwood"
-            },
-            {
-              "winner": "Villanova",
-              "seed": 8,
-              "defeated": "Oklahoma"
-            },
-            {
-              "winner": "Clemson",
-              "seed": 5,
-              "defeated": "Dayton"
-            },
-            {
-              "winner": "Arizona",
-              "seed": 4,
-              "defeated": "Yale"
-            },
-            {
-              "winner": "Baylor",
-              "seed": 6,
-              "defeated": "NC State"
-            },
-            {
-              "winner": "Wisconsin",
-              "seed": 3,
-              "defeated": "Lipscomb"
-            },
-            {
-              "winner": "Saint Mary's",
-              "seed": 7,
-              "defeated": "Nebraska"
+              "defeated": "Hofstra"
             },
             {
               "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Bryant"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Villanova"
-            },
-            {
-              "winner": "Arizona",
-              "seed": 4,
-              "defeated": "Clemson"
-            },
-            {
-              "winner": "Wisconsin",
-              "seed": 3,
-              "defeated": "Baylor"
-            },
-            {
-              "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Saint Mary's"
-            }
-          ],
-          "Sweet 16": [
-            {
-              "winner": "Duke",
-              "seed": 1,
-              "defeated": "Arizona"
-            },
-            {
-              "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Wisconsin"
-            }
-          ],
-          "Elite 8": [
-            {
-              "winner": "Tennessee",
-              "seed": 2,
-              "defeated": "Duke"
-            }
-          ]
-        }
-      },
-      "South": {
-        "champion": "Auburn",
-        "rounds": {
-          "First Round": [
-            {
-              "winner": "Auburn",
-              "seed": 1,
-              "defeated": "Texas Southern"
-            },
-            {
-              "winner": "Memphis",
-              "seed": 9,
-              "defeated": "Cincinnati"
-            },
-            {
-              "winner": "Illinois",
-              "seed": 5,
-              "defeated": "Liberty"
-            },
-            {
-              "winner": "St. John's",
-              "seed": 4,
-              "defeated": "High Point"
-            },
-            {
-              "winner": "Connecticut",
               "seed": 6,
               "defeated": "SMU"
             },
             {
-              "winner": "Michigan State",
+              "winner": "Virginia",
               "seed": 3,
-              "defeated": "Northern Iowa"
+              "defeated": "Wright State"
             },
             {
-              "winner": "Texas A&M",
+              "winner": "Kentucky",
               "seed": 7,
-              "defeated": "Wake Forest"
+              "defeated": "Santa Clara"
             },
             {
               "winner": "Iowa State",
               "seed": 2,
-              "defeated": "Central Arkansas"
+              "defeated": "Tennessee State"
             }
           ],
           "Second Round": [
             {
-              "winner": "Auburn",
+              "winner": "Michigan",
               "seed": 1,
-              "defeated": "Memphis"
+              "defeated": "Georgia"
             },
             {
-              "winner": "St. John's",
+              "winner": "Alabama",
               "seed": 4,
-              "defeated": "Illinois"
+              "defeated": "Texas Tech"
             },
             {
-              "winner": "Michigan State",
+              "winner": "Virginia",
               "seed": 3,
-              "defeated": "Connecticut"
+              "defeated": "Tennessee"
             },
             {
               "winner": "Iowa State",
               "seed": 2,
-              "defeated": "Texas A&M"
+              "defeated": "Kentucky"
             }
           ],
           "Sweet 16": [
             {
-              "winner": "Auburn",
+              "winner": "Michigan",
               "seed": 1,
-              "defeated": "St. John's"
+              "defeated": "Alabama"
             },
             {
               "winner": "Iowa State",
               "seed": 2,
-              "defeated": "Michigan State"
+              "defeated": "Virginia"
             }
           ],
           "Elite 8": [
             {
-              "winner": "Auburn",
+              "winner": "Michigan",
               "seed": 1,
               "defeated": "Iowa State"
             }
           ]
         }
       },
-      "Midwest": {
-        "champion": "Houston",
-        "rounds": {
-          "First Round": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Grambling"
-            },
-            {
-              "winner": "Xavier",
-              "seed": 8,
-              "defeated": "Indiana"
-            },
-            {
-              "winner": "Kentucky",
-              "seed": 5,
-              "defeated": "New Mexico"
-            },
-            {
-              "winner": "Purdue",
-              "seed": 4,
-              "defeated": "South Dakota State"
-            },
-            {
-              "winner": "UCLA",
-              "seed": 6,
-              "defeated": "VCU"
-            },
-            {
-              "winner": "Marquette",
-              "seed": 3,
-              "defeated": "Akron"
-            },
-            {
-              "winner": "Creighton",
-              "seed": 7,
-              "defeated": "Virginia Tech"
-            },
-            {
-              "winner": "Alabama",
-              "seed": 2,
-              "defeated": "Long Beach State"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Xavier"
-            },
-            {
-              "winner": "Purdue",
-              "seed": 4,
-              "defeated": "Kentucky"
-            },
-            {
-              "winner": "Marquette",
-              "seed": 3,
-              "defeated": "UCLA"
-            },
-            {
-              "winner": "Alabama",
-              "seed": 2,
-              "defeated": "Creighton"
-            }
-          ],
-          "Sweet 16": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Purdue"
-            },
-            {
-              "winner": "Alabama",
-              "seed": 2,
-              "defeated": "Marquette"
-            }
-          ],
-          "Elite 8": [
-            {
-              "winner": "Houston",
-              "seed": 1,
-              "defeated": "Alabama"
-            }
-          ]
-        }
-      },
       "West": {
-        "champion": "Kansas",
+        "champion": "Arizona",
         "rounds": {
           "First Round": [
             {
-              "winner": "Kansas",
+              "winner": "Arizona",
               "seed": 1,
-              "defeated": "Northern Arizona"
+              "defeated": "LIU"
             },
             {
-              "winner": "Utah State",
+              "winner": "Villanova",
               "seed": 8,
-              "defeated": "San Diego State"
-            },
-            {
-              "winner": "Gonzaga",
-              "seed": 5,
-              "defeated": "Boise State"
-            },
-            {
-              "winner": "Oregon",
-              "seed": 4,
-              "defeated": "UC San Diego"
-            },
-            {
-              "winner": "Missouri",
-              "seed": 6,
-              "defeated": "West Virginia"
-            },
-            {
-              "winner": "Texas Tech",
-              "seed": 3,
-              "defeated": "Eastern Washington"
-            },
-            {
-              "winner": "Ole Miss",
-              "seed": 7,
-              "defeated": "Drake"
-            },
-            {
-              "winner": "Florida",
-              "seed": 2,
-              "defeated": "Montana State"
-            }
-          ],
-          "Second Round": [
-            {
-              "winner": "Kansas",
-              "seed": 1,
               "defeated": "Utah State"
             },
             {
-              "winner": "Gonzaga",
+              "winner": "Wisconsin",
               "seed": 5,
-              "defeated": "Oregon"
+              "defeated": "High Point"
             },
             {
-              "winner": "Texas Tech",
+              "winner": "Arkansas",
+              "seed": 4,
+              "defeated": "Hawaii"
+            },
+            {
+              "winner": "BYU",
+              "seed": 6,
+              "defeated": "Texas"
+            },
+            {
+              "winner": "Gonzaga",
               "seed": 3,
+              "defeated": "Kennesaw State"
+            },
+            {
+              "winner": "Miami (FL)",
+              "seed": 7,
               "defeated": "Missouri"
             },
             {
-              "winner": "Florida",
+              "winner": "Purdue",
               "seed": 2,
-              "defeated": "Ole Miss"
+              "defeated": "Queens"
+            }
+          ],
+          "Second Round": [
+            {
+              "winner": "Arizona",
+              "seed": 1,
+              "defeated": "Villanova"
+            },
+            {
+              "winner": "Arkansas",
+              "seed": 4,
+              "defeated": "Wisconsin"
+            },
+            {
+              "winner": "Gonzaga",
+              "seed": 3,
+              "defeated": "BYU"
+            },
+            {
+              "winner": "Purdue",
+              "seed": 2,
+              "defeated": "Miami (FL)"
             }
           ],
           "Sweet 16": [
             {
-              "winner": "Kansas",
+              "winner": "Arizona",
               "seed": 1,
-              "defeated": "Gonzaga"
+              "defeated": "Arkansas"
             },
             {
-              "winner": "Florida",
+              "winner": "Purdue",
               "seed": 2,
-              "defeated": "Texas Tech"
+              "defeated": "Gonzaga"
             }
           ],
           "Elite 8": [
             {
-              "winner": "Kansas",
+              "winner": "Arizona",
               "seed": 1,
-              "defeated": "Florida"
+              "defeated": "Purdue"
             }
           ]
         }
