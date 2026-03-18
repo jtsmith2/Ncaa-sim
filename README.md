@@ -91,6 +91,46 @@ National Champion: DUKE
 
 ---
 
+## Office Pool Portfolio Mode
+
+If your pool allows multiple bracket submissions, `--portfolio N` generates N brackets designed to **maximize collective coverage** rather than just repeating the single most likely outcome.
+
+### Why not just submit the same bracket N times?
+
+Submitting 10 identical "Duke wins" brackets gives you no advantage — you're competing against everyone else who also picked Duke. Portfolio mode spreads your brackets across different scenarios so you're covered when the inevitable upsets happen.
+
+### How the portfolio algorithm works
+
+**Step 1 — Proportional champion allocation** using the [largest-remainder method](https://en.wikipedia.org/wiki/Largest_remainder_method): champions are assigned bracket slots in proportion to their championship probability. More likely champions get more slots, but every significant contender gets at least one.
+
+**Step 2 — Runner-up diversification**: The NCAA bracket structure means the championship game is always an `East/West region winner vs. South/Midwest region winner`. For every bracket, the algorithm also forces a *different* runner-up from the opposite half — so even if two brackets both have Duke winning, they each predict a different championship game opponent. All N brackets end up with **unique championship matchups**.
+
+**Step 3 — Conditional picks**: Every other game in the bracket picks the highest-probability winner *given* the assigned champion and finalist. If Iowa State is forced to win, the bracket still correctly picks Auburn to reach the Final Four — because the upset is Iowa State *beating* Auburn there, not Auburn failing to make it.
+
+### Example — 10 brackets
+
+| # | Champion | Champ% | Title Game vs | Unique? |
+|---|---|---|---|---|
+| 1 | Duke | 17.2% | Auburn | ✓ |
+| 2 | Duke | 17.2% | Alabama | ✓ different matchup |
+| 3 | Auburn | 13.0% | Duke | ✓ |
+| 4 | Auburn | 13.0% | Kansas | ✓ different matchup |
+| 5 | Kansas | 9.3% | Auburn | ✓ |
+| 6 | Alabama | 8.3% | Duke | ✓ |
+| 7 | Houston | 8.1% | Duke | ✓ |
+| 8 | Florida | 5.8% | Auburn | ✓ |
+| 9 | Iowa State | 5.7% | Duke | ✓ |
+| 10 | Tennessee | 5.0% | Auburn | ✓ |
+
+**Combined champion probability: 72.3%** — meaning there's a ~72% chance at least one of your 10 champions is correct.
+
+```bash
+python main.py --portfolio 10
+python main.py --portfolio 10 --save my_brackets.json
+```
+
+---
+
 ## CLI Reference
 
 ```
@@ -101,7 +141,7 @@ Options:
   -s, --seed INT            Random seed for reproducibility
   -u, --upset-factor FLOAT  Upset multiplier (1.0=historical, >1=more upsets)
   -c, --compact             Condensed output, skip full odds table
-      --portfolio INT       Generate N diversified brackets for office pools
+  -p, --portfolio INT       Generate N diversified brackets for office pools
   -t, --team NAME           Detailed stats for a specific team
   -m, --matchup A B         Head-to-head probability breakdown
       --save FILE           Export results to JSON
@@ -115,8 +155,11 @@ Options:
 # Reproducible 50k-sim run
 python main.py --sims 50000 --seed 42
 
-# Bracket competition: generate 10 diversified brackets
+# Office pool: generate 10 diversified brackets
 python main.py --portfolio 10
+
+# Office pool: generate and save to JSON
+python main.py --portfolio 10 --save my_brackets.json
 
 # Simulate a more upset-heavy tournament
 python main.py --upset-factor 1.5 --compact
@@ -127,7 +170,7 @@ python main.py --matchup "Duke" "Auburn"
 # Deep dive on a Cinderella candidate
 python main.py --team "Gonzaga"
 
-# Export to JSON for further analysis
+# Export full simulation results to JSON
 python main.py --save results_2026.json
 ```
 
