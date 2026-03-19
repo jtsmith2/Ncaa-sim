@@ -57,40 +57,6 @@ All 68 teams are rated using **KenPom-style adjusted efficiency metrics**:
 
 ---
 
-## 2026 Predictions (100,000 simulations)
-
-### Championship Odds — Top 10
-
-| Rank | Team | Seed | Region | Record | AdjEM | Champion % |
-|---|---|---|---|---|---|---|
-| 1 | **Duke** | #1 | East | 31-3 | +33.3 | **17.2%** |
-| 2 | Auburn | #1 | South | 29-4 | +30.6 | 12.9% |
-| 3 | Kansas | #1 | West | 28-5 | +27.8 | 9.3% |
-| 4 | Alabama | #2 | Midwest | 26-7 | +25.3 | 8.2% |
-| 5 | Houston | #1 | Midwest | 30-4 | +30.2 | 8.2% |
-| 6 | Florida | #2 | West | 27-5 | +24.5 | 5.9% |
-| 7 | Iowa State | #2 | South | 27-6 | +25.7 | 5.6% |
-| 8 | Tennessee | #2 | East | 27-6 | +26.4 | 4.9% |
-| 9 | Marquette | #3 | Midwest | 25-8 | +22.7 | 3.0% |
-| 10 | Wisconsin | #3 | East | 25-8 | +23.7 | 2.6% |
-
-### Consensus Bracket — Final Four
-
-```
-East Champion:    (1) Duke
-South Champion:   (1) Auburn
-Midwest Champion: (1) Houston
-West Champion:    (1) Kansas
-
-Final Four:
-  Duke    def. Kansas   → Championship
-  Auburn  def. Houston  → Championship
-
-National Champion: DUKE
-```
-
----
-
 ## Office Pool Portfolio Mode
 
 If your pool allows multiple bracket submissions, `--portfolio N` generates N brackets designed to **maximize collective coverage** rather than just repeating the single most likely outcome.
